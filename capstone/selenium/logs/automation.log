@@ -1,0 +1,75 @@
+2026-05-19 02:30:42,033 - INFO - =======================================
+2026-05-19 02:30:42,034 - INFO - Starting Test
+2026-05-19 02:30:42,034 - INFO - Browser : chrome
+2026-05-19 02:30:42,034 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-19 02:30:42,034 - INFO - Implicit Wait : 10
+2026-05-19 02:30:42,034 - INFO - Timeout : 20
+2026-05-19 02:30:42,034 - INFO - Headless : False
+2026-05-19 02:30:42,050 - INFO - ====== WebDriver manager ======
+2026-05-19 02:30:44,804 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-19 02:30:45,733 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-19 02:30:46,621 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache
+2026-05-19 02:30:48,181 - INFO - Opening URL : https://www.makemytrip.com/
+2026-05-19 02:30:52,362 - INFO - Loaded 2 records. Executing single-flow execution batch...
+2026-05-19 02:30:52,362 - INFO - --- Starting Flow Iteration 1: Rahul Sharma ---
+2026-05-19 02:30:57,169 - INFO - Navigating to Travel Insurance page...
+2026-05-19 02:31:01,314 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-19 02:31:07,245 - INFO - Selecting the first available insurance plan via 'BUY NOW' hook...
+2026-05-19 02:31:07,641 - INFO - Verifying if checkout traveler details page is fully displayed...
+2026-05-19 02:31:08,739 - INFO - Filling credentials data for traveller: Rahul Sharma (Male)
+2026-05-19 02:31:09,687 - INFO - Filling primary communication route data -> Ph: 9876543210 | Email: rahul.sharma@example.com
+2026-05-19 02:31:10,385 - INFO - Accepting compliance declarations and committing checkout submission...
+2026-05-19 02:31:11,597 - WARNING - Standard click intercepted on Checkbox 1. Bypassing via JS Click...
+2026-05-19 02:31:12,771 - WARNING - Standard click intercepted on Checkbox 2. Bypassing via JS Click...
+2026-05-19 02:31:14,006 - WARNING - Standard click intercepted on Buy Button. Bypassing via JS Click...
+2026-05-19 02:31:16,881 - INFO - Preparing to enter mobile number: 6395048812
+2026-05-19 02:31:20,810 - INFO - Toggling the user-consent checkbox to unlock the form...
+2026-05-19 02:31:21,934 - INFO - Clicking the Continue button...
+2026-05-19 02:31:22,099 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
+2026-05-19 02:31:47,100 - INFO - --- Completed Flow Iteration 1 Success: Form submitted and Continue button targeted ---
+2026-05-19 02:31:47,101 - INFO - Single-flow target successfully achieved. Stopping automation run here.
+2026-05-19 02:31:47,103 - INFO - Closing Browser
+2026-05-19 02:31:51,302 - INFO - Ending Test
+2026-05-19 02:31:51,302 - INFO - =======================================
+2026-05-19 02:40:09,251 - INFO - =======================================
+2026-05-19 02:40:09,252 - INFO - Starting Test
+2026-05-19 02:40:09,252 - INFO - Browser : chrome
+2026-05-19 02:40:09,252 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-19 02:40:09,252 - INFO - Implicit Wait : 10
+2026-05-19 02:40:09,252 - INFO - Timeout : 20
+2026-05-19 02:40:09,254 - INFO - Headless : False
+2026-05-19 02:40:09,273 - INFO - ====== WebDriver manager ======
+2026-05-19 02:40:12,817 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-19 02:40:13,913 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-19 02:40:14,852 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache
+2026-05-19 02:40:16,493 - INFO - Opening URL : https://www.makemytrip.com/
+2026-05-19 02:40:17,541 - INFO - Loaded 2 records. Executing single-flow execution batch...
+2026-05-19 02:40:17,542 - INFO - --- Starting Flow Iteration 1: Rahul Sharma ---
+2026-05-19 02:40:21,419 - INFO - Navigating to Travel Insurance page...
+2026-05-19 02:40:21,734 - ERROR - Flow interrupted during profile process sequence [Rahul Sharma]: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xd27123+10a23]
+	chromedriver!GetHandleVerifier [0xd27254+10b54]
+	chromedriver!(No symbol) [0xb41cce]
+	chromedriver!(No symbol) [0xb7fb85]
+	chromedriver!(No symbol) [0xbad646]
+	chromedriver!(No symbol) [0xba8869]
+	chromedriver!(No symbol) [0xba8252]
+	chromedriver!(No symbol) [0xb1502e]
+	chromedriver!(No symbol) [0xb155ce]
+	chromedriver!(No symbol) [0xb15aad]
+	chromedriver!GetHandleVerifier [0xfc1ac4+2ab3c4]
+	chromedriver!GetHandleVerifier [0xfbd0ed+2a69ed]
+	chromedriver!GetHandleVerifier [0xfde4f5+2c7df5]
+	chromedriver!GetHandleVerifier [0xd41128+2aa28]
+	chromedriver!GetHandleVerifier [0xd48bbd+324bd]
+	chromedriver!(No symbol) [0xb14ba6]
+	chromedriver!(No symbol) [0xb141e0]
+	chromedriver!GetHandleVerifier [0x112b02f+41492f]
+	KERNEL32!BaseThreadInitThunk [0x77005d49+19]
+	ntdll!RtlInitializeExceptionChain [0x776ed83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x776ed7c1+231]
+
+2026-05-19 02:40:22,484 - INFO - Closing Browser
+2026-05-19 02:40:25,123 - INFO - Ending Test
+2026-05-19 02:40:25,124 - INFO - =======================================
