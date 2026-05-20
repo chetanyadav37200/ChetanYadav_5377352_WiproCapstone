@@ -1,0 +1,41 @@
+[32mINFO    [0m root:conftest.py:26 =======================================
+[32mINFO    [0m root:conftest.py:27 Starting Test
+[32mINFO    [0m root:conftest.py:28 Browser : chrome
+[32mINFO    [0m root:conftest.py:29 Base URL : https://www.makemytrip.com/
+[32mINFO    [0m root:conftest.py:30 Implicit Wait : 10
+[32mINFO    [0m root:conftest.py:31 Timeout : 20
+[32mINFO    [0m root:conftest.py:32 Headless : False
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m root:conftest.py:81 Opening URL : https://www.makemytrip.com/
+[32mINFO    [0m root:test_travel_insurance_e_2_e.py:31 Loaded 1 records. Executing single-flow execution batch...
+[32mINFO    [0m root:test_travel_insurance_e_2_e.py:34 --- Starting Flow Iteration 1 for: Rahul Sharma ---
+[32mINFO    [0m root:home_page.py:16 Navigating to Travel Insurance page...
+[1m[31mERROR   [0m root:test_travel_insurance_e_2_e.py:138 Flow interrupted during profile process sequence [Rahul Sharma]: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xf8b593+105d3]
+	chromedriver!GetHandleVerifier [0xf8b6c4+10704]
+	chromedriver!(No symbol) [0xd91cde]
+	chromedriver!(No symbol) [0xdcfb77]
+	chromedriver!(No symbol) [0xdfd636]
+	chromedriver!(No symbol) [0xdf8861]
+	chromedriver!(No symbol) [0xdf8241]
+	chromedriver!(No symbol) [0xd6502e]
+	chromedriver!(No symbol) [0xd655ce]
+	chromedriver!(No symbol) [0xd65aad]
+	chromedriver!GetHandleVerifier [0x1213014+298054]
+	chromedriver!GetHandleVerifier [0x120e603+293643]
+	chromedriver!GetHandleVerifier [0x122ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xfa54e8+2a528]
+	chromedriver!GetHandleVerifier [0xfacd1d+31d5d]
+	chromedriver!(No symbol) [0xd64ba6]
+	chromedriver!(No symbol) [0xd641e0]
+	chromedriver!GetHandleVerifier [0x13787af+3fd7ef]
+	KERNEL32!BaseThreadInitThunk [0x76135d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e2d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e2d7c1+231]
+[32mINFO    [0m root:conftest.py:86 Closing Browser
+[32mINFO    [0m root:conftest.py:88 Ending Test
+[32mINFO    [0m root:conftest.py:89 =======================================
