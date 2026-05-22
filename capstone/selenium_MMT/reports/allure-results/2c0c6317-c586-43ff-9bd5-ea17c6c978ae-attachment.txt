@@ -1,0 +1,14 @@
+[32mINFO    [0m root:conftest.py:28 =======================================
+[32mINFO    [0m root:conftest.py:29 Starting Test Execution Suite
+[32mINFO    [0m root:conftest.py:30 Browser : chrome
+[32mINFO    [0m root:conftest.py:31 Base URL : https://www.makemytrip.com/
+[32mINFO    [0m root:conftest.py:32 Implicit Wait : 10
+[32mINFO    [0m root:conftest.py:33 Timeout : 20
+[32mINFO    [0m root:conftest.py:34 Headless : False
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m root:conftest.py:82 Opening Target URL : https://www.makemytrip.com/
+[32mINFO    [0m root:home_page.py:16 Navigating to Travel Insurance page...
+[32mINFO    [0m root:conftest.py:87 Tearing Down Browser Session
+[32mINFO    [0m root:conftest.py:89 Test Run Concluded
+[32mINFO    [0m root:conftest.py:90 =======================================

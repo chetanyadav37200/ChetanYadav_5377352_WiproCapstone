@@ -1,7 +1,6 @@
 import allure
 import pytest
 import time
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from utils.config_reader import ConfigReader
@@ -59,8 +58,6 @@ def setup_insurance_flow(driver):
 def test_neg_blank_date_of_birth(setup_insurance_flow, data):
     """Negative 1: Verify system catches empty/blank DOB entry field"""
     plans_page, traveller_page = setup_insurance_flow
-    driver = plans_page.driver
-
     target_plan = data.get('plan_index', 1)
 
     with allure.step(f"Select plan index {target_plan} and navigate to traveller details form"):
@@ -72,14 +69,8 @@ def test_neg_blank_date_of_birth(setup_insurance_flow, data):
         traveller_page.fill_contact_info(data['mobile'], data['email'])
         traveller_page.complete_booking_flow()
 
-    with allure.step("Validate and capture Blank DOB validation error on screen"):
+    with allure.step("Validate Blank DOB validation error on screen"):
         error_text = traveller_page.get_dob_error_message()
-
-        allure.attach(
-            driver.get_screenshot_as_png(),
-            name=f"Blank_DOB_Error_{data['name'].replace(' ', '_')}",
-            attachment_type=allure.attachment_type.PNG
-        )
         assert error_text == "Please enter valid Date of Birth", f"Unexpected error text: {error_text}"
 
 
@@ -89,8 +80,6 @@ def test_neg_blank_date_of_birth(setup_insurance_flow, data):
 def test_neg_blank_mobile_number(setup_insurance_flow, data):
     """Negative 2: Verify validation failure when Mobile field is completely empty"""
     plans_page, traveller_page = setup_insurance_flow
-    driver = plans_page.driver
-
     target_plan = data.get('plan_index', 1)
 
     with allure.step(f"Select plan index {target_plan} and navigate to traveller details form"):
@@ -102,14 +91,8 @@ def test_neg_blank_mobile_number(setup_insurance_flow, data):
         traveller_page.fill_contact_info("", data['email'])
         traveller_page.complete_booking_flow()
 
-    with allure.step("Validate and capture Blank Mobile validation error on screen"):
+    with allure.step("Validate Blank Mobile validation error on screen"):
         error_text = traveller_page.get_mobile_error_message()
-
-        allure.attach(
-            driver.get_screenshot_as_png(),
-            name=f"Blank_Mobile_Error_{data['name'].replace(' ', '_')}",
-            attachment_type=allure.attachment_type.PNG
-        )
         assert error_text == "Please enter mobile number", f"Unexpected error text: {error_text}"
 
 
@@ -119,8 +102,6 @@ def test_neg_blank_mobile_number(setup_insurance_flow, data):
 def test_neg_invalid_mobile_number(setup_insurance_flow, data):
     """Negative 3: Verify error flag for structurally invalid mobile numbers"""
     plans_page, traveller_page = setup_insurance_flow
-    driver = plans_page.driver
-
     target_plan = data.get('plan_index', 1)
 
     with allure.step(f"Select plan index {target_plan} and navigate to traveller details form"):
@@ -132,14 +113,8 @@ def test_neg_invalid_mobile_number(setup_insurance_flow, data):
         traveller_page.fill_contact_info("12345", data['email'])
         traveller_page.complete_booking_flow()
 
-    with allure.step("Validate and capture Invalid Mobile format validation error on screen"):
+    with allure.step("Validate Invalid Mobile format validation error on screen"):
         error_text = traveller_page.get_mobile_error_message()
-
-        allure.attach(
-            driver.get_screenshot_as_png(),
-            name=f"Invalid_Mobile_Error_{data['name'].replace(' ', '_')}",
-            attachment_type=allure.attachment_type.PNG
-        )
         assert error_text == "Please enter valid Mobile No.", f"Unexpected error text: {error_text}"
 
 
@@ -152,17 +127,10 @@ def test_neg_invalid_mobile_number(setup_insurance_flow, data):
 def test_pos_assert_choose_your_plans_page(setup_insurance_flow):
     """Positive 1: Verify 'Choose your plans' UI presentation layers load successfully"""
     plans_page, _ = setup_insurance_flow
-    driver = plans_page.driver
 
     with allure.step("Assert choose your plans page is properly loaded"):
         logger.info("Executing Positive Test: Asserting Choose Plans Grid Matrix.")
         is_present = plans_page.is_choose_plan_present()
-
-        allure.attach(
-            driver.get_screenshot_as_png(),
-            name="Positive_Choose_Your_Plans_Grid_Matrix",
-            attachment_type=allure.attachment_type.PNG
-        )
         assert is_present, "Error: Plans matrix grid failed to load properly!"
 
 
@@ -184,12 +152,6 @@ def test_pos_assert_international_insurance_branding(setup_insurance_flow):
             EC.visibility_of_element_located(insurance_page.INSURANCE_PAGE_CHECKMARK)
         )
         is_displayed = element.is_displayed()
-
-        allure.attach(
-            driver_instance.get_screenshot_as_png(),
-            name="Positive_International_Branding_Header",
-            attachment_type=allure.attachment_type.PNG
-        )
         assert is_displayed, "Policy banner for 'International Travel + Medical Insurance' is missing."
 
 
@@ -198,21 +160,15 @@ def test_pos_assert_international_insurance_branding(setup_insurance_flow):
 def test_pos_assert_traveller_details_form_view(setup_insurance_flow):
     """Positive 3: Verify transition to Checkout page and user Profile Info Form"""
     plans_page, traveller_page = setup_insurance_flow
-    driver = plans_page.driver
 
     with allure.step("Click buy now on first plan card layout matrix layer"):
         plans_page.click_buy_now(1)
 
-    with allure.step("Verify and snapshot traveler contact form layout layer view visibility"):
+    with allure.step("Verify traveler contact form layout layer view visibility"):
         logger.info("Executing Positive Test: Verifying Traveler details review block visibility.")
         is_open = traveller_page.is_traveller_page_open()
         is_header_present = traveller_page.is_traveller_header_present()
 
-        allure.attach(
-            driver.get_screenshot_as_png(),
-            name="Positive_Traveller_Details_Form_View",
-            attachment_type=allure.attachment_type.PNG
-        )
         assert is_open, "Checkout input profile screen failed to open."
         assert is_header_present, "Travellers form header section component missing."
 
@@ -239,11 +195,6 @@ def test_pos_complete_valid_form_submission(setup_insurance_flow, data):
         time.sleep(2.5)
 
     with allure.step("Verify that authentication intercept screen has successfully triggered without form errors"):
-        allure.attach(
-            driver_instance.get_screenshot_as_png(),
-            name=f"Valid_Submission_Final_State_{data['name'].replace(' ', '_')}",
-            attachment_type=allure.attachment_type.PNG
-        )
         if login_popup.is_login_popup_displayed():
             logger.info("Form passed validation checkpoints; OTP authentication module triggered.")
             assert True

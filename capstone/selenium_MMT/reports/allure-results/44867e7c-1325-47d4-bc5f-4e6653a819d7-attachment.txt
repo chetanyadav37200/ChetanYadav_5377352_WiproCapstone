@@ -1,0 +1,37 @@
+[32mINFO    [0m root:conftest.py:28 =======================================
+[32mINFO    [0m root:conftest.py:29 Starting Test Execution Suite
+[32mINFO    [0m root:conftest.py:30 Browser : chrome
+[32mINFO    [0m root:conftest.py:31 Base URL : https://www.makemytrip.com/
+[32mINFO    [0m root:conftest.py:32 Implicit Wait : 10
+[32mINFO    [0m root:conftest.py:33 Timeout : 20
+[32mINFO    [0m root:conftest.py:34 Headless : False
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache
+[32mINFO    [0m root:conftest.py:82 Opening Target URL : https://www.makemytrip.com/
+[32mINFO    [0m root:test_travel_insurance_e_2_e.py:31 Loaded 1 records. Executing single-flow execution batch...
+[32mINFO    [0m root:test_travel_insurance_e_2_e.py:34 --- Starting Flow Iteration 1 for: Rahul Sharma ---
+[32mINFO    [0m root:home_page.py:16 Navigating to Travel Insurance page...
+[1m[31mERROR   [0m root:test_travel_insurance_e_2_e.py:138 Flow interrupted during profile process sequence [Rahul Sharma]: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff64d397de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff64d397e50+14900]
+	chromedriver!(No symbol) [0x7ff64d0fd396]
+	chromedriver!(No symbol) [0x7ff64d148e76]
+	chromedriver!(No symbol) [0x7ff64d17ff62]
+	chromedriver!(No symbol) [0x7ff64d179d7f]
+	chromedriver!(No symbol) [0x7ff64d179543]
+	chromedriver!(No symbol) [0x7ff64d0c6325]
+	chromedriver!GetHandleVerifier [0x7ff64d6acc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff64d6a7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff64d6cbc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff64d3b6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff64d3becec+3b79c]
+	chromedriver!(No symbol) [0x7ff64d0c50bc]
+	chromedriver!GetHandleVerifier [0x7ff64d810b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffae137e957+17]
+	ntdll!RtlUserThreadStart [0x7ffae276427c+2c]
+[32mINFO    [0m root:conftest.py:87 Tearing Down Browser Session
+[32mINFO    [0m root:conftest.py:89 Test Run Concluded
+[32mINFO    [0m root:conftest.py:90 =======================================

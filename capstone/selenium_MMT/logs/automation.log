@@ -1,312 +1,914 @@
-2026-05-20 13:29:18,758 - INFO - =======================================
-2026-05-20 13:29:18,758 - INFO - Starting Test
-2026-05-20 13:29:18,758 - INFO - Browser : chrome
-2026-05-20 13:29:18,759 - INFO - Base URL : https://www.makemytrip.com/
-2026-05-20 13:29:18,759 - INFO - Implicit Wait : 10
-2026-05-20 13:29:18,759 - INFO - Timeout : 20
-2026-05-20 13:29:18,759 - INFO - Headless : False
-2026-05-20 13:29:18,784 - INFO - ====== WebDriver manager ======
-2026-05-20 13:29:24,045 - INFO - Get LATEST chromedriver version for google-chrome
-2026-05-20 13:29:25,257 - INFO - Get LATEST chromedriver version for google-chrome
-2026-05-20 13:29:26,259 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
-2026-05-20 13:29:34,993 - INFO - Opening URL : https://www.makemytrip.com/
-2026-05-20 13:29:35,708 - INFO - Loaded 1 records. Executing single-flow execution batch...
-2026-05-20 13:29:35,715 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
-2026-05-20 13:29:44,151 - INFO - Navigating to Travel Insurance page...
-2026-05-20 13:29:48,547 - INFO - Opening Country/Region selection dropdown popup...
-2026-05-20 13:29:49,247 - INFO - Targeting and removing default 'Thailand' selection...
-2026-05-20 13:29:49,431 - INFO - Default selection cleared.
-2026-05-20 13:29:49,932 - INFO - Injecting search phrase query: UAE
-2026-05-20 13:29:53,270 - INFO - Checking filtered list match row for: UAE
-2026-05-20 13:29:54,887 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260520_132954.png
-2026-05-20 13:29:54,913 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
-2026-05-20 13:30:05,782 - INFO - Apply button clicked successfully and dropdown closed.
-2026-05-20 13:30:05,783 - INFO - Triggering traveler count selection pane for value: 1
-2026-05-20 13:30:06,021 - INFO - Targeting formatted DOM text row option: 01
-2026-05-20 13:30:06,915 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260520_133006.png
-2026-05-20 13:30:06,981 - INFO - Successfully selected traveler option: 01
-2026-05-20 13:30:07,483 - INFO - Directly triggering search submission via Explore Plans...
-2026-05-20 13:30:07,483 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
-2026-05-20 13:30:07,853 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260520_133007.png
-2026-05-20 13:30:10,532 - INFO - Checking if Choose Your Plan layout has rendered...
-2026-05-20 13:30:14,713 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
-2026-05-20 13:30:17,201 - INFO - Waiting explicitly for checkout form containers to mount...
-2026-05-20 13:30:17,259 - INFO - Populating name field container: Rahul Sharma
-2026-05-20 13:30:18,461 - INFO - Processing and passing raw date of birth data: 15-08-1995
-2026-05-20 13:30:18,722 - INFO - Locating gender selector component for profile value: Male
-2026-05-20 13:30:18,808 - INFO - Successfully selected gender option: Male
-2026-05-20 13:30:18,808 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
-2026-05-20 13:30:22,289 - INFO - Filing statement approval criteria profiles...
-2026-05-20 13:30:22,404 - INFO - Executing final checkout submit sequence layout pass...
-2026-05-20 13:30:23,487 - INFO - Preparing to enter mobile number: 6395048812
-2026-05-20 13:30:26,297 - INFO - Toggling the user-consent checkbox to unlock the form...
-2026-05-20 13:30:27,407 - INFO - Clicking the Continue button...
-2026-05-20 13:30:27,552 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
-2026-05-20 13:30:27,553 - INFO - --- Completed Flow Iteration 1 Success ---
-2026-05-20 13:30:27,553 - INFO - Single-flow target successfully achieved. Stopping automation run here.
-2026-05-20 13:30:27,558 - INFO - Closing Browser
-2026-05-20 13:30:32,327 - INFO - Ending Test
-2026-05-20 13:30:32,329 - INFO - =======================================
-2026-05-20 13:53:33,501 - INFO - =======================================
-2026-05-20 13:53:33,504 - INFO - Starting Test
-2026-05-20 13:53:33,504 - INFO - Browser : chrome
-2026-05-20 13:53:33,504 - INFO - Base URL : https://www.makemytrip.com/
-2026-05-20 13:53:33,504 - INFO - Implicit Wait : 10
-2026-05-20 13:53:33,505 - INFO - Timeout : 20
-2026-05-20 13:53:33,505 - INFO - Headless : False
-2026-05-20 13:53:33,535 - INFO - ====== WebDriver manager ======
-2026-05-20 13:53:38,906 - INFO - Get LATEST chromedriver version for google-chrome
-2026-05-20 13:53:40,239 - INFO - Get LATEST chromedriver version for google-chrome
-2026-05-20 13:53:41,262 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
-2026-05-20 13:54:09,387 - INFO - Opening URL : https://www.makemytrip.com/
-2026-05-20 13:54:13,851 - INFO - Loaded 1 records. Executing single-flow execution batch...
-2026-05-20 13:54:13,852 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
-2026-05-20 13:54:19,504 - INFO - Navigating to Travel Insurance page...
-2026-05-20 13:54:22,436 - INFO - Opening Country/Region selection dropdown popup...
-2026-05-20 13:54:23,003 - INFO - Targeting and removing default 'Thailand' selection...
-2026-05-20 13:54:23,054 - INFO - Default selection cleared.
-2026-05-20 13:54:23,555 - INFO - Injecting search phrase query: UAE
-2026-05-20 13:54:25,278 - INFO - Checking filtered list match row for: UAE
-2026-05-20 13:54:26,850 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260520_135426.png
-2026-05-20 13:54:27,116 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
-2026-05-20 13:54:38,102 - INFO - Apply button clicked successfully and dropdown closed.
-2026-05-20 13:54:38,102 - INFO - Triggering traveler count selection pane for value: 1
-2026-05-20 13:54:38,227 - INFO - Targeting formatted DOM text row option: 01
-2026-05-20 13:54:39,251 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260520_135438.png
-2026-05-20 13:54:39,337 - INFO - Successfully selected traveler option: 01
-2026-05-20 13:54:39,838 - INFO - Directly triggering search submission via Explore Plans...
-2026-05-20 13:54:39,838 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
-2026-05-20 13:54:40,294 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260520_135439.png
-2026-05-20 13:54:42,922 - INFO - Checking if Choose Your Plan layout has rendered...
-2026-05-20 13:54:46,437 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
-2026-05-20 13:54:48,709 - INFO - Waiting explicitly for checkout form containers to mount...
-2026-05-20 13:54:48,798 - INFO - Populating name field container: Rahul Sharma
-2026-05-20 13:54:50,710 - INFO - Processing and passing raw date of birth data: 15-08-1995
-2026-05-20 13:54:50,904 - INFO - Locating gender selector component for profile value: Male
-2026-05-20 13:54:50,970 - INFO - Successfully selected gender option: Male
-2026-05-20 13:54:50,970 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
-2026-05-20 13:54:54,508 - INFO - Filing statement approval criteria profiles...
-2026-05-20 13:54:54,670 - INFO - Executing final checkout submit sequence layout pass...
-2026-05-20 13:54:55,711 - INFO - Preparing to enter mobile number: 6395048812
-2026-05-20 13:54:58,490 - INFO - Toggling the user-consent checkbox to unlock the form...
-2026-05-20 13:54:59,595 - INFO - Clicking the Continue button...
-2026-05-20 13:54:59,795 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
-2026-05-20 13:54:59,796 - INFO - --- Completed Flow Iteration 1 Success ---
-2026-05-20 13:54:59,796 - INFO - Single-flow target successfully achieved. Stopping automation run here.
-2026-05-20 13:54:59,818 - INFO - Closing Browser
-2026-05-20 13:55:03,729 - INFO - Ending Test
-2026-05-20 13:55:03,729 - INFO - =======================================
-2026-05-20 14:25:08,029 - INFO - =======================================
-2026-05-20 14:25:08,066 - INFO - Starting Test
-2026-05-20 14:25:08,068 - INFO - Browser : chrome
-2026-05-20 14:25:08,069 - INFO - Base URL : https://www.makemytrip.com/
-2026-05-20 14:25:08,070 - INFO - Implicit Wait : 10
-2026-05-20 14:25:08,074 - INFO - Timeout : 20
-2026-05-20 14:25:08,097 - INFO - Headless : False
-2026-05-20 14:25:08,190 - INFO - ====== WebDriver manager ======
-2026-05-20 14:25:15,777 - INFO - Get LATEST chromedriver version for google-chrome
-2026-05-20 14:25:17,457 - INFO - Get LATEST chromedriver version for google-chrome
-2026-05-20 14:25:18,722 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
-2026-05-20 14:25:39,446 - INFO - Opening URL : https://www.makemytrip.com/
-2026-05-20 14:25:44,821 - INFO - Loaded 1 records. Executing single-flow execution batch...
-2026-05-20 14:25:44,833 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
-2026-05-20 14:25:53,659 - INFO - Navigating to Travel Insurance page...
-2026-05-20 14:25:58,177 - INFO - Opening Country/Region selection dropdown popup...
-2026-05-20 14:25:58,792 - INFO - Targeting and removing default 'Thailand' selection...
-2026-05-20 14:25:59,075 - INFO - Default selection cleared.
-2026-05-20 14:25:59,577 - INFO - Injecting search phrase query: UAE
-2026-05-20 14:26:00,976 - INFO - Checking filtered list match row for: UAE
-2026-05-20 14:26:03,409 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260520_142602.png
-2026-05-20 14:26:03,441 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
-2026-05-20 14:26:14,848 - INFO - Apply button clicked successfully and dropdown closed.
-2026-05-20 14:26:14,851 - INFO - Triggering traveler count selection pane for value: 1
-2026-05-20 14:26:16,475 - INFO - Targeting formatted DOM text row option: 01
-2026-05-20 14:26:17,817 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260520_142617.png
-2026-05-20 14:26:18,122 - INFO - Successfully selected traveler option: 01
-2026-05-20 14:26:18,630 - INFO - Directly triggering search submission via Explore Plans...
-2026-05-20 14:26:18,636 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
-2026-05-20 14:26:19,456 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260520_142618.png
-2026-05-20 14:26:22,269 - INFO - Checking if Choose Your Plan layout has rendered...
-2026-05-20 14:26:30,423 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
-2026-05-20 14:26:33,100 - INFO - Waiting explicitly for checkout form containers to mount...
-2026-05-20 14:26:33,647 - INFO - Populating name field container: Rahul Sharma
-2026-05-20 14:26:36,297 - INFO - Processing and passing raw date of birth data: 15-08-1995
-2026-05-20 14:26:36,762 - INFO - Locating gender selector component for profile value: Male
-2026-05-20 14:26:36,983 - INFO - Successfully selected gender option: Male
-2026-05-20 14:26:36,996 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
-2026-05-20 14:26:41,128 - INFO - Filing statement approval criteria profiles...
-2026-05-20 14:26:41,329 - INFO - Executing final checkout submit sequence layout pass...
-2026-05-20 14:26:42,606 - INFO - Preparing to enter mobile number: 6395048812
-2026-05-20 14:26:47,126 - INFO - Toggling the user-consent checkbox to unlock the form...
-2026-05-20 14:26:48,554 - INFO - Clicking the Continue button...
-2026-05-20 14:26:49,025 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
-2026-05-20 14:26:49,032 - INFO - --- Completed Flow Iteration 1 Success ---
-2026-05-20 14:26:49,039 - INFO - Single-flow target successfully achieved. Stopping automation run here.
-2026-05-20 14:26:49,836 - INFO - Closing Browser
-2026-05-20 14:26:56,594 - INFO - Ending Test
-2026-05-20 14:26:56,601 - INFO - =======================================
-2026-05-20 15:15:29,227 - INFO - =======================================
-2026-05-20 15:15:29,229 - INFO - Starting Test
-2026-05-20 15:15:29,230 - INFO - Browser : chrome
-2026-05-20 15:15:29,230 - INFO - Base URL : https://www.makemytrip.com/
-2026-05-20 15:15:29,230 - INFO - Implicit Wait : 10
-2026-05-20 15:15:29,230 - INFO - Timeout : 20
-2026-05-20 15:15:29,231 - INFO - Headless : False
-2026-05-20 15:15:29,243 - INFO - ====== WebDriver manager ======
-2026-05-20 15:15:31,579 - INFO - Get LATEST chromedriver version for google-chrome
-2026-05-20 15:15:32,639 - INFO - Get LATEST chromedriver version for google-chrome
-2026-05-20 15:15:33,366 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
-2026-05-20 15:15:37,772 - INFO - Opening URL : https://www.makemytrip.com/
-2026-05-20 15:15:40,267 - INFO - Loaded 1 records. Executing single-flow execution batch...
-2026-05-20 15:15:40,279 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
-2026-05-20 15:15:45,175 - INFO - Navigating to Travel Insurance page...
-2026-05-20 15:15:47,178 - INFO - Opening Country/Region selection dropdown popup...
-2026-05-20 15:15:47,429 - INFO - Targeting and removing default 'Thailand' selection...
-2026-05-20 15:15:47,490 - INFO - Default selection cleared.
-2026-05-20 15:15:47,990 - INFO - Injecting search phrase query: UAE
-2026-05-20 15:15:48,865 - INFO - Checking filtered list match row for: UAE
-2026-05-20 15:15:50,254 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260520_151549.png
-2026-05-20 15:15:50,261 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
-2026-05-20 15:16:01,063 - INFO - Apply button clicked successfully and dropdown closed.
-2026-05-20 15:16:01,063 - INFO - Triggering traveler count selection pane for value: 1
-2026-05-20 15:16:01,131 - INFO - Targeting formatted DOM text row option: 01
-2026-05-20 15:16:01,933 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260520_151601.png
-2026-05-20 15:16:02,005 - INFO - Successfully selected traveler option: 01
-2026-05-20 15:16:02,507 - INFO - Directly triggering search submission via Explore Plans...
-2026-05-20 15:16:02,507 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
-2026-05-20 15:16:02,815 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260520_151602.png
-2026-05-20 15:16:05,420 - INFO - Checking if Choose Your Plan layout has rendered...
-2026-05-20 15:16:11,839 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
-2026-05-20 15:16:14,051 - INFO - Waiting explicitly for checkout form containers to mount...
-2026-05-20 15:16:14,104 - INFO - Populating name field container: Rahul Sharma
-2026-05-20 15:16:14,867 - INFO - Processing and passing raw date of birth data: 15-08-1995
-2026-05-20 15:16:15,032 - INFO - Locating gender selector component for profile value: Male
-2026-05-20 15:16:15,095 - INFO - Successfully selected gender option: Male
-2026-05-20 15:16:15,095 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
-2026-05-20 15:16:16,800 - INFO - Filing statement approval criteria profiles...
-2026-05-20 15:16:16,885 - INFO - Executing final checkout submit sequence layout pass...
-2026-05-20 15:16:17,563 - INFO - Preparing to enter mobile number: 6395048812
-2026-05-20 15:16:19,740 - INFO - Toggling the user-consent checkbox to unlock the form...
-2026-05-20 15:16:20,856 - INFO - Clicking the Continue button...
-2026-05-20 15:16:20,994 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
-2026-05-20 15:16:20,994 - INFO - --- Completed Flow Iteration 1 Success ---
-2026-05-20 15:16:20,995 - INFO - Single-flow target successfully achieved. Stopping automation run here.
-2026-05-20 15:16:20,997 - INFO - Closing Browser
-2026-05-20 15:16:25,395 - INFO - Ending Test
-2026-05-20 15:16:25,396 - INFO - =======================================
-2026-05-20 15:19:59,244 - INFO - =======================================
-2026-05-20 15:19:59,245 - INFO - Starting Test
-2026-05-20 15:19:59,245 - INFO - Browser : chrome
-2026-05-20 15:19:59,246 - INFO - Base URL : https://www.makemytrip.com/
-2026-05-20 15:19:59,246 - INFO - Implicit Wait : 10
-2026-05-20 15:19:59,246 - INFO - Timeout : 20
-2026-05-20 15:19:59,247 - INFO - Headless : False
-2026-05-20 15:19:59,275 - INFO - ====== WebDriver manager ======
-2026-05-20 15:20:01,597 - INFO - Get LATEST chromedriver version for google-chrome
-2026-05-20 15:20:02,339 - INFO - Get LATEST chromedriver version for google-chrome
-2026-05-20 15:20:02,936 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
-2026-05-20 15:20:04,282 - INFO - Opening URL : https://www.makemytrip.com/
-2026-05-20 15:20:04,996 - INFO - Loaded 1 records. Executing single-flow execution batch...
-2026-05-20 15:20:04,997 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
-2026-05-20 15:20:14,646 - INFO - Navigating to Travel Insurance page...
-2026-05-20 15:20:15,419 - ERROR - Flow interrupted during profile process sequence [Rahul Sharma]: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+2026-05-21 00:36:41,563 - INFO - =======================================
+2026-05-21 00:36:41,564 - INFO - Starting Test
+2026-05-21 00:36:41,565 - INFO - Browser : chrome
+2026-05-21 00:36:41,565 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 00:36:41,565 - INFO - Implicit Wait : 10
+2026-05-21 00:36:41,566 - INFO - Timeout : 20
+2026-05-21 00:36:41,566 - INFO - Headless : False
+2026-05-21 00:36:41,588 - INFO - ====== WebDriver manager ======
+2026-05-21 00:36:43,329 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 00:36:44,610 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 00:36:45,083 - INFO - WebDriver version 148.0.7778.178 selected
+2026-05-21 00:36:45,093 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-21 00:36:45,094 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-21 00:36:45,465 - INFO - Driver downloading response is 200
+2026-05-21 00:36:48,051 - INFO - Driver has been saved in cache [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+2026-05-21 00:36:50,693 - INFO - Opening URL : https://www.makemytrip.com/
+2026-05-21 00:37:00,726 - INFO - Navigating to Travel Insurance page...
+2026-05-21 00:37:00,984 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 00:37:02,801 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 00:37:02,846 - INFO - Default selection cleared.
+2026-05-21 00:37:03,353 - INFO - Injecting search phrase query: UAE
+2026-05-21 00:37:04,201 - INFO - Checking filtered list match row for: UAE
+2026-05-21 00:37:05,540 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_003705.png
+2026-05-21 00:37:05,545 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 00:37:17,395 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 00:37:17,395 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 00:37:17,472 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 00:37:18,287 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_003718.png
+2026-05-21 00:37:18,347 - INFO - Successfully selected traveler option: 01
+2026-05-21 00:37:18,848 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 00:37:19,078 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_003718.png
+2026-05-21 00:37:19,180 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 00:37:26,280 - INFO - Executing Negative Test (Blank DOB) for user: Rahul Sharma. Using plan column: 2
+2026-05-21 00:37:26,281 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 00:37:27,777 - INFO - Processing and passing raw date of birth data: 
+2026-05-21 00:37:27,777 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 00:37:27,853 - INFO - Successfully selected gender option: Male
+2026-05-21 00:37:27,854 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-21 00:37:30,141 - INFO - Filing statement approval criteria profiles...
+2026-05-21 00:37:30,209 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 00:37:30,784 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_neg_blank_date_of_birth_data0__20260521_003730.png
+2026-05-21 00:37:30,784 - INFO - Global Hook: Captured completion state for test_neg_blank_date_of_birth[data0] [PASSED]
+2026-05-21 00:37:30,789 - INFO - Closing Browser
+2026-05-21 00:37:34,166 - INFO - Ending Test
+2026-05-21 00:37:34,168 - INFO - =======================================
+2026-05-21 00:48:20,654 - INFO - =======================================
+2026-05-21 00:48:20,655 - INFO - Starting Test Execution Suite
+2026-05-21 00:48:20,655 - INFO - Browser : chrome
+2026-05-21 00:48:20,656 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 00:48:20,656 - INFO - Implicit Wait : 10
+2026-05-21 00:48:20,656 - INFO - Timeout : 20
+2026-05-21 00:48:20,656 - INFO - Headless : False
+2026-05-21 00:48:20,671 - INFO - ====== WebDriver manager ======
+2026-05-21 00:48:21,700 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 00:48:23,396 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 00:48:49,778 - INFO - Navigating to Travel Insurance page...
+2026-05-21 00:48:50,033 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 00:48:51,470 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 00:48:51,488 - INFO - Default selection cleared.
+2026-05-21 00:48:52,001 - INFO - Injecting search phrase query: UAE
+2026-05-21 00:48:52,879 - INFO - Checking filtered list match row for: UAE
+2026-05-21 00:48:54,273 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_004853.png
+2026-05-21 00:48:54,273 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 00:49:04,976 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 00:49:04,976 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 00:49:05,053 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 00:49:05,821 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_004905.png
+2026-05-21 00:49:05,865 - INFO - Successfully selected traveler option: 01
+2026-05-21 00:49:06,367 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 00:49:06,636 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_004906.png
+2026-05-21 00:49:06,708 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 00:49:11,891 - INFO - Executing Negative Test (Invalid Mobile) for user: Rahul Sharma. Using plan column: 2
+2026-05-21 00:49:11,892 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 00:49:13,356 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-21 00:49:13,533 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 00:49:13,580 - INFO - Successfully selected gender option: Male
+2026-05-21 00:49:13,580 - INFO - Processing communication node tracking configurations -> Ph: 12345
+2026-05-21 00:49:14,872 - INFO - Filing statement approval criteria profiles...
+2026-05-21 00:49:14,945 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 00:49:15,475 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_neg_invalid_mobile_number_data0__20260521_004915.png
+2026-05-21 00:49:15,475 - INFO - Global Automation Engine: Logged milestone snapshot for: test_neg_invalid_mobile_number[data0] [PASSED]
+2026-05-21 00:49:15,479 - INFO - Tearing Down Browser Session
+2026-05-21 00:49:18,354 - INFO - Test Run Concluded
+2026-05-21 00:49:18,354 - INFO - =======================================
+2026-05-21 00:59:04,790 - INFO - =======================================
+2026-05-21 00:59:04,791 - INFO - Starting Test Execution Suite
+2026-05-21 00:59:04,792 - INFO - Browser : chrome
+2026-05-21 00:59:04,792 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 00:59:04,792 - INFO - Implicit Wait : 10
+2026-05-21 00:59:04,792 - INFO - Timeout : 20
+2026-05-21 00:59:04,794 - INFO - Headless : False
+2026-05-21 00:59:04,810 - INFO - ====== WebDriver manager ======
+2026-05-21 00:59:07,569 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 00:59:08,419 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 00:59:09,118 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache
+2026-05-21 00:59:10,817 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 00:59:14,043 - INFO - Loaded 1 records. Executing single-flow execution batch...
+2026-05-21 00:59:14,044 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
+2026-05-21 00:59:20,095 - INFO - Navigating to Travel Insurance page...
+2026-05-21 00:59:21,926 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 00:59:22,212 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 00:59:22,273 - INFO - Default selection cleared.
+2026-05-21 00:59:22,776 - INFO - Injecting search phrase query: UAE
+2026-05-21 00:59:23,705 - INFO - Checking filtered list match row for: UAE
+2026-05-21 00:59:25,220 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_005924.png
+2026-05-21 00:59:25,228 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 00:59:35,974 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 00:59:35,975 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 00:59:36,037 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 00:59:36,887 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_005936.png
+2026-05-21 00:59:36,922 - INFO - Successfully selected traveler option: 01
+2026-05-21 00:59:37,423 - INFO - Directly triggering search submission via Explore Plans...
+2026-05-21 00:59:37,423 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 00:59:37,669 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_005937.png
+2026-05-21 00:59:40,256 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-21 00:59:47,920 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 00:59:50,111 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-21 00:59:50,150 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 00:59:50,945 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-21 00:59:51,099 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 00:59:51,152 - INFO - Successfully selected gender option: Male
+2026-05-21 00:59:51,154 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-21 00:59:52,705 - INFO - Filing statement approval criteria profiles...
+2026-05-21 00:59:52,783 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 00:59:53,599 - INFO - Preparing to enter mobile number: 6395048812
+2026-05-21 00:59:55,422 - INFO - Toggling the user-consent checkbox to unlock the form...
+2026-05-21 00:59:56,492 - INFO - Clicking the Continue button...
+2026-05-21 00:59:56,560 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
+2026-05-21 00:59:56,560 - INFO - --- Completed Flow Iteration 1 Success ---
+2026-05-21 00:59:56,560 - INFO - Single-flow target successfully achieved. Stopping automation run here.
+2026-05-21 00:59:56,838 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_make_my_trip_insurance_e2e_single_flow_20260521_005956.png
+2026-05-21 00:59:56,838 - INFO - Global Automation Engine: Logged milestone snapshot for: test_make_my_trip_insurance_e2e_single_flow [PASSED]
+2026-05-21 00:59:56,839 - INFO - Tearing Down Browser Session
+2026-05-21 01:00:03,270 - INFO - Test Run Concluded
+2026-05-21 01:00:03,271 - INFO - =======================================
+2026-05-21 01:04:40,026 - INFO - =======================================
+2026-05-21 01:04:40,027 - INFO - Starting Test Execution Suite
+2026-05-21 01:04:40,027 - INFO - Browser : chrome
+2026-05-21 01:04:40,027 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 01:04:40,028 - INFO - Implicit Wait : 10
+2026-05-21 01:04:40,028 - INFO - Timeout : 20
+2026-05-21 01:04:40,028 - INFO - Headless : False
+2026-05-21 01:04:40,045 - INFO - ====== WebDriver manager ======
+2026-05-21 01:04:41,082 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 01:04:42,541 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 01:04:46,432 - INFO - Navigating to Travel Insurance page...
+2026-05-21 01:04:47,439 - INFO - Tearing Down Browser Session
+2026-05-21 01:04:49,464 - INFO - Test Run Concluded
+2026-05-21 01:04:49,464 - INFO - =======================================
+2026-05-21 01:10:12,195 - INFO - =======================================
+2026-05-21 01:10:12,196 - INFO - Starting Test Execution Suite
+2026-05-21 01:10:12,196 - INFO - Browser : chrome
+2026-05-21 01:10:12,197 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 01:10:12,197 - INFO - Implicit Wait : 10
+2026-05-21 01:10:12,197 - INFO - Timeout : 20
+2026-05-21 01:10:12,197 - INFO - Headless : False
+2026-05-21 01:10:12,211 - INFO - ====== WebDriver manager ======
+2026-05-21 01:10:13,155 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 01:10:14,532 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 01:10:40,566 - INFO - Navigating to Travel Insurance page...
+2026-05-21 01:10:40,861 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 01:10:42,545 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 01:10:42,562 - INFO - Default selection cleared.
+2026-05-21 01:10:43,081 - INFO - Injecting search phrase query: UAE
+2026-05-21 01:10:44,222 - INFO - Checking filtered list match row for: UAE
+2026-05-21 01:10:45,609 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_011045.png
+2026-05-21 01:10:45,609 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 01:10:56,410 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 01:10:56,411 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 01:10:56,484 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 01:10:57,281 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_011057.png
+2026-05-21 01:10:57,301 - INFO - Successfully selected traveler option: 01
+2026-05-21 01:10:57,814 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 01:10:58,067 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_011057.png
+2026-05-21 01:10:58,150 - INFO - Executing Positive Test: Confirming International Travel + Medical Insurance Header Context.
+2026-05-21 01:11:03,699 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_pos_assert_international_insurance_branding_20260521_011058.png
+2026-05-21 01:11:03,699 - INFO - Global Automation Engine: Logged milestone snapshot for: test_pos_assert_international_insurance_branding [PASSED]
+2026-05-21 01:11:03,703 - INFO - Tearing Down Browser Session
+2026-05-21 01:11:06,455 - INFO - Test Run Concluded
+2026-05-21 01:11:06,456 - INFO - =======================================
+2026-05-21 01:21:21,431 - INFO - =======================================
+2026-05-21 01:21:21,432 - INFO - Starting Test Execution Suite
+2026-05-21 01:21:21,432 - INFO - Browser : chrome
+2026-05-21 01:21:21,432 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 01:21:21,432 - INFO - Implicit Wait : 10
+2026-05-21 01:21:21,434 - INFO - Timeout : 20
+2026-05-21 01:21:21,434 - INFO - Headless : False
+2026-05-21 01:21:21,462 - INFO - ====== WebDriver manager ======
+2026-05-21 01:21:23,033 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 01:21:24,497 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 01:21:50,983 - INFO - Navigating to Travel Insurance page...
+2026-05-21 01:21:51,317 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 01:21:53,777 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 01:21:53,821 - INFO - Default selection cleared.
+2026-05-21 01:21:54,326 - INFO - Injecting search phrase query: UAE
+2026-05-21 01:21:55,199 - INFO - Checking filtered list match row for: UAE
+2026-05-21 01:21:56,538 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_012156.png
+2026-05-21 01:21:56,538 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 01:22:07,221 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 01:22:07,221 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 01:22:07,281 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 01:22:08,030 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_012207.png
+2026-05-21 01:22:08,045 - INFO - Successfully selected traveler option: 01
+2026-05-21 01:22:08,559 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 01:22:08,790 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_012208.png
+2026-05-21 01:22:08,886 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 01:22:14,889 - INFO - Executing Negative Test (Blank Mobile) for user: Rahul Sharma. Using plan column: 2
+2026-05-21 01:22:14,890 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 01:22:16,544 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-21 01:22:16,696 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 01:22:16,749 - INFO - Successfully selected gender option: Male
+2026-05-21 01:22:16,749 - INFO - Processing communication node tracking configurations -> Ph: 
+2026-05-21 01:22:18,078 - INFO - Filing statement approval criteria profiles...
+2026-05-21 01:22:18,156 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 01:22:18,728 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_neg_blank_mobile_number_data0__20260521_012218.png
+2026-05-21 01:22:18,728 - INFO - Global Automation Engine: Logged milestone snapshot for: test_neg_blank_mobile_number[data0] [PASSED]
+2026-05-21 01:22:18,734 - INFO - Tearing Down Browser Session
+2026-05-21 01:22:21,483 - INFO - Test Run Concluded
+2026-05-21 01:22:21,483 - INFO - =======================================
+2026-05-21 01:30:51,399 - INFO - =======================================
+2026-05-21 01:30:51,400 - INFO - Starting Test Execution Suite
+2026-05-21 01:30:51,400 - INFO - Browser : chrome
+2026-05-21 01:30:51,400 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 01:30:51,401 - INFO - Implicit Wait : 10
+2026-05-21 01:30:51,401 - INFO - Timeout : 20
+2026-05-21 01:30:51,402 - INFO - Headless : False
+2026-05-21 01:30:51,422 - INFO - ====== WebDriver manager ======
+2026-05-21 01:30:52,571 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 01:30:54,105 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 01:30:58,507 - INFO - Navigating to Travel Insurance page...
+2026-05-21 01:30:59,031 - INFO - Tearing Down Browser Session
+2026-05-21 01:31:01,061 - INFO - Test Run Concluded
+2026-05-21 01:31:01,063 - INFO - =======================================
+2026-05-21 01:35:36,276 - INFO - =======================================
+2026-05-21 01:35:36,276 - INFO - Starting Test Execution Suite
+2026-05-21 01:35:36,277 - INFO - Browser : chrome
+2026-05-21 01:35:36,277 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 01:35:36,277 - INFO - Implicit Wait : 10
+2026-05-21 01:35:36,278 - INFO - Timeout : 20
+2026-05-21 01:35:36,278 - INFO - Headless : False
+2026-05-21 01:35:36,295 - INFO - ====== WebDriver manager ======
+2026-05-21 01:35:37,555 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 01:35:39,064 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 01:36:05,581 - INFO - Navigating to Travel Insurance page...
+2026-05-21 01:36:05,852 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 01:36:07,922 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 01:36:07,988 - INFO - Default selection cleared.
+2026-05-21 01:36:08,495 - INFO - Injecting search phrase query: UAE
+2026-05-21 01:36:09,466 - INFO - Checking filtered list match row for: UAE
+2026-05-21 01:36:10,852 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_013610.png
+2026-05-21 01:36:10,861 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 01:36:21,510 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 01:36:21,510 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 01:36:21,562 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 01:36:22,366 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_013622.png
+2026-05-21 01:36:22,395 - INFO - Successfully selected traveler option: 01
+2026-05-21 01:36:22,910 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 01:36:23,176 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_013622.png
+2026-05-21 01:36:23,291 - INFO - Selecting insurance plan column position index card: [1] via 'BUY NOW' hook...
+2026-05-21 01:36:29,375 - INFO - Executing Positive Test: Verifying Traveler details review block visibility.
+2026-05-21 01:36:29,376 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-21 01:36:30,493 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_pos_assert_traveller_details_form_view_20260521_013630.png
+2026-05-21 01:36:30,493 - INFO - Global Automation Engine: Logged milestone snapshot for: test_pos_assert_traveller_details_form_view [PASSED]
+2026-05-21 01:36:30,497 - INFO - Tearing Down Browser Session
+2026-05-21 01:36:33,087 - INFO - Test Run Concluded
+2026-05-21 01:36:33,087 - INFO - =======================================
+2026-05-21 01:46:57,209 - INFO - =======================================
+2026-05-21 01:46:57,210 - INFO - Starting Test Execution Suite
+2026-05-21 01:46:57,211 - INFO - Browser : chrome
+2026-05-21 01:46:57,211 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 01:46:57,212 - INFO - Implicit Wait : 10
+2026-05-21 01:46:57,212 - INFO - Timeout : 20
+2026-05-21 01:46:57,212 - INFO - Headless : False
+2026-05-21 01:46:57,243 - INFO - ====== WebDriver manager ======
+2026-05-21 01:47:00,303 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 01:47:01,929 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 01:47:29,805 - INFO - Navigating to Travel Insurance page...
+2026-05-21 01:47:30,354 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 01:47:35,269 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 01:47:35,317 - INFO - Default selection cleared.
+2026-05-21 01:47:35,825 - INFO - Injecting search phrase query: UAE
+2026-05-21 01:47:37,064 - INFO - Checking filtered list match row for: UAE
+2026-05-21 01:47:38,616 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_014738.png
+2026-05-21 01:47:38,629 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 01:47:50,483 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 01:47:50,496 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 01:47:50,863 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 01:47:52,062 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_014751.png
+2026-05-21 01:47:52,189 - INFO - Successfully selected traveler option: 01
+2026-05-21 01:47:52,700 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 01:47:52,994 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_014752.png
+2026-05-21 01:47:53,119 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 01:47:59,516 - INFO - Executing Positive Test: Processing full valid validation path for Rahul Sharma. Using plan column: 2
+2026-05-21 01:47:59,516 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 01:48:02,200 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-21 01:48:02,499 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 01:48:02,582 - INFO - Successfully selected gender option: Male
+2026-05-21 01:48:02,584 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-21 01:48:06,827 - INFO - Filing statement approval criteria profiles...
+2026-05-21 01:48:06,964 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 01:48:09,770 - INFO - Form passed validation checkpoints; OTP authentication module triggered.
+2026-05-21 01:48:10,122 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_pos_complete_valid_form_submission_data0__20260521_014809.png
+2026-05-21 01:48:10,122 - INFO - Global Automation Engine: Logged milestone snapshot for: test_pos_complete_valid_form_submission[data0] [PASSED]
+2026-05-21 01:48:10,171 - INFO - Tearing Down Browser Session
+2026-05-21 01:48:15,014 - INFO - Test Run Concluded
+2026-05-21 01:48:15,016 - INFO - =======================================
+2026-05-21 01:58:58,781 - INFO - =======================================
+2026-05-21 01:58:58,784 - INFO - Starting Test Execution Suite
+2026-05-21 01:58:58,785 - INFO - Browser : chrome
+2026-05-21 01:58:58,786 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 01:58:58,787 - INFO - Implicit Wait : 10
+2026-05-21 01:58:58,787 - INFO - Timeout : 20
+2026-05-21 01:58:58,788 - INFO - Headless : False
+2026-05-21 01:58:58,824 - INFO - ====== WebDriver manager ======
+2026-05-21 01:59:00,828 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 01:59:02,527 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 01:59:29,969 - INFO - Navigating to Travel Insurance page...
+2026-05-21 01:59:30,580 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 01:59:33,772 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 01:59:33,822 - INFO - Default selection cleared.
+2026-05-21 01:59:34,323 - INFO - Injecting search phrase query: UAE
+2026-05-21 01:59:35,574 - INFO - Checking filtered list match row for: UAE
+2026-05-21 01:59:37,083 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_015936.png
+2026-05-21 01:59:37,088 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 01:59:47,903 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 01:59:47,905 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 01:59:48,026 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 01:59:50,088 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_015948.png
+2026-05-21 01:59:50,332 - INFO - Successfully selected traveler option: 01
+2026-05-21 01:59:50,860 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 01:59:51,364 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_015950.png
+2026-05-21 01:59:51,493 - INFO - Executing Positive Test: Asserting Choose Plans Grid Matrix.
+2026-05-21 01:59:51,493 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-21 01:59:57,096 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_pos_assert_choose_your_plans_page_20260521_015956.png
+2026-05-21 01:59:57,096 - INFO - Global Automation Engine: Logged milestone snapshot for: test_pos_assert_choose_your_plans_page [PASSED]
+2026-05-21 01:59:57,124 - INFO - Tearing Down Browser Session
+2026-05-21 02:00:01,578 - INFO - Test Run Concluded
+2026-05-21 02:00:01,580 - INFO - =======================================
+2026-05-21 14:17:30,618 - INFO - =======================================
+2026-05-21 14:17:30,623 - INFO - Starting Test Execution Suite
+2026-05-21 14:17:30,625 - INFO - Browser : chrome
+2026-05-21 14:17:30,628 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 14:17:30,628 - INFO - Implicit Wait : 10
+2026-05-21 14:17:30,629 - INFO - Timeout : 20
+2026-05-21 14:17:30,632 - INFO - Headless : False
+2026-05-21 14:17:30,789 - INFO - ====== WebDriver manager ======
+2026-05-21 14:17:43,559 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 14:17:45,085 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 14:17:46,213 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache
+2026-05-21 14:18:05,663 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 14:18:10,148 - INFO - Loaded 1 records. Executing single-flow execution batch...
+2026-05-21 14:18:10,156 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
+2026-05-21 14:18:33,508 - INFO - Navigating to Travel Insurance page...
+2026-05-21 14:18:39,154 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 14:18:39,491 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 14:18:39,555 - INFO - Default selection cleared.
+2026-05-21 14:18:40,056 - INFO - Injecting search phrase query: UAE
+2026-05-21 14:18:41,670 - INFO - Checking filtered list match row for: UAE
+2026-05-21 14:18:43,208 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_141842.png
+2026-05-21 14:18:43,534 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 14:18:54,332 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 14:18:54,332 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 14:18:54,464 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 14:18:55,465 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_141855.png
+2026-05-21 14:18:55,514 - INFO - Successfully selected traveler option: 01
+2026-05-21 14:18:56,016 - INFO - Directly triggering search submission via Explore Plans...
+2026-05-21 14:18:56,016 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 14:18:56,515 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_141856.png
+2026-05-21 14:18:59,152 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-21 14:19:02,903 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 14:19:05,227 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-21 14:19:05,312 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 14:19:06,429 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-21 14:19:06,685 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 14:19:06,758 - INFO - Successfully selected gender option: Male
+2026-05-21 14:19:06,759 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-21 14:19:09,734 - INFO - Filing statement approval criteria profiles...
+2026-05-21 14:19:09,862 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 14:19:11,098 - INFO - Preparing to enter mobile number: 6395048812
+2026-05-21 14:19:13,846 - INFO - Toggling the user-consent checkbox to unlock the form...
+2026-05-21 14:19:14,938 - INFO - Clicking the Continue button...
+2026-05-21 14:19:15,083 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
+2026-05-21 14:19:15,084 - INFO - --- Completed Flow Iteration 1 Success ---
+2026-05-21 14:19:15,086 - INFO - Single-flow target successfully achieved. Stopping automation run here.
+2026-05-21 14:19:15,536 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_make_my_trip_insurance_e2e_single_flow_20260521_141915.png
+2026-05-21 14:19:15,543 - INFO - Global Automation Engine: Logged milestone snapshot for: test_make_my_trip_insurance_e2e_single_flow [PASSED]
+2026-05-21 14:19:15,586 - INFO - Tearing Down Browser Session
+2026-05-21 14:19:20,751 - INFO - Test Run Concluded
+2026-05-21 14:19:20,752 - INFO - =======================================
+2026-05-21 15:03:17,144 - INFO - ========================================
+2026-05-21 15:03:17,160 - INFO - AUTOMATION EXECUTION STARTED AT: 20260521_150317
+2026-05-21 15:03:17,161 - INFO - Deleting old allure-results folder
+2026-05-21 15:03:17,385 - INFO - Deleting old allure-report folder
+2026-05-21 15:03:17,573 - INFO - Old reports cleaned. Handing over control to Pytest Engine.
+2026-05-21 15:03:17,575 - INFO - ========================================
+2026-05-21 15:03:18,679 - INFO - =======================================
+2026-05-21 15:03:18,682 - INFO - Starting Test Execution Suite
+2026-05-21 15:03:18,682 - INFO - Browser : chrome
+2026-05-21 15:03:18,686 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 15:03:18,691 - INFO - Implicit Wait : 10
+2026-05-21 15:03:18,693 - INFO - Timeout : 20
+2026-05-21 15:03:18,698 - INFO - Headless : False
+2026-05-21 15:03:18,755 - INFO - ====== WebDriver manager ======
+2026-05-21 15:03:26,249 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 15:03:27,629 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 15:03:28,845 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache
+2026-05-21 15:03:37,541 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 15:03:44,727 - INFO - Loaded 1 records. Executing single-flow execution batch...
+2026-05-21 15:03:44,727 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
+2026-05-21 15:04:08,607 - INFO - Navigating to Travel Insurance page...
+2026-05-21 15:04:13,080 - ERROR - Flow interrupted during profile process sequence [Rahul Sharma]: [Errno 2] No such file or directory: 'C:\\Users\\DELL\\OneDrive\\Desktop\\wipro_project\\capstone\\selenium_MMT\\reports\\allure-results\\a8728887-aa0b-4e87-8c29-82f74f8ae36e-attachment.png'
+2026-05-21 15:04:13,554 - INFO - Screenshot saved locally at: reports\screenshots\FlowError_Rahul_Sharma_20260521_150413.png
+2026-05-21 15:04:16,084 - ERROR - Global Automation Engine Failed to execute screen snapshot logic: [Errno 2] No such file or directory: 'C:\\Users\\DELL\\OneDrive\\Desktop\\wipro_project\\capstone\\selenium_MMT\\reports\\allure-results\\28395920-6fbf-465d-9366-5781da5f4ce6-attachment.png'
+2026-05-21 15:04:16,094 - INFO - Tearing Down Browser Session
+2026-05-21 15:04:22,101 - INFO - Test Run Concluded
+2026-05-21 15:04:22,104 - INFO - =======================================
+2026-05-21 15:04:24,317 - INFO - ========================================
+2026-05-21 15:04:24,320 - INFO - Generating Allure HTML Report
+2026-05-21 15:04:35,380 - INFO - Allure Report Generated with status code : 0
+2026-05-21 15:04:35,383 - INFO - Automation Suite closed out with exit code: 3
+2026-05-21 15:04:35,384 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-21 15:04:35,384 - INFO - ========================================
+2026-05-21 15:19:10,652 - INFO - =======================================
+2026-05-21 15:19:10,653 - INFO - Starting Test Execution Suite
+2026-05-21 15:19:10,653 - INFO - Browser : chrome
+2026-05-21 15:19:10,653 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 15:19:10,654 - INFO - Implicit Wait : 10
+2026-05-21 15:19:10,654 - INFO - Timeout : 20
+2026-05-21 15:19:10,654 - INFO - Headless : False
+2026-05-21 15:19:10,683 - INFO - ====== WebDriver manager ======
+2026-05-21 15:19:13,994 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 15:19:14,765 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-21 15:19:15,378 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache
+2026-05-21 15:19:17,605 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 15:19:21,082 - INFO - Loaded 1 records. Executing single-flow execution batch...
+2026-05-21 15:19:21,084 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
+2026-05-21 15:19:27,262 - INFO - Navigating to Travel Insurance page...
+2026-05-21 15:19:29,037 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 15:19:29,758 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 15:19:29,810 - INFO - Default selection cleared.
+2026-05-21 15:19:30,314 - INFO - Injecting search phrase query: UAE
+2026-05-21 15:19:31,950 - INFO - Checking filtered list match row for: UAE
+2026-05-21 15:19:33,837 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_151933.png
+2026-05-21 15:19:33,846 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 15:19:44,614 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 15:19:44,615 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 15:19:44,700 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 15:19:45,550 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_151945.png
+2026-05-21 15:19:45,611 - INFO - Successfully selected traveler option: 01
+2026-05-21 15:19:46,112 - INFO - Directly triggering search submission via Explore Plans...
+2026-05-21 15:19:46,112 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 15:19:46,469 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_151946.png
+2026-05-21 15:19:49,138 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-21 15:19:54,869 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 15:19:57,099 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-21 15:19:57,144 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 15:19:58,027 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-21 15:19:58,266 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 15:19:58,325 - INFO - Successfully selected gender option: Male
+2026-05-21 15:19:58,325 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-21 15:19:59,686 - INFO - Filing statement approval criteria profiles...
+2026-05-21 15:19:59,779 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 15:20:00,587 - INFO - Preparing to enter mobile number: 6395048812
+2026-05-21 15:20:02,617 - INFO - Toggling the user-consent checkbox to unlock the form...
+2026-05-21 15:20:03,681 - INFO - Clicking the Continue button...
+2026-05-21 15:20:03,868 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
+2026-05-21 15:20:03,869 - INFO - --- Completed Flow Iteration 1 Success ---
+2026-05-21 15:20:03,869 - INFO - Single-flow target successfully achieved. Stopping automation run here.
+2026-05-21 15:20:04,301 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_make_my_trip_insurance_e2e_single_flow_20260521_152004.png
+2026-05-21 15:20:04,317 - INFO - Global Automation Engine: Logged milestone snapshot for: test_make_my_trip_insurance_e2e_single_flow [PASSED]
+2026-05-21 15:20:04,322 - INFO - Tearing Down Browser Session
+2026-05-21 15:20:08,654 - INFO - Test Run Concluded
+2026-05-21 15:20:08,654 - INFO - =======================================
+2026-05-21 15:26:20,654 - INFO - =======================================
+2026-05-21 15:26:20,660 - INFO - Starting Test Execution Suite
+2026-05-21 15:26:20,661 - INFO - Browser : chrome
+2026-05-21 15:26:20,661 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 15:26:20,664 - INFO - Implicit Wait : 10
+2026-05-21 15:26:20,665 - INFO - Timeout : 20
+2026-05-21 15:26:20,667 - INFO - Headless : False
+2026-05-21 15:26:20,739 - INFO - ====== WebDriver manager ======
+2026-05-21 15:26:35,442 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 15:26:40,278 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 15:26:44,952 - INFO - Navigating to Travel Insurance page...
+2026-05-21 15:26:50,157 - INFO - Tearing Down Browser Session
+2026-05-21 15:26:52,187 - INFO - Test Run Concluded
+2026-05-21 15:26:52,187 - INFO - =======================================
+2026-05-21 15:40:16,798 - INFO - =======================================
+2026-05-21 15:40:16,800 - INFO - Starting Test Execution Suite
+2026-05-21 15:40:16,802 - INFO - Browser : chrome
+2026-05-21 15:40:16,803 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 15:40:16,804 - INFO - Implicit Wait : 10
+2026-05-21 15:40:16,805 - INFO - Timeout : 20
+2026-05-21 15:40:16,807 - INFO - Headless : False
+2026-05-21 15:40:16,851 - INFO - ====== WebDriver manager ======
+2026-05-21 15:40:19,639 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 15:40:22,333 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 15:40:52,669 - INFO - Navigating to Travel Insurance page...
+2026-05-21 15:41:20,128 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 15:41:22,954 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 15:41:22,996 - INFO - Default selection cleared.
+2026-05-21 15:41:23,498 - INFO - Injecting search phrase query: UAE
+2026-05-21 15:41:25,110 - INFO - Checking filtered list match row for: UAE
+2026-05-21 15:41:27,049 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_154126.png
+2026-05-21 15:41:27,071 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 15:41:37,937 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 15:41:37,937 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 15:41:38,074 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 15:41:39,089 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_154138.png
+2026-05-21 15:41:39,171 - INFO - Successfully selected traveler option: 01
+2026-05-21 15:41:39,673 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 15:41:40,079 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_154139.png
+2026-05-21 15:41:40,292 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 15:41:46,865 - INFO - Executing Negative Test (Blank DOB) for user: Rahul Sharma. Using plan column: 2
+2026-05-21 15:41:46,866 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 15:41:49,592 - INFO - Processing and passing raw date of birth data: 
+2026-05-21 15:41:49,592 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 15:41:49,683 - INFO - Successfully selected gender option: Male
+2026-05-21 15:41:49,688 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-21 15:41:52,790 - INFO - Filing statement approval criteria profiles...
+2026-05-21 15:41:52,902 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 15:41:53,726 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_neg_blank_date_of_birth_data0__20260521_154153.png
+2026-05-21 15:41:53,727 - INFO - Global Automation Engine: Logged milestone snapshot for: test_neg_blank_date_of_birth[data0] [PASSED]
+2026-05-21 15:41:53,745 - INFO - Tearing Down Browser Session
+2026-05-21 15:41:57,108 - INFO - Test Run Concluded
+2026-05-21 15:41:57,109 - INFO - =======================================
+2026-05-21 15:50:19,449 - INFO - =======================================
+2026-05-21 15:50:19,452 - INFO - Starting Test Execution Suite
+2026-05-21 15:50:19,452 - INFO - Browser : chrome
+2026-05-21 15:50:19,456 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 15:50:19,457 - INFO - Implicit Wait : 10
+2026-05-21 15:50:19,457 - INFO - Timeout : 20
+2026-05-21 15:50:19,459 - INFO - Headless : False
+2026-05-21 15:50:19,536 - INFO - ====== WebDriver manager ======
+2026-05-21 15:50:22,597 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 15:50:25,633 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 15:50:31,922 - INFO - Navigating to Travel Insurance page...
+2026-05-21 15:50:33,216 - INFO - Tearing Down Browser Session
+2026-05-21 15:50:35,495 - INFO - Test Run Concluded
+2026-05-21 15:50:35,496 - INFO - =======================================
+2026-05-21 15:54:42,544 - INFO - =======================================
+2026-05-21 15:54:42,545 - INFO - Starting Test Execution Suite
+2026-05-21 15:54:42,545 - INFO - Browser : chrome
+2026-05-21 15:54:42,545 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 15:54:42,546 - INFO - Implicit Wait : 10
+2026-05-21 15:54:42,546 - INFO - Timeout : 20
+2026-05-21 15:54:42,546 - INFO - Headless : False
+2026-05-21 15:54:42,560 - INFO - ====== WebDriver manager ======
+2026-05-21 15:54:44,134 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 15:54:46,090 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 15:55:13,537 - INFO - Navigating to Travel Insurance page...
+2026-05-21 15:55:13,955 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 15:55:16,013 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 15:55:16,053 - INFO - Default selection cleared.
+2026-05-21 15:55:16,555 - INFO - Injecting search phrase query: UAE
+2026-05-21 15:55:17,505 - INFO - Checking filtered list match row for: UAE
+2026-05-21 15:55:18,929 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_155518.png
+2026-05-21 15:55:18,940 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 15:55:29,643 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 15:55:29,643 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 15:55:29,709 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 15:55:30,566 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_155530.png
+2026-05-21 15:55:30,621 - INFO - Successfully selected traveler option: 01
+2026-05-21 15:55:31,123 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 15:55:31,399 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_155531.png
+2026-05-21 15:55:31,500 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 15:55:35,886 - INFO - Executing Negative Test (Invalid Mobile) for user: Rahul Sharma. Using plan column: 2
+2026-05-21 15:55:35,886 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 15:55:38,219 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-21 15:55:38,396 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 15:55:38,461 - INFO - Successfully selected gender option: Male
+2026-05-21 15:55:38,461 - INFO - Processing communication node tracking configurations -> Ph: 12345
+2026-05-21 15:55:40,217 - INFO - Filing statement approval criteria profiles...
+2026-05-21 15:55:40,305 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 15:55:40,865 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_neg_invalid_mobile_number_data0__20260521_155540.png
+2026-05-21 15:55:40,865 - INFO - Global Automation Engine: Logged milestone snapshot for: test_neg_invalid_mobile_number[data0] [PASSED]
+2026-05-21 15:55:40,870 - INFO - Tearing Down Browser Session
+2026-05-21 15:55:44,205 - INFO - Test Run Concluded
+2026-05-21 15:55:44,206 - INFO - =======================================
+2026-05-21 16:05:09,541 - INFO - =======================================
+2026-05-21 16:05:09,544 - INFO - Starting Test Execution Suite
+2026-05-21 16:05:09,544 - INFO - Browser : chrome
+2026-05-21 16:05:09,544 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 16:05:09,546 - INFO - Implicit Wait : 10
+2026-05-21 16:05:09,547 - INFO - Timeout : 20
+2026-05-21 16:05:09,547 - INFO - Headless : False
+2026-05-21 16:05:09,571 - INFO - ====== WebDriver manager ======
+2026-05-21 16:05:12,969 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 16:05:15,279 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 16:05:42,864 - INFO - Navigating to Travel Insurance page...
+2026-05-21 16:05:43,150 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 16:05:45,432 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 16:05:45,475 - INFO - Default selection cleared.
+2026-05-21 16:05:45,980 - INFO - Injecting search phrase query: UAE
+2026-05-21 16:05:46,946 - INFO - Checking filtered list match row for: UAE
+2026-05-21 16:05:48,332 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_160548.png
+2026-05-21 16:05:48,336 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 16:05:58,994 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 16:05:58,994 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 16:05:59,057 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 16:05:59,811 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_160559.png
+2026-05-21 16:05:59,860 - INFO - Successfully selected traveler option: 01
+2026-05-21 16:06:00,362 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 16:06:00,652 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_160600.png
+2026-05-21 16:06:00,738 - INFO - Executing Positive Test: Confirming International Travel + Medical Insurance Header Context.
+2026-05-21 16:06:07,373 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_pos_assert_international_insurance_branding_20260521_160601.png
+2026-05-21 16:06:07,373 - INFO - Global Automation Engine: Logged milestone snapshot for: test_pos_assert_international_insurance_branding [PASSED]
+2026-05-21 16:06:07,376 - INFO - Tearing Down Browser Session
+2026-05-21 16:06:10,315 - INFO - Test Run Concluded
+2026-05-21 16:06:10,316 - INFO - =======================================
+2026-05-21 16:16:54,935 - INFO - =======================================
+2026-05-21 16:16:54,936 - INFO - Starting Test Execution Suite
+2026-05-21 16:16:54,936 - INFO - Browser : chrome
+2026-05-21 16:16:54,936 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 16:16:54,937 - INFO - Implicit Wait : 10
+2026-05-21 16:16:54,937 - INFO - Timeout : 20
+2026-05-21 16:16:54,937 - INFO - Headless : False
+2026-05-21 16:16:54,954 - INFO - ====== WebDriver manager ======
+2026-05-21 16:16:59,148 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 16:17:01,044 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 16:17:28,505 - INFO - Navigating to Travel Insurance page...
+2026-05-21 16:17:28,814 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 16:17:31,351 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 16:17:31,426 - INFO - Default selection cleared.
+2026-05-21 16:17:31,928 - INFO - Injecting search phrase query: UAE
+2026-05-21 16:17:32,947 - INFO - Checking filtered list match row for: UAE
+2026-05-21 16:17:34,315 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_161734.png
+2026-05-21 16:17:34,320 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 16:17:45,162 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 16:17:45,162 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 16:17:45,210 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 16:17:45,969 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_161745.png
+2026-05-21 16:17:45,998 - INFO - Successfully selected traveler option: 01
+2026-05-21 16:17:46,500 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 16:17:46,747 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_161746.png
+2026-05-21 16:17:46,869 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 16:17:52,050 - INFO - Executing Negative Test (Blank Mobile) for user: Rahul Sharma. Using plan column: 2
+2026-05-21 16:17:52,102 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 16:17:54,045 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-21 16:17:54,211 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 16:17:54,268 - INFO - Successfully selected gender option: Male
+2026-05-21 16:17:54,268 - INFO - Processing communication node tracking configurations -> Ph: 
+2026-05-21 16:17:55,879 - INFO - Filing statement approval criteria profiles...
+2026-05-21 16:17:55,975 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 16:17:56,493 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_neg_blank_mobile_number_data0__20260521_161756.png
+2026-05-21 16:17:56,493 - INFO - Global Automation Engine: Logged milestone snapshot for: test_neg_blank_mobile_number[data0] [PASSED]
+2026-05-21 16:17:56,503 - INFO - Tearing Down Browser Session
+2026-05-21 16:17:59,182 - INFO - Test Run Concluded
+2026-05-21 16:17:59,182 - INFO - =======================================
+2026-05-21 16:27:42,525 - INFO - =======================================
+2026-05-21 16:27:42,527 - INFO - Starting Test Execution Suite
+2026-05-21 16:27:42,527 - INFO - Browser : chrome
+2026-05-21 16:27:42,527 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 16:27:42,528 - INFO - Implicit Wait : 10
+2026-05-21 16:27:42,528 - INFO - Timeout : 20
+2026-05-21 16:27:42,528 - INFO - Headless : False
+2026-05-21 16:27:42,542 - INFO - ====== WebDriver manager ======
+2026-05-21 16:27:45,545 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 16:27:48,263 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 16:28:15,713 - INFO - Navigating to Travel Insurance page...
+2026-05-21 16:28:16,246 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 16:28:22,898 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 16:28:22,986 - INFO - Default selection cleared.
+2026-05-21 16:28:23,488 - INFO - Injecting search phrase query: UAE
+2026-05-21 16:28:24,601 - INFO - Checking filtered list match row for: UAE
+2026-05-21 16:28:26,034 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_162825.png
+2026-05-21 16:28:26,045 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 16:28:37,122 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 16:28:37,123 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 16:28:37,286 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 16:28:39,451 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_162837.png
+2026-05-21 16:28:40,100 - INFO - Successfully selected traveler option: 01
+2026-05-21 16:28:40,916 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 16:28:42,093 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_162841.png
+2026-05-21 16:28:42,367 - INFO - Selecting insurance plan column position index card: [1] via 'BUY NOW' hook...
+2026-05-21 16:28:49,293 - INFO - Executing Positive Test: Verifying Traveler details review block visibility.
+2026-05-21 16:28:49,293 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-21 16:28:53,737 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_pos_assert_traveller_details_form_view_20260521_162852.png
+2026-05-21 16:28:53,751 - INFO - Global Automation Engine: Logged milestone snapshot for: test_pos_assert_traveller_details_form_view [PASSED]
+2026-05-21 16:28:53,821 - INFO - Tearing Down Browser Session
+2026-05-21 16:28:59,720 - INFO - Test Run Concluded
+2026-05-21 16:28:59,725 - INFO - =======================================
+2026-05-21 16:38:14,924 - INFO - =======================================
+2026-05-21 16:38:14,925 - INFO - Starting Test Execution Suite
+2026-05-21 16:38:14,926 - INFO - Browser : chrome
+2026-05-21 16:38:14,926 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 16:38:14,926 - INFO - Implicit Wait : 10
+2026-05-21 16:38:14,927 - INFO - Timeout : 20
+2026-05-21 16:38:14,927 - INFO - Headless : False
+2026-05-21 16:38:14,948 - INFO - ====== WebDriver manager ======
+2026-05-21 16:38:17,340 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 16:38:19,635 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 16:38:31,134 - INFO - Navigating to Travel Insurance page...
+2026-05-21 16:38:31,472 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 16:38:34,235 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 16:38:34,340 - INFO - Default selection cleared.
+2026-05-21 16:38:34,842 - INFO - Injecting search phrase query: UAE
+2026-05-21 16:38:36,048 - INFO - Checking filtered list match row for: UAE
+2026-05-21 16:38:37,543 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_163837.png
+2026-05-21 16:38:37,549 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 16:38:48,280 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 16:38:48,280 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 16:38:48,464 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 16:38:49,901 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_163849.png
+2026-05-21 16:38:50,583 - INFO - Successfully selected traveler option: 01
+2026-05-21 16:38:51,291 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 16:38:52,347 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_163851.png
+2026-05-21 16:38:52,693 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-21 16:39:01,458 - INFO - Executing Positive Test: Processing full valid validation path for Rahul Sharma. Using plan column: 2
+2026-05-21 16:39:01,461 - INFO - Populating name field container: Rahul Sharma
+2026-05-21 16:39:05,328 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-21 16:39:05,486 - INFO - Locating gender selector component for profile value: Male
+2026-05-21 16:39:05,550 - INFO - Successfully selected gender option: Male
+2026-05-21 16:39:05,551 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-21 16:39:07,583 - INFO - Filing statement approval criteria profiles...
+2026-05-21 16:39:07,666 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-21 16:39:10,413 - INFO - Form passed validation checkpoints; OTP authentication module triggered.
+2026-05-21 16:39:10,753 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_pos_complete_valid_form_submission_data0__20260521_163910.png
+2026-05-21 16:39:10,753 - INFO - Global Automation Engine: Logged milestone snapshot for: test_pos_complete_valid_form_submission[data0] [PASSED]
+2026-05-21 16:39:10,762 - INFO - Tearing Down Browser Session
+2026-05-21 16:39:14,042 - INFO - Test Run Concluded
+2026-05-21 16:39:14,044 - INFO - =======================================
+2026-05-21 16:50:10,188 - INFO - =======================================
+2026-05-21 16:50:10,189 - INFO - Starting Test Execution Suite
+2026-05-21 16:50:10,189 - INFO - Browser : chrome
+2026-05-21 16:50:10,189 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-21 16:50:10,189 - INFO - Implicit Wait : 10
+2026-05-21 16:50:10,191 - INFO - Timeout : 20
+2026-05-21 16:50:10,191 - INFO - Headless : False
+2026-05-21 16:50:10,210 - INFO - ====== WebDriver manager ======
+2026-05-21 16:50:11,280 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 16:50:13,020 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-21 16:50:40,029 - INFO - Navigating to Travel Insurance page...
+2026-05-21 16:50:40,272 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-21 16:50:41,978 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-21 16:50:42,026 - INFO - Default selection cleared.
+2026-05-21 16:50:42,528 - INFO - Injecting search phrase query: UAE
+2026-05-21 16:50:43,465 - INFO - Checking filtered list match row for: UAE
+2026-05-21 16:50:44,789 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260521_165044.png
+2026-05-21 16:50:44,789 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-21 16:50:55,464 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-21 16:50:55,464 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-21 16:50:55,519 - INFO - Targeting formatted DOM text row option: 01
+2026-05-21 16:50:56,257 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260521_165056.png
+2026-05-21 16:50:56,299 - INFO - Successfully selected traveler option: 01
+2026-05-21 16:50:56,800 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-21 16:50:57,081 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260521_165056.png
+2026-05-21 16:50:57,182 - INFO - Executing Positive Test: Asserting Choose Plans Grid Matrix.
+2026-05-21 16:50:57,186 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-21 16:51:03,861 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_pos_assert_choose_your_plans_page_20260521_165103.png
+2026-05-21 16:51:03,861 - INFO - Global Automation Engine: Logged milestone snapshot for: test_pos_assert_choose_your_plans_page [PASSED]
+2026-05-21 16:51:03,865 - INFO - Tearing Down Browser Session
+2026-05-21 16:51:06,673 - INFO - Test Run Concluded
+2026-05-21 16:51:06,692 - INFO - =======================================
+2026-05-22 10:56:06,848 - INFO - =======================================
+2026-05-22 10:56:06,849 - INFO - Starting Test Execution Suite
+2026-05-22 10:56:06,850 - INFO - Browser : chrome
+2026-05-22 10:56:06,850 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-22 10:56:06,850 - INFO - Implicit Wait : 10
+2026-05-22 10:56:06,852 - INFO - Timeout : 20
+2026-05-22 10:56:06,852 - INFO - Headless : False
+2026-05-22 10:56:06,876 - INFO - ====== WebDriver manager ======
+2026-05-22 10:56:12,804 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-22 10:56:14,611 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-22 10:56:15,704 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache
+2026-05-22 10:56:21,285 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-22 10:56:22,529 - INFO - Loaded 1 records. Executing single-flow execution batch...
+2026-05-22 10:56:22,546 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
+2026-05-22 10:56:27,919 - INFO - Navigating to Travel Insurance page...
+2026-05-22 10:56:28,868 - ERROR - Flow interrupted during profile process sequence [Rahul Sharma]: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
 Stacktrace:
-	chromedriver!GetHandleVerifier [0xf8b593+105d3]
-	chromedriver!GetHandleVerifier [0xf8b6c4+10704]
-	chromedriver!(No symbol) [0xd91cde]
-	chromedriver!(No symbol) [0xdcfb77]
-	chromedriver!(No symbol) [0xdfd636]
-	chromedriver!(No symbol) [0xdf8861]
-	chromedriver!(No symbol) [0xdf8241]
-	chromedriver!(No symbol) [0xd6502e]
-	chromedriver!(No symbol) [0xd655ce]
-	chromedriver!(No symbol) [0xd65aad]
-	chromedriver!GetHandleVerifier [0x1213014+298054]
-	chromedriver!GetHandleVerifier [0x120e603+293643]
-	chromedriver!GetHandleVerifier [0x122ea05+2b3a45]
-	chromedriver!GetHandleVerifier [0xfa54e8+2a528]
-	chromedriver!GetHandleVerifier [0xfacd1d+31d5d]
-	chromedriver!(No symbol) [0xd64ba6]
-	chromedriver!(No symbol) [0xd641e0]
-	chromedriver!GetHandleVerifier [0x13787af+3fd7ef]
-	KERNEL32!BaseThreadInitThunk [0x76135d49+19]
-	ntdll!RtlInitializeExceptionChain [0x77e2d83b+6b]
-	ntdll!RtlGetAppContainerNamedObjectPath [0x77e2d7c1+231]
+	chromedriver!GetHandleVerifier [0x7ff64d397de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff64d397e50+14900]
+	chromedriver!(No symbol) [0x7ff64d0fd396]
+	chromedriver!(No symbol) [0x7ff64d148e76]
+	chromedriver!(No symbol) [0x7ff64d17ff62]
+	chromedriver!(No symbol) [0x7ff64d179d7f]
+	chromedriver!(No symbol) [0x7ff64d179543]
+	chromedriver!(No symbol) [0x7ff64d0c6325]
+	chromedriver!GetHandleVerifier [0x7ff64d6acc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff64d6a7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff64d6cbc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff64d3b6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff64d3becec+3b79c]
+	chromedriver!(No symbol) [0x7ff64d0c50bc]
+	chromedriver!GetHandleVerifier [0x7ff64d810b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffae137e957+17]
+	ntdll!RtlUserThreadStart [0x7ffae276427c+2c]
 
-2026-05-20 15:20:16,489 - INFO - Closing Browser
-2026-05-20 15:20:19,457 - INFO - Ending Test
-2026-05-20 15:20:19,457 - INFO - =======================================
-2026-05-20 15:31:22,895 - INFO - =======================================
-2026-05-20 15:31:22,895 - INFO - Starting Test
-2026-05-20 15:31:22,897 - INFO - Browser : chrome
-2026-05-20 15:31:22,897 - INFO - Base URL : https://www.makemytrip.com/
-2026-05-20 15:31:22,897 - INFO - Implicit Wait : 10
-2026-05-20 15:31:22,897 - INFO - Timeout : 20
-2026-05-20 15:31:22,898 - INFO - Headless : False
-2026-05-20 15:31:22,920 - INFO - ====== WebDriver manager ======
-2026-05-20 15:31:26,333 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache by browser version
-2026-05-20 15:31:29,794 - INFO - Opening URL : https://www.makemytrip.com/
-2026-05-20 15:31:39,048 - INFO - Navigating to Travel Insurance page...
-2026-05-20 15:31:39,707 - INFO - Opening Country/Region selection dropdown popup...
-2026-05-20 15:31:41,095 - INFO - Targeting and removing default 'Thailand' selection...
-2026-05-20 15:31:41,200 - INFO - Default selection cleared.
-2026-05-20 15:31:41,702 - INFO - Injecting search phrase query: UAE
-2026-05-20 15:31:42,748 - INFO - Checking filtered list match row for: UAE
-2026-05-20 15:31:44,215 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260520_153143.png
-2026-05-20 15:31:44,228 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
-2026-05-20 15:31:55,159 - INFO - Apply button clicked successfully and dropdown closed.
-2026-05-20 15:31:55,160 - INFO - Triggering traveler count selection pane for value: 1
-2026-05-20 15:31:55,241 - INFO - Targeting formatted DOM text row option: 01
-2026-05-20 15:31:56,136 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260520_153155.png
-2026-05-20 15:31:56,186 - INFO - Successfully selected traveler option: 01
-2026-05-20 15:31:56,687 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
-2026-05-20 15:31:56,960 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260520_153156.png
-2026-05-20 15:31:57,101 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
-2026-05-20 15:32:04,995 - INFO - Executing Negative Test (Blank DOB) for user: Rahul Sharma. Using plan column: 2
-2026-05-20 15:32:04,997 - INFO - Populating name field container: Rahul Sharma
-2026-05-20 15:32:06,987 - INFO - Processing and passing raw date of birth data: 
-2026-05-20 15:32:07,230 - INFO - Locating gender selector component for profile value: Male
-2026-05-20 15:32:07,344 - INFO - Successfully selected gender option: Male
-2026-05-20 15:32:07,344 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
-2026-05-20 15:32:09,475 - INFO - Filing statement approval criteria profiles...
-2026-05-20 15:32:09,575 - INFO - Executing final checkout submit sequence layout pass...
-2026-05-20 15:32:10,091 - INFO - Closing Browser
-2026-05-20 15:32:13,355 - INFO - Ending Test
-2026-05-20 15:32:13,355 - INFO - =======================================
-2026-05-20 15:56:54,394 - INFO - =======================================
-2026-05-20 15:56:54,394 - INFO - Starting Test
-2026-05-20 15:56:54,395 - INFO - Browser : chrome
-2026-05-20 15:56:54,395 - INFO - Base URL : https://www.makemytrip.com/
-2026-05-20 15:56:54,395 - INFO - Implicit Wait : 10
-2026-05-20 15:56:54,395 - INFO - Timeout : 20
-2026-05-20 15:56:54,395 - INFO - Headless : False
-2026-05-20 15:56:54,419 - INFO - ====== WebDriver manager ======
-2026-05-20 15:56:57,177 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache by browser version
-2026-05-20 15:56:58,897 - INFO - Opening URL : https://www.makemytrip.com/
-2026-05-20 15:57:06,286 - INFO - Navigating to Travel Insurance page...
-2026-05-20 15:57:06,582 - INFO - Opening Country/Region selection dropdown popup...
-2026-05-20 15:57:08,152 - INFO - Targeting and removing default 'Thailand' selection...
-2026-05-20 15:57:08,201 - INFO - Default selection cleared.
-2026-05-20 15:57:08,702 - INFO - Injecting search phrase query: UAE
-2026-05-20 15:57:09,697 - INFO - Checking filtered list match row for: UAE
-2026-05-20 15:57:11,268 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260520_155710.png
-2026-05-20 15:57:11,272 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
-2026-05-20 15:57:22,060 - INFO - Apply button clicked successfully and dropdown closed.
-2026-05-20 15:57:22,062 - INFO - Triggering traveler count selection pane for value: 1
-2026-05-20 15:57:22,161 - INFO - Targeting formatted DOM text row option: 01
-2026-05-20 15:57:23,169 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260520_155722.png
-2026-05-20 15:57:23,214 - INFO - Successfully selected traveler option: 01
-2026-05-20 15:57:23,715 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
-2026-05-20 15:57:24,103 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260520_155723.png
-2026-05-20 15:57:24,215 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
-2026-05-20 15:57:31,776 - INFO - Executing Negative Test (Blank DOB) for user: Rahul Sharma. Using plan column: 2
-2026-05-20 15:57:31,776 - INFO - Populating name field container: Rahul Sharma
-2026-05-20 15:57:33,219 - INFO - Processing and passing raw date of birth data: 
-2026-05-20 15:57:33,219 - INFO - Locating gender selector component for profile value: Male
-2026-05-20 15:57:33,295 - INFO - Successfully selected gender option: Male
-2026-05-20 15:57:33,296 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
-2026-05-20 15:57:35,097 - INFO - Filing statement approval criteria profiles...
-2026-05-20 15:57:35,182 - INFO - Executing final checkout submit sequence layout pass...
-2026-05-20 15:57:35,584 - INFO - Closing Browser
-2026-05-20 15:57:38,366 - INFO - Ending Test
-2026-05-20 15:57:38,367 - INFO - =======================================
+2026-05-22 10:56:29,818 - ERROR - Global Automation Engine Failed to execute screen snapshot logic: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff64d397de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff64d397e50+14900]
+	chromedriver!(No symbol) [0x7ff64d0fd396]
+	chromedriver!(No symbol) [0x7ff64d148e76]
+	chromedriver!(No symbol) [0x7ff64d17ff62]
+	chromedriver!(No symbol) [0x7ff64d179d7f]
+	chromedriver!(No symbol) [0x7ff64d179543]
+	chromedriver!(No symbol) [0x7ff64d0c6325]
+	chromedriver!GetHandleVerifier [0x7ff64d6acc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff64d6a7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff64d6cbc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff64d3b6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff64d3becec+3b79c]
+	chromedriver!(No symbol) [0x7ff64d0c50bc]
+	chromedriver!GetHandleVerifier [0x7ff64d810b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffae137e957+17]
+	ntdll!RtlUserThreadStart [0x7ffae276427c+2c]
+
+2026-05-22 10:56:29,831 - INFO - Tearing Down Browser Session
+2026-05-22 10:56:32,463 - INFO - Test Run Concluded
+2026-05-22 10:56:32,464 - INFO - =======================================
+2026-05-22 11:07:50,519 - INFO - =======================================
+2026-05-22 11:07:50,520 - INFO - Starting Test Execution Suite
+2026-05-22 11:07:50,520 - INFO - Browser : chrome
+2026-05-22 11:07:50,521 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-22 11:07:50,521 - INFO - Implicit Wait : 10
+2026-05-22 11:07:50,521 - INFO - Timeout : 20
+2026-05-22 11:07:50,522 - INFO - Headless : False
+2026-05-22 11:07:50,541 - INFO - ====== WebDriver manager ======
+2026-05-22 11:07:53,754 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-22 11:07:54,551 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-22 11:07:55,184 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache
+2026-05-22 11:07:58,417 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-22 11:08:02,114 - INFO - Loaded 1 records. Executing single-flow execution batch...
+2026-05-22 11:08:02,115 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
+2026-05-22 11:08:16,406 - INFO - Navigating to Travel Insurance page...
+2026-05-22 11:08:20,051 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 11:08:20,298 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 11:08:20,331 - INFO - Default selection cleared.
+2026-05-22 11:08:20,833 - INFO - Injecting search phrase query: UAE
+2026-05-22 11:08:23,031 - INFO - Checking filtered list match row for: UAE
+2026-05-22 11:08:24,556 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260522_110824.png
+2026-05-22 11:08:25,154 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 11:08:36,386 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 11:08:36,387 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-22 11:08:36,479 - INFO - Targeting formatted DOM text row option: 01
+2026-05-22 11:08:37,319 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260522_110837.png
+2026-05-22 11:08:37,378 - INFO - Successfully selected traveler option: 01
+2026-05-22 11:08:37,880 - INFO - Directly triggering search submission via Explore Plans...
+2026-05-22 11:08:37,880 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 11:08:38,131 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260522_110837.png
+2026-05-22 11:08:40,716 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-22 11:08:44,171 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-22 11:08:46,370 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-22 11:08:46,431 - INFO - Populating name field container: Rahul Sharma
+2026-05-22 11:08:47,191 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-22 11:08:47,329 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 11:08:47,389 - INFO - Successfully selected gender option: Male
+2026-05-22 11:08:47,389 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-22 11:08:48,971 - INFO - Filing statement approval criteria profiles...
+2026-05-22 11:08:49,049 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 11:08:49,859 - INFO - Preparing to enter mobile number: 6395048812
+2026-05-22 11:08:51,957 - INFO - Toggling the user-consent checkbox to unlock the form...
+2026-05-22 11:08:53,062 - INFO - Clicking the Continue button...
+2026-05-22 11:08:53,189 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
+2026-05-22 11:08:53,190 - INFO - --- Completed Flow Iteration 1 Success ---
+2026-05-22 11:08:53,190 - INFO - Single-flow target successfully achieved. Stopping automation run here.
+2026-05-22 11:08:53,540 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_make_my_trip_insurance_e2e_single_flow_20260522_110853.png
+2026-05-22 11:08:53,540 - INFO - Global Automation Engine: Logged milestone snapshot for: test_make_my_trip_insurance_e2e_single_flow [PASSED]
+2026-05-22 11:08:53,540 - INFO - Tearing Down Browser Session
+2026-05-22 11:08:57,410 - INFO - Test Run Concluded
+2026-05-22 11:08:57,410 - INFO - =======================================
+2026-05-22 16:21:07,065 - INFO - =======================================
+2026-05-22 16:21:07,068 - INFO - Starting Test Execution Suite
+2026-05-22 16:21:07,068 - INFO - Browser : chrome
+2026-05-22 16:21:07,072 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-22 16:21:07,073 - INFO - Implicit Wait : 10
+2026-05-22 16:21:07,073 - INFO - Timeout : 20
+2026-05-22 16:21:07,074 - INFO - Headless : False
+2026-05-22 16:21:07,111 - INFO - ====== WebDriver manager ======
+2026-05-22 16:21:11,221 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-22 16:21:13,234 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-22 16:21:14,078 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache
+2026-05-22 16:21:16,842 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-22 16:21:20,510 - INFO - Loaded 1 records. Executing single-flow execution batch...
+2026-05-22 16:21:20,511 - INFO - --- Starting Flow Iteration 1 for: Rahul Sharma ---
+2026-05-22 16:21:32,670 - INFO - Navigating to Travel Insurance page...
+2026-05-22 16:21:35,028 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 16:21:35,361 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 16:21:35,399 - INFO - Default selection cleared.
+2026-05-22 16:21:35,901 - INFO - Injecting search phrase query: UAE
+2026-05-22 16:21:36,974 - INFO - Checking filtered list match row for: UAE
+2026-05-22 16:21:38,421 - INFO - Screenshot saved locally at: reports\screenshots\Country_Input_State_UAE_20260522_162138.png
+2026-05-22 16:21:38,432 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 16:21:49,163 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 16:21:49,166 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-22 16:21:49,286 - INFO - Targeting formatted DOM text row option: 01
+2026-05-22 16:21:50,123 - INFO - Screenshot saved locally at: reports\screenshots\Travellers_Dropdown_Before_Click_01_20260522_162149.png
+2026-05-22 16:21:50,182 - INFO - Successfully selected traveler option: 01
+2026-05-22 16:21:50,684 - INFO - Directly triggering search submission via Explore Plans...
+2026-05-22 16:21:50,685 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 16:21:51,083 - INFO - Screenshot saved locally at: reports\screenshots\Landing_Page_Before_Explore_Click_20260522_162150.png
+2026-05-22 16:21:53,704 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-22 16:21:56,581 - INFO - Selecting insurance plan column position index card: [2] via 'BUY NOW' hook...
+2026-05-22 16:21:58,898 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-22 16:21:58,942 - INFO - Populating name field container: Rahul Sharma
+2026-05-22 16:22:00,361 - INFO - Processing and passing raw date of birth data: 15-08-1995
+2026-05-22 16:22:00,748 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 16:22:00,854 - INFO - Successfully selected gender option: Male
+2026-05-22 16:22:00,856 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-22 16:22:02,875 - INFO - Filing statement approval criteria profiles...
+2026-05-22 16:22:02,966 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 16:22:03,875 - INFO - Preparing to enter mobile number: 6395048812
+2026-05-22 16:22:06,291 - INFO - Toggling the user-consent checkbox to unlock the form...
+2026-05-22 16:22:07,404 - INFO - Clicking the Continue button...
+2026-05-22 16:22:07,543 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
+2026-05-22 16:22:07,544 - INFO - --- Completed Flow Iteration 1 Success ---
+2026-05-22 16:22:07,544 - INFO - Single-flow target successfully achieved. Stopping automation run here.
+2026-05-22 16:22:08,068 - INFO - Screenshot saved locally at: reports\screenshots\PASSED_test_make_my_trip_insurance_e2e_single_flow_20260522_162207.png
+2026-05-22 16:22:08,070 - INFO - Global Automation Engine: Logged milestone snapshot for: test_make_my_trip_insurance_e2e_single_flow [PASSED]
+2026-05-22 16:22:08,072 - INFO - Tearing Down Browser Session
+2026-05-22 16:22:11,089 - INFO - Test Run Concluded
+2026-05-22 16:22:11,090 - INFO - =======================================

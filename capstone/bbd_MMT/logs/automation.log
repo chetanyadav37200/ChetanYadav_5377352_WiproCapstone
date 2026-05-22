@@ -1,0 +1,1345 @@
+2026-05-22 08:05:39,583 - INFO - =======================================
+2026-05-22 08:05:39,584 - INFO - Starting BDD Test Execution Suite
+2026-05-22 08:09:27,967 - INFO - =======================================
+2026-05-22 08:09:27,967 - INFO - Starting BDD Test Execution Suite
+2026-05-22 08:09:27,967 - INFO - Browser fetched : chrome
+2026-05-22 08:09:27,969 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 08:09:27,969 - INFO - Implicit wait fetched : 10
+2026-05-22 08:09:27,969 - INFO - Timeout fetched : 15
+2026-05-22 08:09:27,969 - INFO - Headless mode : False
+2026-05-22 08:09:27,969 - INFO - Browser       : chrome
+2026-05-22 08:09:27,970 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 08:09:27,970 - INFO - Implicit Wait : 10
+2026-05-22 08:09:27,970 - INFO - Headless      : False
+2026-05-22 08:09:27,970 - INFO - =======================================
+2026-05-22 08:09:27,977 - INFO - --> Initializing browser for Scenario: 'Validate plan grids and international insurance branding layouts'
+2026-05-22 08:09:28,014 - INFO - ====== WebDriver manager ======
+2026-05-22 08:09:31,294 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-22 08:09:32,948 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-22 08:09:34,293 - INFO - WebDriver version 148.0.7778.178 selected
+2026-05-22 08:09:34,306 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-22 08:09:34,306 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-22 08:09:34,886 - INFO - Driver downloading response is 200
+2026-05-22 08:09:38,451 - INFO - Driver has been saved in cache [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+2026-05-22 08:09:43,029 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 08:09:47,846 - INFO - Timeout fetched : 15
+2026-05-22 08:09:47,846 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:10:08,524 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:10:08,524 - INFO - Navigating to Travel Insurance page...
+2026-05-22 08:10:08,524 - INFO - Timeout fetched : 15
+2026-05-22 08:10:08,524 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 08:10:08,725 - INFO - Executing BDD Positive Test: Asserting Choose Plans Grid Matrix.
+2026-05-22 08:10:08,725 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-22 08:10:08,725 - INFO - Timeout fetched : 15
+2026-05-22 08:10:08,725 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-22 08:10:29,300 - ERROR - Timeout waiting for visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-22 08:10:29,853 - INFO - Screenshot saved at: reports/screenshots/FAILED_Validate_plan_grids_and_international_insurance_branding_layouts_20260522_081029.png
+2026-05-22 08:10:29,853 - INFO - BDD Automation Engine: Logged milestone snapshot for: Validate plan grids and international insurance branding layouts [FAILED]
+2026-05-22 08:10:29,853 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate plan grids and international insurance branding layouts'
+2026-05-22 08:10:32,999 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @1.1 '
+2026-05-22 08:10:33,000 - INFO - ====== WebDriver manager ======
+2026-05-22 08:10:34,727 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 08:10:37,995 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 08:10:38,783 - INFO - Timeout fetched : 15
+2026-05-22 08:10:38,784 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:10:42,194 - INFO - Navigating to Travel Insurance page...
+2026-05-22 08:10:42,194 - INFO - Timeout fetched : 15
+2026-05-22 08:10:42,194 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 08:10:42,336 - ERROR - Global Automation Engine failed to extract scenario screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b46f7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7b46f7e50+14900]
+	chromedriver!(No symbol) [0x7ff7b445d396]
+	chromedriver!(No symbol) [0x7ff7b44a8e76]
+	chromedriver!(No symbol) [0x7ff7b44dff62]
+	chromedriver!(No symbol) [0x7ff7b44d9d7f]
+	chromedriver!(No symbol) [0x7ff7b44d9543]
+	chromedriver!(No symbol) [0x7ff7b4426325]
+	chromedriver!GetHandleVerifier [0x7ff7b4a0cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7b4a07375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7b4a2bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7b4716045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7b471ecec+3b79c]
+	chromedriver!(No symbol) [0x7ff7b44250bc]
+	chromedriver!GetHandleVerifier [0x7ff7b4b70b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffc388ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffc3a92427c+2c]
+
+2026-05-22 08:10:42,337 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @1.1 '
+2026-05-22 08:10:44,603 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @1.2 '
+2026-05-22 08:10:44,603 - INFO - ====== WebDriver manager ======
+2026-05-22 08:10:46,119 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 08:10:47,454 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 08:10:48,177 - INFO - Timeout fetched : 15
+2026-05-22 08:10:48,177 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:11:08,789 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:11:08,791 - INFO - Navigating to Travel Insurance page...
+2026-05-22 08:11:08,791 - INFO - Timeout fetched : 15
+2026-05-22 08:11:08,791 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 08:11:29,357 - ERROR - Timeout waiting for clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 08:11:29,560 - INFO - Screenshot saved at: reports/screenshots/FAILED_Validate_traveler_details_form_validation_logic_errors_--_@1.2__20260522_081129.png
+2026-05-22 08:11:29,560 - INFO - BDD Automation Engine: Logged milestone snapshot for: Validate traveler details form validation logic errors -- @1.2  [FAILED]
+2026-05-22 08:11:29,560 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @1.2 '
+2026-05-22 08:11:32,012 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @1.3 '
+2026-05-22 08:11:32,012 - INFO - ====== WebDriver manager ======
+2026-05-22 08:11:32,850 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 08:11:34,256 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 08:11:34,908 - INFO - Timeout fetched : 15
+2026-05-22 08:11:34,908 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:11:55,505 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:11:55,506 - INFO - Navigating to Travel Insurance page...
+2026-05-22 08:11:55,506 - INFO - Timeout fetched : 15
+2026-05-22 08:11:55,506 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 08:12:16,069 - ERROR - Timeout waiting for clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 08:12:16,356 - INFO - Screenshot saved at: reports/screenshots/FAILED_Validate_traveler_details_form_validation_logic_errors_--_@1.3__20260522_081216.png
+2026-05-22 08:12:16,356 - INFO - BDD Automation Engine: Logged milestone snapshot for: Validate traveler details form validation logic errors -- @1.3  [FAILED]
+2026-05-22 08:12:16,356 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @1.3 '
+2026-05-22 08:12:19,086 - INFO - --> Initializing browser for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 08:12:19,087 - INFO - ====== WebDriver manager ======
+2026-05-22 08:12:19,863 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 08:12:20,916 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 08:12:21,609 - INFO - Timeout fetched : 15
+2026-05-22 08:12:21,609 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:12:23,546 - INFO - Navigating to Travel Insurance page...
+2026-05-22 08:12:23,546 - INFO - Timeout fetched : 15
+2026-05-22 08:12:23,546 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 08:12:23,748 - ERROR - Global Automation Engine failed to extract scenario screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7b46f7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7b46f7e50+14900]
+	chromedriver!(No symbol) [0x7ff7b445d396]
+	chromedriver!(No symbol) [0x7ff7b44a8e76]
+	chromedriver!(No symbol) [0x7ff7b44dff62]
+	chromedriver!(No symbol) [0x7ff7b44d9d7f]
+	chromedriver!(No symbol) [0x7ff7b44d9543]
+	chromedriver!(No symbol) [0x7ff7b4426325]
+	chromedriver!GetHandleVerifier [0x7ff7b4a0cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7b4a07375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7b4a2bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7b4716045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7b471ecec+3b79c]
+	chromedriver!(No symbol) [0x7ff7b44250bc]
+	chromedriver!GetHandleVerifier [0x7ff7b4b70b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffc388ee957+17]
+	ntdll!RtlUserThreadStart [0x7ffc3a92427c+2c]
+
+2026-05-22 08:12:23,748 - INFO - <-- Tearing Down Browser Session for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 08:26:57,155 - INFO - =======================================
+2026-05-22 08:26:57,155 - INFO - Starting BDD Test Execution Suite
+2026-05-22 08:26:57,155 - INFO - Browser fetched : chrome
+2026-05-22 08:26:57,156 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 08:26:57,156 - INFO - Implicit wait fetched : 10
+2026-05-22 08:26:57,156 - INFO - Timeout fetched : 15
+2026-05-22 08:26:57,156 - INFO - Headless mode : False
+2026-05-22 08:26:57,156 - INFO - Browser       : chrome
+2026-05-22 08:26:57,156 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 08:26:57,157 - INFO - Implicit Wait : 10
+2026-05-22 08:26:57,157 - INFO - Headless      : False
+2026-05-22 08:26:57,157 - INFO - =======================================
+2026-05-22 08:26:57,162 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 08:26:57,177 - INFO - ====== WebDriver manager ======
+2026-05-22 08:26:58,266 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 08:26:59,685 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 08:27:05,068 - INFO - Timeout fetched : 15
+2026-05-22 08:27:05,068 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:27:25,764 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:27:25,765 - INFO - Navigating to Travel Insurance page...
+2026-05-22 08:27:25,766 - INFO - Timeout fetched : 15
+2026-05-22 08:27:25,766 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 08:27:26,009 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 08:27:26,009 - INFO - Timeout fetched : 15
+2026-05-22 08:27:26,010 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 08:27:27,464 - INFO - Timeout fetched : 15
+2026-05-22 08:27:27,464 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 08:27:27,523 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 08:27:27,563 - INFO - Default selection cleared.
+2026-05-22 08:27:28,064 - INFO - Injecting search phrase query: UAE
+2026-05-22 08:27:28,064 - INFO - Timeout fetched : 15
+2026-05-22 08:27:28,064 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 08:27:28,978 - INFO - Checking filtered list match row for: UAE
+2026-05-22 08:27:28,978 - INFO - Timeout fetched : 15
+2026-05-22 08:27:28,978 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 08:27:30,348 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_082730.png
+2026-05-22 08:27:30,349 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 08:27:30,349 - INFO - Timeout fetched : 15
+2026-05-22 08:27:30,349 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 08:27:30,954 - INFO - Timeout fetched : 15
+2026-05-22 08:27:30,955 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 08:27:40,993 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 08:27:40,994 - INFO - Triggering traveler count selection pane for value: 2
+2026-05-22 08:27:40,994 - INFO - Timeout fetched : 15
+2026-05-22 08:27:40,995 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 08:27:41,041 - INFO - Targeting formatted DOM text row option: 02
+2026-05-22 08:27:41,042 - INFO - Timeout fetched : 15
+2026-05-22 08:27:41,042 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='02'] | //div[text()='02' and contains(@style, 'cursor')] | //div[contains(text(), '02') and not(contains(@class, 'No'))]")
+2026-05-22 08:27:41,791 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_02_20260522_082741.png
+2026-05-22 08:27:41,825 - INFO - Successfully selected traveler option: 02
+2026-05-22 08:27:42,327 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 08:27:42,327 - INFO - Timeout fetched : 15
+2026-05-22 08:27:42,327 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 08:27:42,524 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_082742.png
+2026-05-22 08:27:45,085 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-22 08:27:45,085 - INFO - Timeout fetched : 15
+2026-05-22 08:27:45,085 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-22 08:27:46,865 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-22 08:27:46,865 - INFO - Timeout fetched : 15
+2026-05-22 08:27:46,865 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 08:27:49,505 - INFO - Screenshot saved at: reports/screenshots/FAILED_Validate_traveler_details_form_validation_logic_errors_--_@1.1_John_Doe_-_Blank_DOB_20260522_082749.png
+2026-05-22 08:27:49,507 - INFO - BDD Automation Engine: Logged milestone snapshot for: Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB [FAILED]
+2026-05-22 08:27:49,508 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 08:41:32,312 - INFO - =======================================
+2026-05-22 08:41:32,314 - INFO - Starting BDD Test Execution Suite
+2026-05-22 08:41:32,314 - INFO - Browser fetched : chrome
+2026-05-22 08:41:32,315 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 08:41:32,315 - INFO - Implicit wait fetched : 10
+2026-05-22 08:41:32,315 - INFO - Timeout fetched : 15
+2026-05-22 08:41:32,315 - INFO - Headless mode : False
+2026-05-22 08:41:32,315 - INFO - Browser       : chrome
+2026-05-22 08:41:32,315 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 08:41:32,315 - INFO - Implicit Wait : 10
+2026-05-22 08:41:32,315 - INFO - Headless      : False
+2026-05-22 08:41:32,315 - INFO - =======================================
+2026-05-22 08:41:32,322 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 08:41:32,331 - INFO - ====== WebDriver manager ======
+2026-05-22 08:41:33,871 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 08:41:35,955 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 08:41:40,400 - INFO - Timeout fetched : 15
+2026-05-22 08:41:40,400 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:42:01,094 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:42:01,102 - INFO - Navigating to Travel Insurance page...
+2026-05-22 08:42:01,102 - INFO - Timeout fetched : 15
+2026-05-22 08:42:01,102 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 08:42:01,352 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 08:42:01,352 - INFO - Timeout fetched : 15
+2026-05-22 08:42:01,352 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 08:42:03,255 - INFO - Timeout fetched : 15
+2026-05-22 08:42:03,255 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 08:42:03,315 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 08:42:03,373 - INFO - Default selection cleared.
+2026-05-22 08:42:03,874 - INFO - Injecting search phrase query: UAE
+2026-05-22 08:42:03,874 - INFO - Timeout fetched : 15
+2026-05-22 08:42:03,874 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 08:42:04,762 - INFO - Checking filtered list match row for: UAE
+2026-05-22 08:42:04,762 - INFO - Timeout fetched : 15
+2026-05-22 08:42:04,762 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 08:42:06,117 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_084205.png
+2026-05-22 08:42:06,119 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 08:42:06,120 - INFO - Timeout fetched : 15
+2026-05-22 08:42:06,120 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 08:42:06,786 - INFO - Timeout fetched : 15
+2026-05-22 08:42:06,786 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 08:42:16,806 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 08:42:16,807 - INFO - Triggering traveler count selection pane for value: 2
+2026-05-22 08:42:16,807 - INFO - Timeout fetched : 15
+2026-05-22 08:42:16,807 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 08:42:16,874 - INFO - Targeting formatted DOM text row option: 02
+2026-05-22 08:42:16,874 - INFO - Timeout fetched : 15
+2026-05-22 08:42:16,874 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='02'] | //div[text()='02' and contains(@style, 'cursor')] | //div[contains(text(), '02') and not(contains(@class, 'No'))]")
+2026-05-22 08:42:17,631 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_02_20260522_084217.png
+2026-05-22 08:42:17,663 - INFO - Successfully selected traveler option: 02
+2026-05-22 08:42:18,165 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 08:42:18,166 - INFO - Timeout fetched : 15
+2026-05-22 08:42:18,166 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 08:42:18,421 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_084218.png
+2026-05-22 08:42:21,000 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-22 08:42:21,000 - INFO - Timeout fetched : 15
+2026-05-22 08:42:21,000 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-22 08:42:23,835 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-22 08:42:23,837 - INFO - Timeout fetched : 15
+2026-05-22 08:42:23,837 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 08:42:26,200 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-22 08:42:26,200 - INFO - Timeout fetched : 15
+2026-05-22 08:42:26,200 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-22 08:42:31,628 - INFO - Regex Engine Active: Validating profile form parameters for [John Doe]
+2026-05-22 08:42:31,628 - INFO - Populating name field container: John Doe
+2026-05-22 08:42:31,628 - INFO - Timeout fetched : 15
+2026-05-22 08:42:31,628 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-22 08:42:32,304 - INFO - Processing and passing raw date of birth data: 
+2026-05-22 08:42:32,304 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 08:42:32,304 - INFO - Timeout fetched : 15
+2026-05-22 08:42:32,304 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-22 08:42:32,346 - INFO - Successfully selected gender option: Male
+2026-05-22 08:42:32,346 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-22 08:42:32,347 - INFO - Timeout fetched : 15
+2026-05-22 08:42:32,347 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-22 08:42:32,900 - INFO - Timeout fetched : 15
+2026-05-22 08:42:32,900 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-22 08:42:33,510 - INFO - Filing statement approval criteria profiles...
+2026-05-22 08:42:33,510 - INFO - Timeout fetched : 15
+2026-05-22 08:42:33,510 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-22 08:42:33,537 - INFO - Timeout fetched : 15
+2026-05-22 08:42:33,538 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-22 08:42:33,563 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 08:42:33,564 - INFO - Timeout fetched : 15
+2026-05-22 08:42:33,564 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-22 08:42:33,644 - INFO - Timeout fetched : 15
+2026-05-22 08:42:33,645 - INFO - Waiting for element visibility: ('xpath', "//span[contains(text(), 'Date of Birth') or contains(text(), 'birth')]")
+2026-05-22 08:42:54,228 - ERROR - Timeout waiting for visibility: ('xpath', "//span[contains(text(), 'Date of Birth') or contains(text(), 'birth')]")
+2026-05-22 08:42:54,584 - INFO - Screenshot saved at: reports/screenshots/FAILED_Validate_traveler_details_form_validation_logic_errors_--_@1.1_John_Doe_-_Blank_DOB_20260522_084254.png
+2026-05-22 08:42:54,584 - INFO - BDD Automation Engine: Logged milestone snapshot for: Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB [FAILED]
+2026-05-22 08:42:54,584 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 08:56:51,713 - INFO - =======================================
+2026-05-22 08:56:51,713 - INFO - Starting BDD Test Execution Suite
+2026-05-22 08:56:51,713 - INFO - Browser fetched : chrome
+2026-05-22 08:56:51,714 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 08:56:51,714 - INFO - Implicit wait fetched : 10
+2026-05-22 08:56:51,714 - INFO - Timeout fetched : 15
+2026-05-22 08:56:51,714 - INFO - Headless mode : False
+2026-05-22 08:56:51,714 - INFO - Browser       : chrome
+2026-05-22 08:56:51,714 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 08:56:51,714 - INFO - Implicit Wait : 10
+2026-05-22 08:56:51,714 - INFO - Headless      : False
+2026-05-22 08:56:51,714 - INFO - =======================================
+2026-05-22 08:56:51,720 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 08:56:51,736 - INFO - ====== WebDriver manager ======
+2026-05-22 08:56:53,106 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 08:56:54,666 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 08:57:01,152 - INFO - Timeout fetched : 15
+2026-05-22 08:57:01,152 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:57:21,740 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 08:57:21,741 - INFO - Navigating to Travel Insurance page...
+2026-05-22 08:57:21,741 - INFO - Timeout fetched : 15
+2026-05-22 08:57:21,741 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 08:57:21,982 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 08:57:21,983 - INFO - Timeout fetched : 15
+2026-05-22 08:57:21,983 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 08:57:23,932 - INFO - Timeout fetched : 15
+2026-05-22 08:57:23,932 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 08:57:23,981 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 08:57:24,011 - INFO - Default selection cleared.
+2026-05-22 08:57:24,519 - INFO - Injecting search phrase query: UAE
+2026-05-22 08:57:24,519 - INFO - Timeout fetched : 15
+2026-05-22 08:57:24,519 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 08:57:25,440 - INFO - Checking filtered list match row for: UAE
+2026-05-22 08:57:25,440 - INFO - Timeout fetched : 15
+2026-05-22 08:57:25,440 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 08:57:26,782 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_085726.png
+2026-05-22 08:57:26,784 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 08:57:26,784 - INFO - Timeout fetched : 15
+2026-05-22 08:57:26,784 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 08:57:27,412 - INFO - Timeout fetched : 15
+2026-05-22 08:57:27,412 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 08:57:37,471 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 08:57:37,473 - INFO - Triggering traveler count selection pane for value: 2
+2026-05-22 08:57:37,473 - INFO - Timeout fetched : 15
+2026-05-22 08:57:37,473 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 08:57:37,530 - INFO - Targeting formatted DOM text row option: 02
+2026-05-22 08:57:37,532 - INFO - Timeout fetched : 15
+2026-05-22 08:57:37,532 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='02'] | //div[text()='02' and contains(@style, 'cursor')] | //div[contains(text(), '02') and not(contains(@class, 'No'))]")
+2026-05-22 08:57:38,321 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_02_20260522_085738.png
+2026-05-22 08:57:38,347 - INFO - Successfully selected traveler option: 02
+2026-05-22 08:57:38,849 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 08:57:38,849 - INFO - Timeout fetched : 15
+2026-05-22 08:57:38,849 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 08:57:39,103 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_085738.png
+2026-05-22 08:57:41,688 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-22 08:57:41,688 - INFO - Timeout fetched : 15
+2026-05-22 08:57:41,688 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-22 08:57:43,188 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-22 08:57:43,188 - INFO - Timeout fetched : 15
+2026-05-22 08:57:43,188 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 08:57:45,629 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-22 08:57:45,629 - INFO - Timeout fetched : 15
+2026-05-22 08:57:45,631 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-22 08:57:45,718 - INFO - Regex Engine Active: Validating profile form parameters for [John Doe]
+2026-05-22 08:57:45,718 - INFO - Populating name field container: John Doe
+2026-05-22 08:57:45,718 - INFO - Timeout fetched : 15
+2026-05-22 08:57:45,718 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-22 08:57:46,799 - INFO - Processing and passing raw date of birth data: 
+2026-05-22 08:57:46,799 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 08:57:46,799 - INFO - Timeout fetched : 15
+2026-05-22 08:57:46,799 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-22 08:57:46,845 - INFO - Successfully selected gender option: Male
+2026-05-22 08:57:46,845 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-22 08:57:46,846 - INFO - Timeout fetched : 15
+2026-05-22 08:57:46,846 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-22 08:57:47,898 - INFO - Timeout fetched : 15
+2026-05-22 08:57:47,898 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-22 08:57:49,086 - INFO - Filing statement approval criteria profiles...
+2026-05-22 08:57:49,086 - INFO - Timeout fetched : 15
+2026-05-22 08:57:49,086 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-22 08:57:49,115 - INFO - Timeout fetched : 15
+2026-05-22 08:57:49,115 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-22 08:57:49,143 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 08:57:49,143 - INFO - Timeout fetched : 15
+2026-05-22 08:57:49,143 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-22 08:57:49,229 - INFO - Timeout fetched : 15
+2026-05-22 08:57:49,229 - INFO - Waiting for element visibility: ('xpath', "//span[contains(text(), 'Date of Birth') or contains(text(), 'birth')]")
+2026-05-22 08:57:49,564 - INFO - Screenshot saved at: reports/screenshots/PASSED_Validate_traveler_details_form_validation_logic_errors_--_@1.1_John_Doe_-_Blank_DOB_20260522_085749.png
+2026-05-22 08:57:49,565 - INFO - BDD Automation Engine: Logged milestone snapshot for: Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB [PASSED]
+2026-05-22 08:57:49,565 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 09:16:36,800 - INFO - =======================================
+2026-05-22 09:16:36,802 - INFO - Starting BDD Test Execution Suite
+2026-05-22 09:16:36,802 - INFO - Browser fetched : chrome
+2026-05-22 09:16:36,803 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 09:16:36,804 - INFO - Implicit wait fetched : 10
+2026-05-22 09:16:36,804 - INFO - Timeout fetched : 15
+2026-05-22 09:16:36,805 - INFO - Headless mode : False
+2026-05-22 09:16:36,805 - INFO - Browser       : chrome
+2026-05-22 09:16:36,805 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 09:16:36,805 - INFO - Implicit Wait : 10
+2026-05-22 09:16:36,806 - INFO - Headless      : False
+2026-05-22 09:16:36,806 - INFO - =======================================
+2026-05-22 09:16:36,821 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @2.1 Jane Smith - Blank Mobile'
+2026-05-22 09:16:36,854 - INFO - ====== WebDriver manager ======
+2026-05-22 09:16:39,070 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 09:16:41,497 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 09:16:48,549 - INFO - Timeout fetched : 15
+2026-05-22 09:16:48,549 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:17:09,291 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:17:09,293 - INFO - Navigating to Travel Insurance page...
+2026-05-22 09:17:09,293 - INFO - Timeout fetched : 15
+2026-05-22 09:17:09,293 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 09:17:10,059 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 09:17:10,061 - INFO - Timeout fetched : 15
+2026-05-22 09:17:10,090 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 09:17:15,238 - INFO - Timeout fetched : 15
+2026-05-22 09:17:15,238 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 09:17:15,314 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 09:17:15,392 - INFO - Default selection cleared.
+2026-05-22 09:17:15,894 - INFO - Injecting search phrase query: UAE
+2026-05-22 09:17:15,894 - INFO - Timeout fetched : 15
+2026-05-22 09:17:15,894 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 09:17:17,165 - INFO - Checking filtered list match row for: UAE
+2026-05-22 09:17:17,165 - INFO - Timeout fetched : 15
+2026-05-22 09:17:17,165 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 09:17:18,646 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_091718.png
+2026-05-22 09:17:18,651 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 09:17:18,651 - INFO - Timeout fetched : 15
+2026-05-22 09:17:18,651 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 09:17:19,383 - INFO - Timeout fetched : 15
+2026-05-22 09:17:19,383 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 09:17:29,444 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 09:17:29,458 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-22 09:17:29,458 - INFO - Timeout fetched : 15
+2026-05-22 09:17:29,458 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 09:17:29,599 - INFO - Targeting formatted DOM text row option: 01
+2026-05-22 09:17:29,599 - INFO - Timeout fetched : 15
+2026-05-22 09:17:29,599 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-22 09:17:30,495 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260522_091730.png
+2026-05-22 09:17:30,593 - INFO - Successfully selected traveler option: 01
+2026-05-22 09:17:31,096 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 09:17:31,096 - INFO - Timeout fetched : 15
+2026-05-22 09:17:31,098 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 09:17:31,466 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_091731.png
+2026-05-22 09:17:34,108 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-22 09:17:34,108 - INFO - Timeout fetched : 15
+2026-05-22 09:17:34,108 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-22 09:17:37,530 - INFO - Selecting insurance plan column position index card: [2] via dynamic locators...
+2026-05-22 09:17:37,530 - INFO - Timeout fetched : 15
+2026-05-22 09:17:37,530 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][2]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 09:17:39,902 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-22 09:17:39,902 - INFO - Timeout fetched : 15
+2026-05-22 09:17:39,904 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-22 09:17:40,018 - INFO - Regex Engine Active: Validating profile form parameters for [Jane Smith]
+2026-05-22 09:17:40,019 - INFO - Populating name field container: Jane Smith
+2026-05-22 09:17:40,019 - INFO - Timeout fetched : 15
+2026-05-22 09:17:40,019 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-22 09:17:41,772 - INFO - Processing and passing raw date of birth data: 15081995
+2026-05-22 09:17:41,772 - INFO - Timeout fetched : 15
+2026-05-22 09:17:41,772 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-22 09:17:42,754 - INFO - Locating gender selector component for profile value: Female
+2026-05-22 09:17:42,754 - INFO - Timeout fetched : 15
+2026-05-22 09:17:42,755 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Female')]] | //label[contains(text(), 'Female')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Female')]")
+2026-05-22 09:17:42,942 - INFO - Successfully selected gender option: Female
+2026-05-22 09:17:42,944 - INFO - Processing communication node tracking configurations -> Ph: 
+2026-05-22 09:17:42,944 - INFO - Timeout fetched : 15
+2026-05-22 09:17:42,944 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-22 09:17:43,868 - INFO - Timeout fetched : 15
+2026-05-22 09:17:43,868 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-22 09:17:45,252 - INFO - Filing statement approval criteria profiles...
+2026-05-22 09:17:45,252 - INFO - Timeout fetched : 15
+2026-05-22 09:17:45,252 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-22 09:17:45,303 - INFO - Timeout fetched : 15
+2026-05-22 09:17:45,303 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-22 09:17:45,341 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 09:17:45,341 - INFO - Timeout fetched : 15
+2026-05-22 09:17:45,349 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-22 09:17:45,491 - INFO - Timeout fetched : 15
+2026-05-22 09:17:45,492 - INFO - Waiting for element visibility: ('xpath', "//span[@data-test-id='CountryCodeInput-ErrorTxt']")
+2026-05-22 09:17:46,035 - INFO - Screenshot saved at: reports/screenshots/PASSED_Validate_traveler_details_form_validation_logic_errors_--_@2.1_Jane_Smith_-_Blank_Mobile_20260522_091745.png
+2026-05-22 09:17:46,035 - INFO - BDD Automation Engine: Logged milestone snapshot for: Validate traveler details form validation logic errors -- @2.1 Jane Smith - Blank Mobile [PASSED]
+2026-05-22 09:17:46,035 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @2.1 Jane Smith - Blank Mobile'
+2026-05-22 09:19:01,025 - INFO - =======================================
+2026-05-22 09:19:01,026 - INFO - Starting BDD Test Execution Suite
+2026-05-22 09:19:01,026 - INFO - Browser fetched : chrome
+2026-05-22 09:19:01,027 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 09:19:01,027 - INFO - Implicit wait fetched : 10
+2026-05-22 09:19:01,028 - INFO - Timeout fetched : 15
+2026-05-22 09:19:01,028 - INFO - Headless mode : False
+2026-05-22 09:19:01,028 - INFO - Browser       : chrome
+2026-05-22 09:19:01,028 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 09:19:01,028 - INFO - Implicit Wait : 10
+2026-05-22 09:19:01,028 - INFO - Headless      : False
+2026-05-22 09:19:01,028 - INFO - =======================================
+2026-05-22 09:19:01,045 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @3.1 Alex Wilson - Invalid Mobile'
+2026-05-22 09:19:01,163 - INFO - ====== WebDriver manager ======
+2026-05-22 09:19:02,809 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 09:19:04,828 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 09:19:05,761 - INFO - Timeout fetched : 15
+2026-05-22 09:19:05,763 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:19:13,725 - INFO - Navigating to Travel Insurance page...
+2026-05-22 09:19:13,726 - INFO - Timeout fetched : 15
+2026-05-22 09:19:13,726 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 09:19:13,851 - ERROR - Global Automation Engine failed to extract scenario screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.179)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff748877de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff748877e50+14900]
+	chromedriver!(No symbol) [0x7ff7485dd5ad]
+	chromedriver!(No symbol) [0x7ff7485b40f2]
+	chromedriver!(No symbol) [0x7ff748666f56]
+	chromedriver!(No symbol) [0x7ff748684172]
+	chromedriver!(No symbol) [0x7ff748629df8]
+	chromedriver!(No symbol) [0x7ff74862ace3]
+	chromedriver!GetHandleVerifier [0x7ff748b8cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff748b87375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff748babc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff748896045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff74889ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff748881bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff748881d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7488660e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffae137e957+17]
+	ntdll!RtlUserThreadStart [0x7ffae276427c+2c]
+
+2026-05-22 09:19:13,851 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @3.1 Alex Wilson - Invalid Mobile'
+2026-05-22 09:26:38,932 - INFO - =======================================
+2026-05-22 09:26:38,932 - INFO - Starting BDD Test Execution Suite
+2026-05-22 09:26:38,933 - INFO - Browser fetched : chrome
+2026-05-22 09:26:38,933 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 09:26:38,934 - INFO - Implicit wait fetched : 10
+2026-05-22 09:26:38,934 - INFO - Timeout fetched : 15
+2026-05-22 09:26:38,934 - INFO - Headless mode : False
+2026-05-22 09:26:38,935 - INFO - Browser       : chrome
+2026-05-22 09:26:38,935 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 09:26:38,935 - INFO - Implicit Wait : 10
+2026-05-22 09:26:38,935 - INFO - Headless      : False
+2026-05-22 09:26:38,935 - INFO - =======================================
+2026-05-22 09:26:38,951 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @3.1 Alex Wilson - Invalid Mobile'
+2026-05-22 09:26:38,975 - INFO - ====== WebDriver manager ======
+2026-05-22 09:26:40,888 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 09:26:42,379 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 09:26:49,981 - INFO - Timeout fetched : 15
+2026-05-22 09:26:49,982 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:27:10,703 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:27:10,707 - INFO - Navigating to Travel Insurance page...
+2026-05-22 09:27:10,707 - INFO - Timeout fetched : 15
+2026-05-22 09:27:10,708 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 09:27:11,244 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 09:27:11,246 - INFO - Timeout fetched : 15
+2026-05-22 09:27:11,246 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 09:27:16,454 - INFO - Timeout fetched : 15
+2026-05-22 09:27:16,454 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 09:27:16,546 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 09:27:16,586 - INFO - Default selection cleared.
+2026-05-22 09:27:17,087 - INFO - Injecting search phrase query: UAE
+2026-05-22 09:27:17,087 - INFO - Timeout fetched : 15
+2026-05-22 09:27:17,087 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 09:27:18,408 - INFO - Checking filtered list match row for: UAE
+2026-05-22 09:27:18,408 - INFO - Timeout fetched : 15
+2026-05-22 09:27:18,408 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 09:27:19,901 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_092719.png
+2026-05-22 09:27:19,904 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 09:27:19,904 - INFO - Timeout fetched : 15
+2026-05-22 09:27:19,904 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 09:27:20,621 - INFO - Timeout fetched : 15
+2026-05-22 09:27:20,621 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 09:27:30,687 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 09:27:30,689 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-22 09:27:30,689 - INFO - Timeout fetched : 15
+2026-05-22 09:27:30,689 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 09:27:30,807 - INFO - Targeting formatted DOM text row option: 01
+2026-05-22 09:27:30,807 - INFO - Timeout fetched : 15
+2026-05-22 09:27:30,807 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-22 09:27:31,707 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260522_092731.png
+2026-05-22 09:27:31,778 - INFO - Successfully selected traveler option: 01
+2026-05-22 09:27:32,280 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 09:27:32,281 - INFO - Timeout fetched : 15
+2026-05-22 09:27:32,281 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 09:27:32,667 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_092732.png
+2026-05-22 09:27:35,282 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-22 09:27:35,283 - INFO - Timeout fetched : 15
+2026-05-22 09:27:35,283 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-22 09:27:39,065 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-22 09:27:39,066 - INFO - Timeout fetched : 15
+2026-05-22 09:27:39,066 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 09:27:41,452 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-22 09:27:41,452 - INFO - Timeout fetched : 15
+2026-05-22 09:27:41,454 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-22 09:27:41,546 - INFO - Regex Engine Active: Validating profile form parameters for [Alex Wilson]
+2026-05-22 09:27:41,547 - INFO - Populating name field container: Alex Wilson
+2026-05-22 09:27:41,547 - INFO - Timeout fetched : 15
+2026-05-22 09:27:41,547 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-22 09:27:43,651 - INFO - Processing and passing raw date of birth data: 22111992
+2026-05-22 09:27:43,651 - INFO - Timeout fetched : 15
+2026-05-22 09:27:43,652 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-22 09:27:44,045 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 09:27:44,045 - INFO - Timeout fetched : 15
+2026-05-22 09:27:44,045 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-22 09:27:44,120 - INFO - Successfully selected gender option: Male
+2026-05-22 09:27:44,120 - INFO - Processing communication node tracking configurations -> Ph: 12345
+2026-05-22 09:27:44,120 - INFO - Timeout fetched : 15
+2026-05-22 09:27:44,121 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-22 09:27:45,448 - INFO - Timeout fetched : 15
+2026-05-22 09:27:45,448 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-22 09:27:46,965 - INFO - Filing statement approval criteria profiles...
+2026-05-22 09:27:46,966 - INFO - Timeout fetched : 15
+2026-05-22 09:27:46,966 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-22 09:27:47,027 - INFO - Timeout fetched : 15
+2026-05-22 09:27:47,027 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-22 09:27:47,091 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 09:27:47,091 - INFO - Timeout fetched : 15
+2026-05-22 09:27:47,092 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-22 09:27:47,285 - INFO - Timeout fetched : 15
+2026-05-22 09:27:47,286 - INFO - Waiting for element visibility: ('xpath', "//span[@data-test-id='CountryCodeInput-ErrorTxt']")
+2026-05-22 09:27:47,859 - INFO - Screenshot saved at: reports/screenshots/PASSED_Validate_traveler_details_form_validation_logic_errors_--_@3.1_Alex_Wilson_-_Invalid_Mobile_20260522_092747.png
+2026-05-22 09:27:47,859 - INFO - BDD Automation Engine: Logged milestone snapshot for: Validate traveler details form validation logic errors -- @3.1 Alex Wilson - Invalid Mobile [PASSED]
+2026-05-22 09:27:47,861 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @3.1 Alex Wilson - Invalid Mobile'
+2026-05-22 09:50:45,673 - INFO - =======================================
+2026-05-22 09:50:45,674 - INFO - Starting BDD Test Execution Suite
+2026-05-22 09:50:45,674 - INFO - Browser fetched : chrome
+2026-05-22 09:50:45,675 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 09:50:45,675 - INFO - Implicit wait fetched : 10
+2026-05-22 09:50:45,675 - INFO - Timeout fetched : 15
+2026-05-22 09:50:45,676 - INFO - Headless mode : False
+2026-05-22 09:50:45,676 - INFO - Browser       : chrome
+2026-05-22 09:50:45,676 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 09:50:45,676 - INFO - Implicit Wait : 10
+2026-05-22 09:50:45,676 - INFO - Headless      : False
+2026-05-22 09:50:45,676 - INFO - =======================================
+2026-05-22 09:50:45,691 - INFO - --> Initializing browser for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 09:50:45,708 - INFO - ====== WebDriver manager ======
+2026-05-22 09:50:47,275 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 09:50:49,073 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 09:50:55,202 - INFO - Timeout fetched : 15
+2026-05-22 09:50:55,202 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:51:15,807 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:51:15,808 - INFO - Navigating to Travel Insurance page...
+2026-05-22 09:51:15,809 - INFO - Timeout fetched : 15
+2026-05-22 09:51:15,809 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 09:51:16,164 - INFO - Loaded target execution credentials for: Suneet Kumar via native data-table.
+2026-05-22 09:51:16,165 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 09:51:16,166 - INFO - Timeout fetched : 15
+2026-05-22 09:51:16,166 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 09:51:18,124 - INFO - Timeout fetched : 15
+2026-05-22 09:51:18,124 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 09:51:18,264 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 09:51:18,311 - INFO - Default selection cleared.
+2026-05-22 09:51:18,812 - INFO - Injecting search phrase query: UAE
+2026-05-22 09:51:18,812 - INFO - Timeout fetched : 15
+2026-05-22 09:51:18,812 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 09:51:20,002 - INFO - Checking filtered list match row for: UAE
+2026-05-22 09:51:20,002 - INFO - Timeout fetched : 15
+2026-05-22 09:51:20,008 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 09:51:21,442 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_095121.png
+2026-05-22 09:51:21,444 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 09:51:21,444 - INFO - Timeout fetched : 15
+2026-05-22 09:51:21,444 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 09:51:22,107 - INFO - Timeout fetched : 15
+2026-05-22 09:51:22,107 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 09:51:32,134 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 09:51:32,134 - INFO - Triggering traveler count selection pane for value: 2
+2026-05-22 09:51:32,135 - INFO - Timeout fetched : 15
+2026-05-22 09:51:32,135 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 09:51:32,222 - INFO - Targeting formatted DOM text row option: 02
+2026-05-22 09:51:32,222 - INFO - Timeout fetched : 15
+2026-05-22 09:51:32,222 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='02'] | //div[text()='02' and contains(@style, 'cursor')] | //div[contains(text(), '02') and not(contains(@class, 'No'))]")
+2026-05-22 09:51:33,053 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_02_20260522_095132.png
+2026-05-22 09:51:33,103 - INFO - Successfully selected traveler option: 02
+2026-05-22 09:51:33,604 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 09:51:33,604 - INFO - Timeout fetched : 15
+2026-05-22 09:51:33,604 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 09:51:33,922 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_095133.png
+2026-05-22 09:51:36,617 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-22 09:51:36,617 - INFO - Timeout fetched : 15
+2026-05-22 09:51:36,617 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 09:51:41,363 - INFO - Populating name field container: Suneet Kumar
+2026-05-22 09:51:41,363 - INFO - Timeout fetched : 15
+2026-05-22 09:51:41,363 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-22 09:51:42,648 - INFO - Processing and passing raw date of birth data: 12121998
+2026-05-22 09:51:42,648 - INFO - Timeout fetched : 15
+2026-05-22 09:51:42,649 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-22 09:51:42,791 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 09:51:42,791 - INFO - Timeout fetched : 15
+2026-05-22 09:51:42,792 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-22 09:51:42,855 - INFO - Successfully selected gender option: Male
+2026-05-22 09:51:42,855 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-22 09:51:42,855 - INFO - Timeout fetched : 15
+2026-05-22 09:51:42,856 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-22 09:51:44,332 - INFO - Timeout fetched : 15
+2026-05-22 09:51:44,332 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-22 09:51:45,766 - INFO - Filing statement approval criteria profiles...
+2026-05-22 09:51:45,766 - INFO - Timeout fetched : 15
+2026-05-22 09:51:45,766 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-22 09:51:45,798 - INFO - Timeout fetched : 15
+2026-05-22 09:51:45,799 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-22 09:51:45,827 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 09:51:45,827 - INFO - Timeout fetched : 15
+2026-05-22 09:51:45,827 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-22 09:51:48,427 - INFO - Timeout fetched : 15
+2026-05-22 09:51:48,428 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:52:09,021 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:52:09,022 - INFO - Timeout fetched : 15
+2026-05-22 09:52:09,022 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:52:29,607 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 09:52:40,076 - INFO - Screenshot saved at: reports/screenshots/PASSED_Complete_full_end-to-end_valid_submission_up_to_verification_20260522_095239.png
+2026-05-22 09:52:40,076 - INFO - BDD Automation Engine: Logged milestone snapshot for: Complete full end-to-end valid submission up to verification [PASSED]
+2026-05-22 09:52:40,076 - INFO - <-- Tearing Down Browser Session for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 10:09:40,683 - INFO - =======================================
+2026-05-22 10:09:40,683 - INFO - Starting BDD Test Execution Suite
+2026-05-22 10:09:40,683 - INFO - Browser fetched : chrome
+2026-05-22 10:09:40,683 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 10:09:40,684 - INFO - Implicit wait fetched : 10
+2026-05-22 10:09:40,684 - INFO - Timeout fetched : 15
+2026-05-22 10:09:40,684 - INFO - Headless mode : False
+2026-05-22 10:09:40,684 - INFO - Browser       : chrome
+2026-05-22 10:09:40,684 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 10:09:40,684 - INFO - Implicit Wait : 10
+2026-05-22 10:09:40,684 - INFO - Headless      : False
+2026-05-22 10:09:40,684 - INFO - =======================================
+2026-05-22 10:09:40,698 - INFO - --> Initializing browser for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 10:09:40,713 - INFO - ====== WebDriver manager ======
+2026-05-22 10:09:42,696 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 10:09:44,381 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 10:09:51,131 - INFO - Timeout fetched : 15
+2026-05-22 10:09:51,131 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 10:10:11,712 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 10:10:11,713 - INFO - Navigating to Travel Insurance page...
+2026-05-22 10:10:11,714 - INFO - Timeout fetched : 15
+2026-05-22 10:10:11,714 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 10:10:12,192 - INFO - Loaded target execution credentials for: Suneet Kumar via native data-table.
+2026-05-22 10:10:12,193 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 10:10:12,193 - INFO - Timeout fetched : 15
+2026-05-22 10:10:12,193 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 10:10:15,504 - INFO - Timeout fetched : 15
+2026-05-22 10:10:15,505 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 10:10:15,636 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 10:10:15,703 - INFO - Default selection cleared.
+2026-05-22 10:10:16,204 - INFO - Injecting search phrase query: UAE
+2026-05-22 10:10:16,205 - INFO - Timeout fetched : 15
+2026-05-22 10:10:16,205 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 10:10:17,512 - INFO - Checking filtered list match row for: UAE
+2026-05-22 10:10:17,512 - INFO - Timeout fetched : 15
+2026-05-22 10:10:17,512 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 10:10:19,249 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_101018.png
+2026-05-22 10:10:19,255 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 10:10:19,259 - INFO - Timeout fetched : 15
+2026-05-22 10:10:19,260 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 10:10:20,224 - INFO - Timeout fetched : 15
+2026-05-22 10:10:20,225 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 10:10:30,294 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 10:10:30,294 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-22 10:10:30,294 - INFO - Timeout fetched : 15
+2026-05-22 10:10:30,294 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 10:10:30,366 - INFO - Targeting formatted DOM text row option: 01
+2026-05-22 10:10:30,366 - INFO - Timeout fetched : 15
+2026-05-22 10:10:30,366 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-22 10:10:31,157 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260522_101030.png
+2026-05-22 10:10:31,181 - INFO - Successfully selected traveler option: 01
+2026-05-22 10:10:31,683 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 10:10:31,683 - INFO - Timeout fetched : 15
+2026-05-22 10:10:31,683 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 10:10:32,005 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_101031.png
+2026-05-22 10:10:34,647 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-22 10:10:34,649 - INFO - Timeout fetched : 15
+2026-05-22 10:10:34,651 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 10:10:41,090 - INFO - Populating name field container: Suneet Kumar
+2026-05-22 10:10:41,090 - INFO - Timeout fetched : 15
+2026-05-22 10:10:41,090 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-22 10:10:42,710 - INFO - Processing and passing raw date of birth data: 12121998
+2026-05-22 10:10:42,710 - INFO - Timeout fetched : 15
+2026-05-22 10:10:42,710 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-22 10:10:42,845 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 10:10:42,845 - INFO - Timeout fetched : 15
+2026-05-22 10:10:42,845 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-22 10:10:42,896 - INFO - Successfully selected gender option: Male
+2026-05-22 10:10:42,896 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-22 10:10:42,897 - INFO - Timeout fetched : 15
+2026-05-22 10:10:42,897 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-22 10:10:44,251 - INFO - Timeout fetched : 15
+2026-05-22 10:10:44,251 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-22 10:10:45,809 - INFO - Filing statement approval criteria profiles...
+2026-05-22 10:10:45,809 - INFO - Timeout fetched : 15
+2026-05-22 10:10:45,809 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-22 10:10:45,845 - INFO - Timeout fetched : 15
+2026-05-22 10:10:45,845 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-22 10:10:45,879 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 10:10:45,879 - INFO - Timeout fetched : 15
+2026-05-22 10:10:45,879 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-22 10:10:48,557 - INFO - Timeout fetched : 15
+2026-05-22 10:10:48,557 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 10:10:48,768 - INFO - Preparing to enter mobile number: 9876543210
+2026-05-22 10:10:50,756 - INFO - Toggling the user-consent checkbox to unlock the form...
+2026-05-22 10:10:51,838 - INFO - Clicking the Continue button...
+2026-05-22 10:10:51,903 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
+2026-05-22 10:10:51,904 - INFO - Timeout fetched : 15
+2026-05-22 10:10:51,904 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 10:10:51,931 - INFO - End-to-End complete: OTP form verification intercept captured cleanly.
+2026-05-22 10:10:52,199 - INFO - Screenshot saved at: reports/screenshots/PASSED_Complete_full_end-to-end_valid_submission_up_to_verification_20260522_101052.png
+2026-05-22 10:10:52,199 - INFO - BDD Automation Engine: Logged milestone snapshot for: Complete full end-to-end valid submission up to verification [PASSED]
+2026-05-22 10:10:52,199 - INFO - <-- Tearing Down Browser Session for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 10:47:52,233 - INFO - =======================================
+2026-05-22 10:47:52,258 - INFO - Starting BDD Test Execution Suite
+2026-05-22 10:47:52,258 - INFO - Browser fetched : chrome
+2026-05-22 10:47:52,259 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 10:47:52,261 - INFO - Implicit wait fetched : 10
+2026-05-22 10:47:52,261 - INFO - Timeout fetched : 15
+2026-05-22 10:47:52,261 - INFO - Headless mode : False
+2026-05-22 10:47:52,262 - INFO - Browser       : chrome
+2026-05-22 10:47:52,262 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 10:47:52,262 - INFO - Implicit Wait : 10
+2026-05-22 10:47:52,263 - INFO - Headless      : False
+2026-05-22 10:47:52,263 - INFO - =======================================
+2026-05-22 10:47:52,297 - INFO - --> Initializing browser for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 10:47:52,367 - INFO - ====== WebDriver manager ======
+2026-05-22 10:48:05,278 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 10:48:15,146 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 10:48:28,392 - INFO - Timeout fetched : 15
+2026-05-22 10:48:28,392 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 10:48:49,016 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 10:48:49,019 - INFO - Navigating to Travel Insurance page...
+2026-05-22 10:48:49,019 - INFO - Timeout fetched : 15
+2026-05-22 10:48:49,019 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 10:48:49,590 - INFO - Loaded target execution credentials for: Suneet Kumar via native data-table.
+2026-05-22 10:48:49,598 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 10:48:49,599 - INFO - Timeout fetched : 15
+2026-05-22 10:48:49,600 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 10:48:52,406 - INFO - Timeout fetched : 15
+2026-05-22 10:48:52,406 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 10:48:52,584 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 10:48:52,708 - INFO - Default selection cleared.
+2026-05-22 10:48:53,209 - INFO - Injecting search phrase query: UAE
+2026-05-22 10:48:53,209 - INFO - Timeout fetched : 15
+2026-05-22 10:48:53,209 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 10:48:54,551 - INFO - Checking filtered list match row for: UAE
+2026-05-22 10:48:54,552 - INFO - Timeout fetched : 15
+2026-05-22 10:48:54,552 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 10:48:56,213 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_104855.png
+2026-05-22 10:48:56,466 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 10:48:56,467 - INFO - Timeout fetched : 15
+2026-05-22 10:48:56,467 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 10:48:57,251 - INFO - Timeout fetched : 15
+2026-05-22 10:48:57,252 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 10:49:07,422 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 10:49:07,424 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-22 10:49:07,424 - INFO - Timeout fetched : 15
+2026-05-22 10:49:07,424 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 10:49:08,148 - INFO - Targeting formatted DOM text row option: 01
+2026-05-22 10:49:08,149 - INFO - Timeout fetched : 15
+2026-05-22 10:49:08,149 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-22 10:49:09,199 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260522_104908.png
+2026-05-22 10:49:09,330 - INFO - Successfully selected traveler option: 01
+2026-05-22 10:49:09,832 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 10:49:09,833 - INFO - Timeout fetched : 15
+2026-05-22 10:49:09,833 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 10:49:10,221 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_104909.png
+2026-05-22 10:49:12,893 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-22 10:49:12,893 - INFO - Timeout fetched : 15
+2026-05-22 10:49:12,893 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 10:49:20,472 - INFO - Populating name field container: Suneet Kumar
+2026-05-22 10:49:20,473 - INFO - Timeout fetched : 15
+2026-05-22 10:49:20,473 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-22 10:49:23,549 - INFO - Processing and passing raw date of birth data: 12121998
+2026-05-22 10:49:23,551 - INFO - Timeout fetched : 15
+2026-05-22 10:49:23,551 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-22 10:49:24,030 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 10:49:24,030 - INFO - Timeout fetched : 15
+2026-05-22 10:49:24,030 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-22 10:49:24,171 - INFO - Successfully selected gender option: Male
+2026-05-22 10:49:24,171 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-22 10:49:24,172 - INFO - Timeout fetched : 15
+2026-05-22 10:49:24,172 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-22 10:49:27,575 - INFO - Timeout fetched : 15
+2026-05-22 10:49:27,575 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-22 10:49:29,560 - INFO - Filing statement approval criteria profiles...
+2026-05-22 10:49:29,560 - INFO - Timeout fetched : 15
+2026-05-22 10:49:29,560 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-22 10:49:29,613 - INFO - Timeout fetched : 15
+2026-05-22 10:49:29,613 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-22 10:49:29,670 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 10:49:29,670 - INFO - Timeout fetched : 15
+2026-05-22 10:49:29,670 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-22 10:49:32,432 - INFO - Timeout fetched : 15
+2026-05-22 10:49:32,432 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 10:49:32,731 - INFO - Preparing to enter mobile number: 9876543210
+2026-05-22 10:49:35,405 - INFO - Toggling the user-consent checkbox to unlock the form...
+2026-05-22 10:49:36,792 - INFO - Clicking the Continue button...
+2026-05-22 10:49:37,114 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
+2026-05-22 10:49:37,142 - INFO - Timeout fetched : 15
+2026-05-22 10:49:37,142 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 10:49:37,414 - INFO - End-to-End complete: OTP form verification intercept captured cleanly.
+2026-05-22 10:49:39,139 - INFO - Screenshot saved at: reports/screenshots/PASSED_Complete_full_end-to-end_valid_submission_up_to_verification_20260522_104938.png
+2026-05-22 10:49:39,139 - INFO - BDD Automation Engine: Logged milestone snapshot for: Complete full end-to-end valid submission up to verification [PASSED]
+2026-05-22 10:49:39,140 - INFO - <-- Tearing Down Browser Session for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 14:49:35,277 - INFO - =======================================
+2026-05-22 14:49:35,279 - INFO - Starting BDD Test Execution Suite
+2026-05-22 14:49:35,279 - INFO - Browser fetched : chrome
+2026-05-22 14:49:35,279 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 14:49:35,281 - INFO - Implicit wait fetched : 10
+2026-05-22 14:49:35,281 - INFO - Timeout fetched : 15
+2026-05-22 14:49:35,281 - INFO - Headless mode : False
+2026-05-22 14:49:35,281 - INFO - Browser       : chrome
+2026-05-22 14:49:35,281 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 14:49:35,281 - INFO - Implicit Wait : 10
+2026-05-22 14:49:35,282 - INFO - Headless      : False
+2026-05-22 14:49:35,282 - INFO - =======================================
+2026-05-22 14:49:35,303 - INFO - --> Initializing browser for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 14:49:35,323 - INFO - ====== WebDriver manager ======
+2026-05-22 14:49:37,655 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 14:49:40,865 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 14:49:52,756 - INFO - Timeout fetched : 15
+2026-05-22 14:49:52,756 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 14:50:13,369 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 14:50:13,370 - INFO - Navigating to Travel Insurance page...
+2026-05-22 14:50:13,370 - INFO - Timeout fetched : 15
+2026-05-22 14:50:13,370 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 14:50:13,674 - INFO - Loaded target execution credentials for: Suneet Kumar via native data-table.
+2026-05-22 14:50:13,676 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 14:50:13,677 - INFO - Timeout fetched : 15
+2026-05-22 14:50:13,677 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 14:50:16,549 - INFO - Timeout fetched : 15
+2026-05-22 14:50:16,549 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 14:50:16,606 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 14:50:16,645 - INFO - Default selection cleared.
+2026-05-22 14:50:17,146 - INFO - Injecting search phrase query: UAE
+2026-05-22 14:50:17,146 - INFO - Timeout fetched : 15
+2026-05-22 14:50:17,146 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 14:50:17,986 - INFO - Checking filtered list match row for: UAE
+2026-05-22 14:50:17,986 - INFO - Timeout fetched : 15
+2026-05-22 14:50:17,986 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 14:50:19,323 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_145019.png
+2026-05-22 14:50:19,329 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 14:50:19,329 - INFO - Timeout fetched : 15
+2026-05-22 14:50:19,330 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 14:50:19,965 - INFO - Timeout fetched : 15
+2026-05-22 14:50:19,965 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 14:50:30,034 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 14:50:30,034 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-22 14:50:30,034 - INFO - Timeout fetched : 15
+2026-05-22 14:50:30,034 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 14:50:30,083 - INFO - Targeting formatted DOM text row option: 01
+2026-05-22 14:50:30,083 - INFO - Timeout fetched : 15
+2026-05-22 14:50:30,083 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-22 14:50:30,828 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260522_145030.png
+2026-05-22 14:50:30,874 - INFO - Successfully selected traveler option: 01
+2026-05-22 14:50:31,375 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 14:50:31,375 - INFO - Timeout fetched : 15
+2026-05-22 14:50:31,375 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 14:50:31,716 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_145031.png
+2026-05-22 14:50:34,306 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-22 14:50:34,306 - INFO - Timeout fetched : 15
+2026-05-22 14:50:34,306 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 14:50:38,921 - INFO - Populating name field container: Suneet Kumar
+2026-05-22 14:50:38,921 - INFO - Timeout fetched : 15
+2026-05-22 14:50:38,921 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-22 14:50:40,434 - INFO - Processing and passing raw date of birth data: 12121998
+2026-05-22 14:50:40,434 - INFO - Timeout fetched : 15
+2026-05-22 14:50:40,434 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-22 14:50:40,578 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 14:50:40,579 - INFO - Timeout fetched : 15
+2026-05-22 14:50:40,579 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-22 14:50:40,621 - INFO - Successfully selected gender option: Male
+2026-05-22 14:50:40,621 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-22 14:50:40,621 - INFO - Timeout fetched : 15
+2026-05-22 14:50:40,621 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-22 14:50:42,865 - INFO - Timeout fetched : 15
+2026-05-22 14:50:42,865 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-22 14:50:45,473 - INFO - Filing statement approval criteria profiles...
+2026-05-22 14:50:45,473 - INFO - Timeout fetched : 15
+2026-05-22 14:50:45,473 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-22 14:50:45,503 - INFO - Timeout fetched : 15
+2026-05-22 14:50:45,504 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-22 14:50:45,525 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 14:50:45,525 - INFO - Timeout fetched : 15
+2026-05-22 14:50:45,525 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-22 14:50:48,164 - INFO - Timeout fetched : 15
+2026-05-22 14:50:48,164 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 14:50:48,364 - INFO - Preparing to enter mobile number: 9876543210
+2026-05-22 14:50:50,340 - INFO - Toggling the user-consent checkbox to unlock the form...
+2026-05-22 14:50:51,391 - INFO - Clicking the Continue button...
+2026-05-22 14:50:51,456 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
+2026-05-22 14:50:51,456 - INFO - Timeout fetched : 15
+2026-05-22 14:50:51,456 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 14:50:51,481 - INFO - End-to-End complete: OTP form verification intercept captured cleanly.
+2026-05-22 14:50:51,830 - INFO - Screenshot saved at: reports/screenshots/PASSED_Complete_full_end-to-end_valid_submission_up_to_verification_20260522_145051.png
+2026-05-22 14:50:51,830 - INFO - BDD Automation Engine: Logged milestone snapshot for: Complete full end-to-end valid submission up to verification [PASSED]
+2026-05-22 14:50:51,830 - INFO - <-- Tearing Down Browser Session for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 15:08:04,937 - INFO - =======================================
+2026-05-22 15:08:04,937 - INFO - Starting BDD Test Execution Suite
+2026-05-22 15:08:04,937 - INFO - Browser fetched : chrome
+2026-05-22 15:08:04,938 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 15:08:04,938 - INFO - Implicit wait fetched : 10
+2026-05-22 15:08:04,938 - INFO - Timeout fetched : 15
+2026-05-22 15:08:04,938 - INFO - Headless mode : False
+2026-05-22 15:08:04,939 - INFO - Browser       : chrome
+2026-05-22 15:08:04,939 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 15:08:04,939 - INFO - Implicit Wait : 10
+2026-05-22 15:08:04,939 - INFO - Headless      : False
+2026-05-22 15:08:04,939 - INFO - =======================================
+2026-05-22 15:08:04,947 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 15:08:04,959 - INFO - ====== WebDriver manager ======
+2026-05-22 15:08:06,609 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:08:08,295 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 15:08:20,436 - INFO - Timeout fetched : 15
+2026-05-22 15:08:20,437 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 15:08:41,330 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 15:08:41,330 - INFO - Navigating to Travel Insurance page...
+2026-05-22 15:08:41,330 - INFO - Timeout fetched : 15
+2026-05-22 15:08:41,330 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 15:08:41,911 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 15:08:41,914 - INFO - Timeout fetched : 15
+2026-05-22 15:08:41,915 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 15:09:02,499 - ERROR - Timeout waiting for presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 15:09:03,069 - INFO - Screenshot saved at: reports/screenshots/FAILED_Validate_traveler_details_form_validation_logic_errors_--_@1.1_John_Doe_-_Blank_DOB_20260522_150902.png
+2026-05-22 15:09:03,081 - INFO - BDD Automation Engine: Logged milestone snapshot for: Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB [FAILED]
+2026-05-22 15:09:03,081 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 15:15:57,248 - INFO - =======================================
+2026-05-22 15:15:57,250 - INFO - Starting BDD Test Execution Suite
+2026-05-22 15:15:57,250 - INFO - Browser fetched : chrome
+2026-05-22 15:15:57,250 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 15:15:57,251 - INFO - Implicit wait fetched : 10
+2026-05-22 15:15:57,251 - INFO - Timeout fetched : 15
+2026-05-22 15:15:57,251 - INFO - Headless mode : False
+2026-05-22 15:15:57,251 - INFO - Browser       : chrome
+2026-05-22 15:15:57,251 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 15:15:57,251 - INFO - Implicit Wait : 10
+2026-05-22 15:15:57,251 - INFO - Headless      : False
+2026-05-22 15:15:57,251 - INFO - =======================================
+2026-05-22 15:15:57,256 - INFO - --> Initializing browser for Scenario: 'Validate plan grids and international insurance branding layouts'
+2026-05-22 15:15:57,267 - INFO - ====== WebDriver manager ======
+2026-05-22 15:15:58,844 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:16:02,208 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 15:16:03,092 - INFO - Timeout fetched : 15
+2026-05-22 15:16:03,092 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 15:16:14,940 - INFO - Navigating to Travel Insurance page...
+2026-05-22 15:16:14,940 - INFO - Timeout fetched : 15
+2026-05-22 15:16:14,941 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 15:16:16,856 - ERROR - Global Automation Engine failed to extract scenario screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff612767de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff612767e50+14900]
+	chromedriver!(No symbol) [0x7ff6124cd396]
+	chromedriver!(No symbol) [0x7ff612518e76]
+	chromedriver!(No symbol) [0x7ff61254ff62]
+	chromedriver!(No symbol) [0x7ff612549d7f]
+	chromedriver!(No symbol) [0x7ff612549543]
+	chromedriver!(No symbol) [0x7ff612496325]
+	chromedriver!GetHandleVerifier [0x7ff612a7cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff612a77375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff612a9bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff612786045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff61278ecec+3b79c]
+	chromedriver!(No symbol) [0x7ff6124950bc]
+	chromedriver!GetHandleVerifier [0x7ff612be0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffb8f73e957+17]
+	ntdll!RtlUserThreadStart [0x7ffb9088427c+2c]
+
+2026-05-22 15:16:16,857 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate plan grids and international insurance branding layouts'
+2026-05-22 15:16:19,968 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 15:16:19,969 - INFO - ====== WebDriver manager ======
+2026-05-22 15:16:22,407 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:16:24,280 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 15:16:25,637 - INFO - Timeout fetched : 15
+2026-05-22 15:16:25,637 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 15:16:31,250 - INFO - Navigating to Travel Insurance page...
+2026-05-22 15:16:31,251 - INFO - Timeout fetched : 15
+2026-05-22 15:16:31,251 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 15:16:31,660 - ERROR - Global Automation Engine failed to extract scenario screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff612767de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff612767e50+14900]
+	chromedriver!(No symbol) [0x7ff6124cd396]
+	chromedriver!(No symbol) [0x7ff612518e76]
+	chromedriver!(No symbol) [0x7ff61254ff62]
+	chromedriver!(No symbol) [0x7ff612549d7f]
+	chromedriver!(No symbol) [0x7ff612549543]
+	chromedriver!(No symbol) [0x7ff612496325]
+	chromedriver!GetHandleVerifier [0x7ff612a7cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff612a77375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff612a9bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff612786045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff61278ecec+3b79c]
+	chromedriver!(No symbol) [0x7ff6124950bc]
+	chromedriver!GetHandleVerifier [0x7ff612be0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffb8f73e957+17]
+	ntdll!RtlUserThreadStart [0x7ffb9088427c+2c]
+
+2026-05-22 15:16:31,661 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 15:16:34,616 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @2.1 Jane Smith - Blank Mobile'
+2026-05-22 15:16:34,616 - INFO - ====== WebDriver manager ======
+2026-05-22 15:16:37,741 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:16:40,458 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 15:16:41,910 - INFO - Timeout fetched : 15
+2026-05-22 15:16:41,912 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 15:16:46,183 - INFO - Navigating to Travel Insurance page...
+2026-05-22 15:16:46,184 - INFO - Timeout fetched : 15
+2026-05-22 15:16:46,184 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 15:16:46,592 - ERROR - Global Automation Engine failed to extract scenario screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff612767de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff612767e50+14900]
+	chromedriver!(No symbol) [0x7ff6124cd396]
+	chromedriver!(No symbol) [0x7ff612518e76]
+	chromedriver!(No symbol) [0x7ff61254ff62]
+	chromedriver!(No symbol) [0x7ff612549d7f]
+	chromedriver!(No symbol) [0x7ff612549543]
+	chromedriver!(No symbol) [0x7ff612496325]
+	chromedriver!GetHandleVerifier [0x7ff612a7cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff612a77375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff612a9bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff612786045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff61278ecec+3b79c]
+	chromedriver!(No symbol) [0x7ff6124950bc]
+	chromedriver!GetHandleVerifier [0x7ff612be0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffb8f73e957+17]
+	ntdll!RtlUserThreadStart [0x7ffb9088427c+2c]
+
+2026-05-22 15:16:46,593 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @2.1 Jane Smith - Blank Mobile'
+2026-05-22 15:16:49,448 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @3.1 Alex Wilson - Invalid Mobile'
+2026-05-22 15:16:49,482 - INFO - ====== WebDriver manager ======
+2026-05-22 15:16:52,636 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:16:54,697 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 15:16:55,722 - INFO - Timeout fetched : 15
+2026-05-22 15:16:55,724 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 15:16:57,804 - INFO - Navigating to Travel Insurance page...
+2026-05-22 15:16:57,805 - INFO - Timeout fetched : 15
+2026-05-22 15:16:57,805 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 15:16:58,094 - ERROR - Global Automation Engine failed to extract scenario screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff612767de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff612767e50+14900]
+	chromedriver!(No symbol) [0x7ff6124cd396]
+	chromedriver!(No symbol) [0x7ff612518e76]
+	chromedriver!(No symbol) [0x7ff61254ff62]
+	chromedriver!(No symbol) [0x7ff612549d7f]
+	chromedriver!(No symbol) [0x7ff612549543]
+	chromedriver!(No symbol) [0x7ff612496325]
+	chromedriver!GetHandleVerifier [0x7ff612a7cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff612a77375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff612a9bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff612786045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff61278ecec+3b79c]
+	chromedriver!(No symbol) [0x7ff6124950bc]
+	chromedriver!GetHandleVerifier [0x7ff612be0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffb8f73e957+17]
+	ntdll!RtlUserThreadStart [0x7ffb9088427c+2c]
+
+2026-05-22 15:16:58,095 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @3.1 Alex Wilson - Invalid Mobile'
+2026-05-22 15:17:00,773 - INFO - --> Initializing browser for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 15:17:00,773 - INFO - ====== WebDriver manager ======
+2026-05-22 15:17:04,131 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:17:06,366 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 15:17:11,653 - INFO - Timeout fetched : 15
+2026-05-22 15:17:11,654 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 15:17:12,926 - INFO - Navigating to Travel Insurance page...
+2026-05-22 15:17:12,927 - INFO - Timeout fetched : 15
+2026-05-22 15:17:12,927 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 15:17:12,952 - ERROR - Global Automation Engine failed to extract scenario screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.179)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff612767de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff612767e50+14900]
+	chromedriver!(No symbol) [0x7ff6124cd5ad]
+	chromedriver!(No symbol) [0x7ff6124a40f2]
+	chromedriver!(No symbol) [0x7ff612556f56]
+	chromedriver!(No symbol) [0x7ff612574172]
+	chromedriver!(No symbol) [0x7ff612519df8]
+	chromedriver!(No symbol) [0x7ff61251ace3]
+	chromedriver!GetHandleVerifier [0x7ff612a7cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff612a77375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff612a9bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff612786045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff61278ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff612771bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff612771d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff6127560e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffb8f73e957+17]
+	ntdll!RtlUserThreadStart [0x7ffb9088427c+2c]
+
+2026-05-22 15:17:12,952 - INFO - <-- Tearing Down Browser Session for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 15:30:35,498 - INFO - =======================================
+2026-05-22 15:30:35,499 - INFO - Starting BDD Test Execution Suite
+2026-05-22 15:30:35,499 - INFO - Browser fetched : chrome
+2026-05-22 15:30:35,500 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 15:30:35,500 - INFO - Implicit wait fetched : 10
+2026-05-22 15:30:35,500 - INFO - Timeout fetched : 15
+2026-05-22 15:30:35,501 - INFO - Headless mode : False
+2026-05-22 15:30:35,501 - INFO - Browser       : chrome
+2026-05-22 15:30:35,501 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 15:30:35,501 - INFO - Implicit Wait : 10
+2026-05-22 15:30:35,501 - INFO - Headless      : False
+2026-05-22 15:30:35,501 - INFO - =======================================
+2026-05-22 15:30:35,509 - INFO - --> Initializing browser for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 15:30:35,521 - INFO - ====== WebDriver manager ======
+2026-05-22 15:30:37,502 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 15:30:42,221 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 15:30:51,651 - INFO - Timeout fetched : 15
+2026-05-22 15:30:51,651 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 15:31:12,333 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 15:31:12,334 - INFO - Navigating to Travel Insurance page...
+2026-05-22 15:31:12,334 - INFO - Timeout fetched : 15
+2026-05-22 15:31:12,334 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 15:31:12,656 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 15:31:12,657 - INFO - Timeout fetched : 15
+2026-05-22 15:31:12,657 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 15:31:15,715 - INFO - Timeout fetched : 15
+2026-05-22 15:31:15,716 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 15:31:15,830 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 15:31:15,913 - INFO - Default selection cleared.
+2026-05-22 15:31:16,414 - INFO - Injecting search phrase query: UAE
+2026-05-22 15:31:16,414 - INFO - Timeout fetched : 15
+2026-05-22 15:31:16,414 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 15:31:17,728 - INFO - Checking filtered list match row for: UAE
+2026-05-22 15:31:17,728 - INFO - Timeout fetched : 15
+2026-05-22 15:31:17,730 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 15:31:20,030 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_153118.png
+2026-05-22 15:31:20,041 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 15:31:20,041 - INFO - Timeout fetched : 15
+2026-05-22 15:31:20,042 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 15:31:20,815 - INFO - Timeout fetched : 15
+2026-05-22 15:31:20,815 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 15:31:30,926 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 15:31:30,927 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-22 15:31:30,927 - INFO - Timeout fetched : 15
+2026-05-22 15:31:30,927 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 15:31:30,996 - INFO - Targeting formatted DOM text row option: 01
+2026-05-22 15:31:30,996 - INFO - Timeout fetched : 15
+2026-05-22 15:31:30,996 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-22 15:31:31,796 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260522_153131.png
+2026-05-22 15:31:31,826 - INFO - Successfully selected traveler option: 01
+2026-05-22 15:31:32,327 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 15:31:32,328 - INFO - Timeout fetched : 15
+2026-05-22 15:31:32,328 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 15:31:32,605 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_153132.png
+2026-05-22 15:31:35,177 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-22 15:31:35,177 - INFO - Timeout fetched : 15
+2026-05-22 15:31:35,177 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-22 15:31:37,619 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-22 15:31:37,619 - INFO - Timeout fetched : 15
+2026-05-22 15:31:37,619 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 15:31:40,274 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-22 15:31:40,274 - INFO - Timeout fetched : 15
+2026-05-22 15:31:40,274 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-22 15:31:40,314 - INFO - Regex Engine Active: Validating profile form parameters for [John Doe]
+2026-05-22 15:31:40,314 - INFO - Populating name field container: John Doe
+2026-05-22 15:31:40,314 - INFO - Timeout fetched : 15
+2026-05-22 15:31:40,315 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-22 15:31:41,474 - INFO - Processing and passing raw date of birth data: 
+2026-05-22 15:31:41,474 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 15:31:41,474 - INFO - Timeout fetched : 15
+2026-05-22 15:31:41,474 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-22 15:31:41,525 - INFO - Successfully selected gender option: Male
+2026-05-22 15:31:41,525 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-22 15:31:41,525 - INFO - Timeout fetched : 15
+2026-05-22 15:31:41,525 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-22 15:31:43,166 - INFO - Timeout fetched : 15
+2026-05-22 15:31:43,166 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-22 15:31:44,490 - INFO - Filing statement approval criteria profiles...
+2026-05-22 15:31:44,490 - INFO - Timeout fetched : 15
+2026-05-22 15:31:44,490 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-22 15:31:44,523 - INFO - Timeout fetched : 15
+2026-05-22 15:31:44,523 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-22 15:31:44,566 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 15:31:44,566 - INFO - Timeout fetched : 15
+2026-05-22 15:31:44,567 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-22 15:31:44,680 - INFO - Timeout fetched : 15
+2026-05-22 15:31:44,680 - INFO - Waiting for element visibility: ('xpath', "//span[contains(text(), 'Date of Birth') or contains(text(), 'birth')]")
+2026-05-22 15:31:45,208 - INFO - Screenshot saved at: reports/screenshots/PASSED_Validate_traveler_details_form_validation_logic_errors_--_@1.1_John_Doe_-_Blank_DOB_20260522_153144.png
+2026-05-22 15:31:45,209 - INFO - BDD Automation Engine: Logged milestone snapshot for: Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB [PASSED]
+2026-05-22 15:31:45,209 - INFO - <-- Tearing Down Browser Session for Scenario: 'Validate traveler details form validation logic errors -- @1.1 John Doe - Blank DOB'
+2026-05-22 16:03:40,840 - INFO - =======================================
+2026-05-22 16:03:40,841 - INFO - Starting BDD Test Execution Suite
+2026-05-22 16:03:40,841 - INFO - Browser fetched : chrome
+2026-05-22 16:03:40,841 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-22 16:03:40,841 - INFO - Implicit wait fetched : 10
+2026-05-22 16:03:40,842 - INFO - Timeout fetched : 15
+2026-05-22 16:03:40,842 - INFO - Headless mode : False
+2026-05-22 16:03:40,842 - INFO - Browser       : chrome
+2026-05-22 16:03:40,842 - INFO - Base URL      : https://www.makemytrip.com/
+2026-05-22 16:03:40,842 - INFO - Implicit Wait : 10
+2026-05-22 16:03:40,842 - INFO - Headless      : False
+2026-05-22 16:03:40,842 - INFO - =======================================
+2026-05-22 16:03:40,873 - INFO - --> Initializing browser for Scenario: 'Complete full end-to-end valid submission up to verification'
+2026-05-22 16:03:40,886 - INFO - ====== WebDriver manager ======
+2026-05-22 16:03:56,024 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-22 16:04:11,265 - INFO - Opening Target URL: https://www.makemytrip.com/
+2026-05-22 16:04:18,345 - INFO - Timeout fetched : 15
+2026-05-22 16:04:18,346 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 16:04:39,044 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 16:04:39,049 - INFO - Navigating to Travel Insurance page...
+2026-05-22 16:04:39,049 - INFO - Timeout fetched : 15
+2026-05-22 16:04:39,049 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-22 16:04:39,578 - INFO - Loaded target execution credentials for: Suneet Kumar via native data-table.
+2026-05-22 16:04:39,579 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-22 16:04:39,580 - INFO - Timeout fetched : 15
+2026-05-22 16:04:39,580 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-22 16:04:42,343 - INFO - Timeout fetched : 15
+2026-05-22 16:04:42,344 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 16:04:42,424 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-22 16:04:42,463 - INFO - Default selection cleared.
+2026-05-22 16:04:42,964 - INFO - Injecting search phrase query: UAE
+2026-05-22 16:04:42,965 - INFO - Timeout fetched : 15
+2026-05-22 16:04:42,965 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 16:04:44,125 - INFO - Checking filtered list match row for: UAE
+2026-05-22 16:04:44,125 - INFO - Timeout fetched : 15
+2026-05-22 16:04:44,125 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-22 16:04:45,783 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260522_160445.png
+2026-05-22 16:04:45,799 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-22 16:04:45,799 - INFO - Timeout fetched : 15
+2026-05-22 16:04:45,801 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-22 16:04:46,482 - INFO - Timeout fetched : 15
+2026-05-22 16:04:46,483 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-22 16:04:56,541 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-22 16:04:56,542 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-22 16:04:56,542 - INFO - Timeout fetched : 15
+2026-05-22 16:04:56,542 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-22 16:04:56,623 - INFO - Targeting formatted DOM text row option: 01
+2026-05-22 16:04:56,623 - INFO - Timeout fetched : 15
+2026-05-22 16:04:56,623 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-22 16:04:57,548 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260522_160457.png
+2026-05-22 16:04:57,608 - INFO - Successfully selected traveler option: 01
+2026-05-22 16:04:58,110 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-22 16:04:58,110 - INFO - Timeout fetched : 15
+2026-05-22 16:04:58,111 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-22 16:04:58,397 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260522_160458.png
+2026-05-22 16:05:00,981 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-22 16:05:00,981 - INFO - Timeout fetched : 15
+2026-05-22 16:05:00,981 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-22 16:05:06,226 - INFO - Populating name field container: Suneet Kumar
+2026-05-22 16:05:06,226 - INFO - Timeout fetched : 15
+2026-05-22 16:05:06,226 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-22 16:05:07,690 - INFO - Processing and passing raw date of birth data: 12121998
+2026-05-22 16:05:07,690 - INFO - Timeout fetched : 15
+2026-05-22 16:05:07,690 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-22 16:05:07,912 - INFO - Locating gender selector component for profile value: Male
+2026-05-22 16:05:07,912 - INFO - Timeout fetched : 15
+2026-05-22 16:05:07,912 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-22 16:05:07,977 - INFO - Successfully selected gender option: Male
+2026-05-22 16:05:07,977 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-22 16:05:07,977 - INFO - Timeout fetched : 15
+2026-05-22 16:05:07,977 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-22 16:05:09,159 - INFO - Timeout fetched : 15
+2026-05-22 16:05:09,159 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-22 16:05:10,709 - INFO - Filing statement approval criteria profiles...
+2026-05-22 16:05:10,710 - INFO - Timeout fetched : 15
+2026-05-22 16:05:10,710 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-22 16:05:10,774 - INFO - Timeout fetched : 15
+2026-05-22 16:05:10,774 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-22 16:05:10,824 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-22 16:05:10,824 - INFO - Timeout fetched : 15
+2026-05-22 16:05:10,824 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-22 16:05:13,531 - INFO - Timeout fetched : 15
+2026-05-22 16:05:13,531 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 16:05:13,777 - INFO - Preparing to enter mobile number: 9876543210
+2026-05-22 16:05:16,019 - INFO - Toggling the user-consent checkbox to unlock the form...
+2026-05-22 16:05:17,320 - INFO - Clicking the Continue button...
+2026-05-22 16:05:17,408 - INFO - OTP triggered! Pausing execution loop for 25 seconds for manual OTP entry...
+2026-05-22 16:05:17,410 - INFO - Timeout fetched : 15
+2026-05-22 16:05:17,410 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-22 16:05:17,442 - INFO - End-to-End complete: OTP form verification intercept captured cleanly.
+2026-05-22 16:05:17,834 - INFO - Screenshot saved at: reports/screenshots/PASSED_Complete_full_end-to-end_valid_submission_up_to_verification_20260522_160517.png
+2026-05-22 16:05:17,834 - INFO - BDD Automation Engine: Logged milestone snapshot for: Complete full end-to-end valid submission up to verification [PASSED]
+2026-05-22 16:05:17,834 - INFO - <-- Tearing Down Browser Session for Scenario: 'Complete full end-to-end valid submission up to verification'
