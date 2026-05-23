@@ -1,11 +1,11 @@
 import time
 import allure
-import re
-from behave import given, when, then, use_step_matcher
+from behave import given, when, then
 
 from utils.config_reader import ConfigReader
 from utils.logger import LogGen
 from utils.waits import WaitUtils
+from utils.csv_reader import CsvReader
 
 from pages.home_page import HomePage
 from pages.insurance_page import InsurancePage
@@ -22,6 +22,11 @@ logger = LogGen.loggen()
 
 @given('the user opens the corporate travel portal application homepage')
 def step_impl(context):
+    if not hasattr(context, 'base_url'):
+        try:
+            context.base_url = ConfigReader.get_base_url()
+        except Exception:
+            context.base_url = "https://www.makemytrip.com/"
     context.driver.get(context.base_url)
 
 
@@ -41,137 +46,147 @@ def step_impl(context):
 
 
 # ==================================================================================
-#  POSITIVE STEP IMPLEMENTATIONS
+#  GLOBAL DATA INJECTOR (Reads for both Feature Files)
 # ==================================================================================
 
-@then('the choice of insurance plan grid matrix structure must load successfully')
+@when('the user loads test metrics from row "{row_index}" inside CSV file "{filepath}"')
+def step_impl(context, row_index, filepath):
+    logger.info(f"Accessing CSV Data Layer: Row [{row_index}] via [{filepath}]")
+    context.csv_data = CsvReader.get_test_data(filepath, row_index)
+    context.e2e_data = context.csv_data
+
+
+# ==================================================================================
+#  DATA CONFIGURATOR GLUE STEPS
+# ==================================================================================
+
+@when('the user configures the flow map targeting destination country from data')
 def step_impl(context):
-    logger.info("Executing BDD Positive Test: Asserting Choose Plans Grid Matrix.")
-    is_present = context.plans_page.is_choose_plan_present()
-    assert is_present, "Error: Plans matrix grid failed to load properly!"
+    if not hasattr(context, 'insurance_page') or context.insurance_page is None:
+        context.insurance_page = InsurancePage(context.driver)
+    context.insurance_page.select_country(context.csv_data["Country"])
 
 
-@then('the visibility of international travel and medical insurance policy headers must be confirmed')
+@when('the user configures traveler volume parameters from data')
 def step_impl(context):
-    logger.info("Executing BDD Positive Test: Confirming International Travel Policy Header Presence.")
-    element = WaitUtils.wait_for_element_visible(context.driver, context.insurance_page.INSURANCE_PAGE_CHECKMARK)
-    assert element.is_displayed(), "Policy banner for 'International Travel + Medical Insurance' is missing."
+    if not hasattr(context, 'insurance_page') or context.insurance_page is None:
+        context.insurance_page = InsurancePage(context.driver)
+    context.insurance_page.select_travellers_count(context.csv_data["Travellers"])
 
 
-# ==================================================================================
-#  DATA-DRIVEN OUTLINE NEGATIVE STEP IMPLEMENTATIONS
-# ==================================================================================
-
-@when('the user configures the flow map targeting destination country "{country}"')
-def step_impl(context, country):
-    context.insurance_page.select_country(country)
-
-
-@when('the user configures traveler volume parameters for "{travellers}" rows')
-def step_impl(context, travellers):
-    context.insurance_page.select_travellers_count(travellers)
-
-
-@when('the user executes plan searches and clicks buy now on plan card position "{plan_index}"')
-def step_impl(context, plan_index):
+@when('the user clicks the explore plans button to execute searches')
+def step_impl(context):
     context.insurance_page.click_explore_plans()
-    time.sleep(2.5)  # Safe Single-Page Application (SPA) layout change gap
+    time.sleep(4.0)
+
+
+@when('the user executes plan searches and clicks buy now on plan card from data')
+def step_impl(context):
+    if not hasattr(context, 'plans_page') or context.plans_page is None:
+        context.plans_page = PlansPage(context.driver)
+    context.insurance_page.click_explore_plans()
+    time.sleep(4.0)
     assert context.plans_page.is_choose_plan_present(), "Plans matrix grid failed to load!"
-    context.plans_page.click_buy_now(plan_index)
+    context.plans_page.click_buy_now(context.csv_data["plan_index"])
     time.sleep(2.0)
 
 
-# ----------------------------------------------------------------------------------
-# REGEX STEP MATCHING SECTION (For safe dynamic parameter strings)
-# ----------------------------------------------------------------------------------
-use_step_matcher("re")
-
-
-@when(
-    r'the user attempts info validation using name (?P<name>.*?), dob (?P<dob>.*?), gender (?P<gender>.*?), mobile (?P<mobile>.*?), and email (?P<email>.*)')
-def step_impl(context, name, dob, gender, mobile, email):
-    """
-    Advanced Regex Matcher: Captures values seamlessly even when parameters
-    like 'dob' or 'mobile' are left completely empty inside the Gherkin row text block.
-    """
-    assert context.traveller_page.is_traveller_page_open(), "Checkout form tree missing!"
-
-    # Strip lingering double quotes if passed directly from Gherkin fields
-    clean_name = str(name).replace('"', '').strip()
-    clean_dob = str(dob).replace('"', '').strip()
-    clean_gender = str(gender).replace('"', '').strip()
-    clean_mobile = str(mobile).replace('"', '').strip()
-    clean_email = str(email).replace('"', '').strip()
-
-    logger.info(f"Regex Engine Active: Validating profile form parameters for [{clean_name}]")
-
-    # Input data using cleaned text strings
-    context.traveller_page.fill_traveller_info(clean_name, clean_dob, clean_gender)
-    context.traveller_page.fill_contact_info(clean_mobile, clean_email)
-    context.traveller_page.complete_booking_flow()
-
-
-# Restore the native parse step matcher so standard strings parse normally
-use_step_matcher("parse")
-
-
-# ----------------------------------------------------------------------------------
-
-
-@then(
-    'the system field tracking validation engine must surface the error "{expected_error}" for field type "{error_type}"')
-def step_impl(context, expected_error, error_type):
-    if error_type.strip().upper() == "DOB":
-        ui_error_text = context.traveller_page.get_dob_error_message()
-    else:
-        ui_error_text = context.traveller_page.get_mobile_error_message()
-
-    assert ui_error_text == expected_error, f"Validation mismatch! Found UI message: '{ui_error_text}'"
-
-
 # ==================================================================================
-#  END-TO-END FUNCTIONAL BATCH EXECUTIONS (NATIVE GHERKIN PARSING)
+#  INPUT DRIVER AND INJECTION LOGIC
 # ==================================================================================
 
-@when('the user processes the following valid customer registration profile:')
+@when('the user injects valid profile fields from loaded data mapping')
 def step_impl(context):
-    """Parses the standalone data grid straight from the feature file context."""
-    context.e2e_data = context.table.rows[0]
-    logger.info(f"Loaded target execution credentials for: {context.e2e_data['name']} via native data-table.")
+    data = context.csv_data
+    context.traveller_page.fill_traveller_info(data["name"], data["dob"], data["gender"])
+    context.traveller_page.fill_contact_info(data["mobile"], data["email"])
+    context.traveller_page.complete_booking_flow()
+    time.sleep(2.5)
 
+
+@when('the user attempts context dynamic info validations on fields')
+def step_impl(context):
+    data = context.csv_data
+    assert context.traveller_page.is_traveller_page_open(), "Checkout form missing!"
+
+    clean_dob = data["dob"] if data["dob"] else ""
+    clean_mobile = data["mobile"] if data["mobile"] else ""
+
+    context.traveller_page.fill_traveller_info(data["name"], clean_dob, data["gender"])
+    context.traveller_page.fill_contact_info(clean_mobile, data["email"])
+    context.traveller_page.complete_booking_flow()
 
 @when('the system fully automates the valid profile registration stream pipeline')
 def step_impl(context):
     data = context.e2e_data
-    config_mobile = ConfigReader.get("mobile_number").strip()
-
-    # Run full navigation loop
     context.insurance_page.select_country(data["Country"])
     context.insurance_page.select_travellers_count(data["Travellers"])
     context.insurance_page.click_explore_plans()
-    time.sleep(2.5)
-
+    time.sleep(4.0)
     context.plans_page.click_buy_now(data['plan_index'])
     time.sleep(2.0)
-
     context.traveller_page.fill_traveller_info(data['name'], data['dob'], data['gender'])
     context.traveller_page.fill_contact_info(data['mobile'], data['email'])
     context.traveller_page.complete_booking_flow()
     time.sleep(2.5)
 
+
+
+# ==================================================================================
+#  VALIDATION LAYER ASSERTIONS
+# ==================================================================================
+
+@then('the choice of insurance plan grid matrix structure must load successfully')
+def step_impl(context):
+    if not hasattr(context, 'plans_page') or context.plans_page is None:
+        context.plans_page = PlansPage(context.driver)
+
+    grid_rendered = False
+    for attempt in range(5):
+        if context.plans_page.is_choose_plan_present():
+            grid_rendered = True
+            break
+        time.sleep(3.0)
+    assert grid_rendered, "Plans matrix grid failed to load."
+
+
+@then('the visibility of international travel and medical insurance policy headers must be confirmed')
+def step_impl(context):
+    element = WaitUtils.wait_for_element_visible(context.driver, context.insurance_page.INSURANCE_PAGE_CHECKMARK)
+    assert element.is_displayed(), "Policy header banner verification broken."
+
+
+@then('the traveler contact form layout layer view visibility should be confirmed')
+def step_impl(context):
+    assert context.traveller_page.is_traveller_page_open(), "Traveler checkout screen unavailable."
+
+
+@then('the system field tracking validation engine must surface the expected error from data')
+def step_impl(context):
+    data = context.csv_data
+    if data["Error_Type"].strip().upper() == "DOB":
+        ui_error_text = context.traveller_page.get_dob_error_message()
+    else:
+        ui_error_text = context.traveller_page.get_mobile_error_message()
+    assert ui_error_text == data["expected_error"], f"Validation mismatch! Found: '{ui_error_text}'"
+
+
+@then('the authentication intercept overlay login screen should be displayed without form errors')
+def step_impl(context):
     if context.login_popup.is_login_popup_displayed():
-        allure.attach(
-            context.driver.get_screenshot_as_png(),
-            name="BDD_Step_Authentication_OTP_Prompt_Intercepted",
-            attachment_type=allure.attachment_type.PNG
-        )
-        context.login_popup.login_with_mobile_and_wait_for_otp(config_mobile)
+        assert True
+    else:
+        assert not context.traveller_page.has_validation_errors(), "Unexpected validation block locked form."
+
+
+# ==================================================================================
+#  E2E COMPATIBILITY FLOWS
+# ==================================================================================
 
 
 @then('the user profile should clear forms safely with authentication panels triggered')
 def step_impl(context):
     if context.login_popup.is_login_popup_displayed():
-        logger.info("End-to-End complete: OTP form verification intercept captured cleanly.")
         assert True
     else:
-        assert not context.traveller_page.has_validation_errors(), "The automation stream terminated due to unhandled form errors."
+        assert not context.traveller_page.has_validation_errors(), "Automation failed over active form error warnings."

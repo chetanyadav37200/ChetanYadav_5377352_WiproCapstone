@@ -1,4 +1,9 @@
 selenium
+seleniumbase
 behave
-allure-behave
 webdriver-manager
+allure-behave
+pytest
+openpyxl
+configparser
+gherkin-official

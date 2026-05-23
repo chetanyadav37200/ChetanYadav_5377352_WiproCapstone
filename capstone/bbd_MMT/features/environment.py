@@ -1,127 +1,129 @@
+import time
 import os
 import allure
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
-from selenium.webdriver.edge.options import Options as EdgeOptions
-from selenium.webdriver.chrome.options import Options as ChromeOptions
-from webdriver_manager.chrome import ChromeDriverManager
 
-from utils.config_reader import ConfigReader
+from seleniumbase import Driver
+
 from utils.logger import LogGen
 from utils.screenshot_util import ScreenshotUtil
+from utils.config_reader import ConfigReader
 
 logger = LogGen.loggen()
 
 
-def before_all(context):
-    """ Runs once before the entire test suite execution begins. """
-    logger.info("=======================================")
-    logger.info("Starting BDD Test Execution Suite")
-
-    # Read global configurations from your config util
-    context.browser = ConfigReader.get("browser").strip().lower()
-    context.base_url = ConfigReader.get("base_url").strip()
-    context.implicit_wait = int(ConfigReader.get("implicit_wait"))
-    context.timeout = int(ConfigReader.get("timeout"))
-    context.headless = ConfigReader.get("headless").strip().lower() == "true"
-
-    logger.info(f"Browser       : {context.browser}")
-    logger.info(f"Base URL      : {context.base_url}")
-    logger.info(f"Implicit Wait : {context.implicit_wait}")
-    logger.info(f"Headless      : {context.headless}")
-    logger.info("=======================================")
-
-
 def before_scenario(context, scenario):
-    """ Runs before EVERY individual scenario to isolate browser instances. """
-    logger.info(f"--> Initializing browser for Scenario: '{scenario.name}'")
 
-    # CHROME SETUP
-    if context.browser == "chrome":
-        chrome_options = ChromeOptions()
-        chrome_options.add_argument("--start-maximized")
-        chrome_options.add_argument("--disable-notifications")
-        chrome_options.add_argument("--disable-infobars")
-        chrome_options.add_argument("--disable-extensions")
-        if context.headless:
-            chrome_options.add_argument("--headless=new")
+    logger.info(
+        f"========== STARTING SCENARIO: {scenario.name} =========="
+    )
 
-        context.driver = webdriver.Chrome(
-            service=ChromeService(ChromeDriverManager().install()),
-            options=chrome_options
-        )
+    # USING SELENIUMBASE UC MODE
+    context.driver = Driver(
+        uc=True
+    )
 
-    # EDGE SETUP
-    elif context.browser == "edge":
-        edge_options = EdgeOptions()
-        edge_options.add_argument("--start-maximized")
-        edge_options.add_argument("--disable-notifications")
-        edge_options.add_argument("--disable-infobars")
-        edge_options.add_argument("--disable-extensions")
-        if context.headless:
-            edge_options.add_argument("--headless")
-
-        context.driver = webdriver.Edge(options=edge_options)
-
-    # DEFAULT FALLBACK
-    else:
-        chrome_options = ChromeOptions()
-        chrome_options.add_argument("--start-maximized")
-        context.driver = webdriver.Chrome(
-            service=ChromeService(ChromeDriverManager().install()),
-            options=chrome_options
-        )
-
-    context.driver.implicitly_wait(context.implicit_wait)
     context.driver.maximize_window()
 
-    logger.info(f"Opening Target URL: {context.base_url}")
-    context.driver.get(context.base_url)
+    context.driver.implicitly_wait(
+        ConfigReader.get_implicit_wait()
+    )
+
+    # OPEN WEBSITE
+    base_url = "https://www.makemytrip.com/"
+
+    logger.info(
+        f"OPENING MAKEMYTRIP WEBSITE: {base_url}"
+    )
+
+    context.driver.get(
+        base_url
+    )
+
+    # WAF WAIT
+    time.sleep(2)
+
+    logger.info(
+        f"CURRENT URL: {context.driver.current_url}"
+    )
+
+
+def after_step(context, step):
+
+    try:
+
+        # CAPTURE SCREENSHOT FOR EVERY STEP
+        path = ScreenshotUtil.capture_screenshot(
+            context.driver,
+            f"{step.status}_{step.name[:20]}"
+        )
+
+        # ATTACH SCREENSHOT TO ALLURE REPORT
+        allure.attach.file(
+            path,
+            name=f"{step.status.upper()} - {step.name}",
+            attachment_type=allure.attachment_type.PNG
+        )
+
+        if step.status == "failed":
+
+            logger.error(
+                f"STEP FAILED: {step.name}"
+            )
+
+        elif step.status == "passed":
+
+            logger.info(
+                f"STEP PASSED: {step.name}"
+            )
+
+    except Exception as e:
+
+        logger.error(
+            f"SCREENSHOT FAILED: {str(e)}"
+        )
 
 
 def after_scenario(context, scenario):
-    """
-    Runs immediately after every scenario.
-    Captures screenshots on test completion (Pass or Fail) and tears down the browser.
-    """
-    if hasattr(context, "driver"):
-        # Determine status prefix for naming consistency
-        status_prefix = "PASSED" if scenario.status == "passed" else "FAILED"
 
-        # Clean scenario name for file saving safety
-        clean_scenario_name = (
-            scenario.name.replace("[", "_")
-            .replace("]", "_")
-            .replace("'", "")
-            .replace(",", "_")
-            .replace(" ", "_")
-        )
-        screenshot_name = f"{status_prefix}_{clean_scenario_name}"
+    logger.info(
+        f"========== CLOSING SCENARIO: {scenario.name} =========="
+    )
+
+    if hasattr(context, 'driver'):
 
         try:
-            # 1. Attach screenshot to Allure BDD Report
-            allure.attach(
-                context.driver.get_screenshot_as_png(),
-                name=screenshot_name,
-                attachment_type=allure.attachment_type.PNG
+
+            with open("logs/automation.log", "r") as log_file:
+
+                allure.attach(
+                    log_file.read(),
+                    name="Execution Logs",
+                    attachment_type=allure.attachment_type.TEXT
+                )
+
+            context.driver.quit()
+
+            logger.info(
+                "BROWSER CLOSED SUCCESSFULLY"
             )
 
-            # 2. Save a local hardcopy using your custom ScreenshotUtil
-            ScreenshotUtil.capture_screenshot(context.driver, screenshot_name=screenshot_name)
-            logger.info(f"BDD Automation Engine: Logged milestone snapshot for: {scenario.name} [{status_prefix}]")
-
         except Exception as e:
-            logger.error(f"Global Automation Engine failed to extract scenario screenshot: {str(e)}")
 
-        # Tear down the driver session
-        logger.info(f"<-- Tearing Down Browser Session for Scenario: '{scenario.name}'")
-        context.driver.quit()
+            logger.error(
+                f"ERROR CLOSING BROWSER: {str(e)}"
+            )
 
 
 def after_all(context):
-    """ Runs once after all feature files finish executing. """
-    print("\n-------BDD TESTS COMPLETE! GENERATING AND OPENING ALLURE REPORT--------")
-    print("-----------------------------------------------------------------------\n")
 
-    # Automatically compiles and provisions the permanent Allure report dashboard portal
-    os.system("allure serve reports/allure-results")
+    print(
+        "\n======= TESTS COMPLETED - OPENING ALLURE REPORT ======="
+    )
+
+    os.system(
+        "allure generate reports/allure-results -o reports/allure-report --clean"
+    )
+
+    os.system(
+        "allure open reports/allure-report"
+    )

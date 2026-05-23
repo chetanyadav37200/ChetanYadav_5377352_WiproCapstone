@@ -1,0 +1,5 @@
+Row_Index,Country,Travellers,plan_index,name,dob,gender,mobile,email,expected_error,Error_Type
+1,UAE,1,1,Suneet Kumar,12121998,Male,9876543210,suneet@test.com,,NONE
+2,UAE,1,1,John Doe,,Male,9876543210,john@test.com,Please enter valid Date of Birth,DOB
+3,UAE,1,2,Jane Smith,15081995,Female,,jane@test.com,Please enter mobile number,MOBILE
+4,UAE,1,1,Alex Wilson,22111992,Male,12345,alex@test.com,Please enter valid Mobile No.,MOBILE
