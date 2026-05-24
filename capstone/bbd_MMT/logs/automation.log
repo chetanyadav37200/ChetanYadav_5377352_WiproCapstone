@@ -8975,3 +8975,666 @@ Stacktrace:
 2026-05-23 12:31:19,365 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
 2026-05-23 12:31:19,366 - INFO - ========== CLOSING SCENARIO: Validate traveler details form validation logic errors -- @1.3  ==========
 2026-05-23 12:31:23,687 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 00:02:22,308 - INFO - ========== STARTING SCENARIO: Validate plan grids UI matrix presentation layer loading -- @1.1  ==========
+2026-05-24 00:02:34,824 - INFO - Implicit wait fetched : 10
+2026-05-24 00:02:34,831 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 00:02:46,346 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 00:02:46,349 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-24 00:02:54,746 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_opens_the_c_20260524_000253.png
+2026-05-24 00:02:54,747 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:02:54,753 - INFO - Timeout fetched : 15
+2026-05-24 00:02:54,754 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:03:15,307 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:03:15,595 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_dismisses_i_20260524_000315.png
+2026-05-24 00:03:15,596 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:03:15,598 - INFO - Navigating to Travel Insurance page...
+2026-05-24 00:03:15,599 - INFO - Timeout fetched : 15
+2026-05-24 00:03:15,599 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-24 00:03:17,511 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_navigates_i_20260524_000316.png
+2026-05-24 00:03:17,511 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:03:17,584 - INFO - Accessing CSV Data Layer: Row [1] via [data/insurance.csv]
+2026-05-24 00:03:17,588 - INFO - Loading test data from CSV: data/insurance.csv for row 1
+2026-05-24 00:03:17,597 - INFO - CSV Data successfully loaded: {'Row_Index': '1', 'Country': 'UAE', 'Travellers': '1', 'plan_index': '1', 'name': 'Suneet Kumar', 'dob': '12121998', 'gender': 'Male', 'mobile': '9876543210', 'email': 'suneet@test.com', 'expected_error': '', 'Error_Type': 'NONE'}
+2026-05-24 00:03:18,488 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_loads_test_20260524_000317.png
+2026-05-24 00:03:18,488 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:03:18,494 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-24 00:03:18,501 - INFO - Timeout fetched : 15
+2026-05-24 00:03:18,501 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-24 00:03:20,305 - INFO - Timeout fetched : 15
+2026-05-24 00:03:20,305 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:03:20,402 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-24 00:03:20,445 - INFO - Default selection cleared.
+2026-05-24 00:03:20,946 - INFO - Injecting search phrase query: UAE
+2026-05-24 00:03:20,946 - INFO - Timeout fetched : 15
+2026-05-24 00:03:20,947 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:03:22,074 - INFO - Checking filtered list match row for: UAE
+2026-05-24 00:03:22,074 - INFO - Timeout fetched : 15
+2026-05-24 00:03:22,074 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-24 00:03:23,521 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260524_000323.png
+2026-05-24 00:03:23,534 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-24 00:03:23,536 - INFO - Timeout fetched : 15
+2026-05-24 00:03:23,536 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-24 00:03:24,382 - INFO - Timeout fetched : 15
+2026-05-24 00:03:24,383 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:03:34,426 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-24 00:03:34,659 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_000334.png
+2026-05-24 00:03:34,659 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:03:34,662 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-24 00:03:34,663 - INFO - Timeout fetched : 15
+2026-05-24 00:03:34,663 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-24 00:03:34,769 - INFO - Targeting formatted DOM text row option: 01
+2026-05-24 00:03:34,769 - INFO - Timeout fetched : 15
+2026-05-24 00:03:34,769 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-24 00:03:35,871 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260524_000335.png
+2026-05-24 00:03:35,910 - INFO - Successfully selected traveler option: 01
+2026-05-24 00:03:36,772 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_000336.png
+2026-05-24 00:03:36,772 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:03:36,774 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-24 00:03:36,774 - INFO - Timeout fetched : 15
+2026-05-24 00:03:36,774 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-24 00:03:37,212 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260524_000336.png
+2026-05-24 00:03:44,552 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_clicks_the_20260524_000341.png
+2026-05-24 00:03:44,552 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:03:44,604 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-24 00:03:44,605 - INFO - Timeout fetched : 15
+2026-05-24 00:03:44,606 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-24 00:03:45,154 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_choice_of_insura_20260524_000344.png
+2026-05-24 00:03:45,155 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:03:45,162 - INFO - ========== CLOSING SCENARIO: Validate plan grids UI matrix presentation layer loading -- @1.1  ==========
+2026-05-24 00:03:50,467 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 00:05:02,780 - INFO - ========== STARTING SCENARIO: Validate traveler details form validation logic errors -- @1.1  ==========
+2026-05-24 00:05:09,708 - INFO - Implicit wait fetched : 10
+2026-05-24 00:05:09,727 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 00:05:22,292 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 00:05:22,300 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-24 00:05:31,200 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_opens_the_c_20260524_000530.png
+2026-05-24 00:05:31,201 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:05:31,206 - INFO - Timeout fetched : 15
+2026-05-24 00:05:31,207 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:05:51,884 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:05:52,259 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_dismisses_i_20260524_000551.png
+2026-05-24 00:05:52,260 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:05:52,263 - INFO - Navigating to Travel Insurance page...
+2026-05-24 00:05:52,263 - INFO - Timeout fetched : 15
+2026-05-24 00:05:52,263 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-24 00:05:53,583 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_navigates_i_20260524_000552.png
+2026-05-24 00:05:53,584 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:05:53,587 - INFO - Accessing CSV Data Layer: Row [2] via [data/insurance.csv]
+2026-05-24 00:05:53,588 - INFO - Loading test data from CSV: data/insurance.csv for row 2
+2026-05-24 00:05:53,590 - INFO - CSV Data successfully loaded: {'Row_Index': '2', 'Country': 'UAE', 'Travellers': '1', 'plan_index': '1', 'name': 'John Doe', 'dob': '', 'gender': 'Male', 'mobile': '9876543210', 'email': 'john@test.com', 'expected_error': 'Please enter valid Date of Birth', 'Error_Type': 'DOB'}
+2026-05-24 00:05:54,313 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_loads_test_20260524_000553.png
+2026-05-24 00:05:54,314 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:05:54,339 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-24 00:05:54,339 - INFO - Timeout fetched : 15
+2026-05-24 00:05:54,340 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-24 00:05:56,056 - INFO - Timeout fetched : 15
+2026-05-24 00:05:56,057 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:05:56,141 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-24 00:05:56,179 - INFO - Default selection cleared.
+2026-05-24 00:05:56,680 - INFO - Injecting search phrase query: UAE
+2026-05-24 00:05:56,680 - INFO - Timeout fetched : 15
+2026-05-24 00:05:56,681 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:05:57,863 - INFO - Checking filtered list match row for: UAE
+2026-05-24 00:05:57,863 - INFO - Timeout fetched : 15
+2026-05-24 00:05:57,863 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-24 00:05:59,267 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260524_000558.png
+2026-05-24 00:05:59,277 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-24 00:05:59,279 - INFO - Timeout fetched : 15
+2026-05-24 00:05:59,279 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-24 00:06:00,079 - INFO - Timeout fetched : 15
+2026-05-24 00:06:00,079 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:06:10,151 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-24 00:06:10,586 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_000610.png
+2026-05-24 00:06:10,587 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:06:10,590 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-24 00:06:10,590 - INFO - Timeout fetched : 15
+2026-05-24 00:06:10,590 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-24 00:06:10,727 - INFO - Targeting formatted DOM text row option: 01
+2026-05-24 00:06:10,728 - INFO - Timeout fetched : 15
+2026-05-24 00:06:10,729 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-24 00:06:11,746 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260524_000611.png
+2026-05-24 00:06:11,820 - INFO - Successfully selected traveler option: 01
+2026-05-24 00:06:12,865 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_000612.png
+2026-05-24 00:06:12,866 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:06:12,869 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-24 00:06:12,869 - INFO - Timeout fetched : 15
+2026-05-24 00:06:12,870 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-24 00:06:13,391 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260524_000612.png
+2026-05-24 00:06:17,524 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-24 00:06:17,524 - INFO - Timeout fetched : 15
+2026-05-24 00:06:17,525 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-24 00:06:19,560 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-24 00:06:19,561 - INFO - Timeout fetched : 15
+2026-05-24 00:06:19,561 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-24 00:06:22,089 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_executes_pl_20260524_000621.png
+2026-05-24 00:06:22,089 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:06:22,091 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-24 00:06:22,091 - INFO - Timeout fetched : 15
+2026-05-24 00:06:22,091 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-24 00:06:22,197 - INFO - Populating name field container: John Doe
+2026-05-24 00:06:22,199 - INFO - Timeout fetched : 15
+2026-05-24 00:06:22,199 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-24 00:06:24,668 - INFO - Processing and passing raw date of birth data: 
+2026-05-24 00:06:24,668 - INFO - Locating gender selector component for profile value: Male
+2026-05-24 00:06:24,669 - INFO - Timeout fetched : 15
+2026-05-24 00:06:24,669 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-24 00:06:24,779 - INFO - Successfully selected gender option: Male
+2026-05-24 00:06:24,780 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-24 00:06:24,781 - INFO - Timeout fetched : 15
+2026-05-24 00:06:24,781 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-24 00:06:26,304 - INFO - Timeout fetched : 15
+2026-05-24 00:06:26,305 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-24 00:06:27,763 - INFO - Filing statement approval criteria profiles...
+2026-05-24 00:06:27,763 - INFO - Timeout fetched : 15
+2026-05-24 00:06:27,763 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-24 00:06:27,807 - INFO - Timeout fetched : 15
+2026-05-24 00:06:27,807 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-24 00:06:27,853 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-24 00:06:27,854 - INFO - Timeout fetched : 15
+2026-05-24 00:06:27,854 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-24 00:06:28,280 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_attempts_co_20260524_000627.png
+2026-05-24 00:06:28,280 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:06:28,290 - INFO - Timeout fetched : 15
+2026-05-24 00:06:28,291 - INFO - Waiting for element visibility: ('xpath', "//span[contains(text(), 'Date of Birth') or contains(text(), 'birth')]")
+2026-05-24 00:06:28,658 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_system_field_tra_20260524_000628.png
+2026-05-24 00:06:28,659 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:06:28,662 - INFO - ========== CLOSING SCENARIO: Validate traveler details form validation logic errors -- @1.1  ==========
+2026-05-24 00:06:34,207 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 00:06:34,239 - INFO - ========== STARTING SCENARIO: Validate traveler details form validation logic errors -- @1.2  ==========
+2026-05-24 00:06:43,877 - INFO - Implicit wait fetched : 10
+2026-05-24 00:06:43,886 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 00:06:56,782 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 00:06:56,787 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-24 00:07:05,192 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_opens_the_c_20260524_000704.png
+2026-05-24 00:07:05,193 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:07:05,196 - INFO - Timeout fetched : 15
+2026-05-24 00:07:05,196 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:07:25,770 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:07:26,022 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_dismisses_i_20260524_000725.png
+2026-05-24 00:07:26,022 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:07:26,026 - INFO - Navigating to Travel Insurance page...
+2026-05-24 00:07:26,026 - INFO - Timeout fetched : 15
+2026-05-24 00:07:26,026 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-24 00:07:27,495 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_navigates_i_20260524_000726.png
+2026-05-24 00:07:27,496 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:07:27,538 - INFO - Accessing CSV Data Layer: Row [3] via [data/insurance.csv]
+2026-05-24 00:07:27,542 - INFO - Loading test data from CSV: data/insurance.csv for row 3
+2026-05-24 00:07:27,658 - INFO - CSV Data successfully loaded: {'Row_Index': '3', 'Country': 'UAE', 'Travellers': '1', 'plan_index': '2', 'name': 'Jane Smith', 'dob': '15081995', 'gender': 'Female', 'mobile': '', 'email': 'jane@test.com', 'expected_error': 'Please enter mobile number', 'Error_Type': 'MOBILE'}
+2026-05-24 00:07:28,855 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_loads_test_20260524_000727.png
+2026-05-24 00:07:28,856 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:07:29,072 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-24 00:07:29,080 - INFO - Timeout fetched : 15
+2026-05-24 00:07:29,082 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-24 00:07:31,363 - INFO - Timeout fetched : 15
+2026-05-24 00:07:31,364 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:07:31,528 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-24 00:07:31,649 - INFO - Default selection cleared.
+2026-05-24 00:07:32,150 - INFO - Injecting search phrase query: UAE
+2026-05-24 00:07:32,150 - INFO - Timeout fetched : 15
+2026-05-24 00:07:32,151 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:07:33,677 - INFO - Checking filtered list match row for: UAE
+2026-05-24 00:07:33,677 - INFO - Timeout fetched : 15
+2026-05-24 00:07:33,677 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-24 00:07:35,366 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260524_000734.png
+2026-05-24 00:07:35,531 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-24 00:07:35,532 - INFO - Timeout fetched : 15
+2026-05-24 00:07:35,532 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-24 00:07:36,293 - INFO - Timeout fetched : 15
+2026-05-24 00:07:36,297 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:07:46,361 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-24 00:07:46,771 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_000746.png
+2026-05-24 00:07:46,772 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:07:46,777 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-24 00:07:46,777 - INFO - Timeout fetched : 15
+2026-05-24 00:07:46,777 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-24 00:07:46,934 - INFO - Targeting formatted DOM text row option: 01
+2026-05-24 00:07:46,935 - INFO - Timeout fetched : 15
+2026-05-24 00:07:46,936 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-24 00:07:48,147 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260524_000747.png
+2026-05-24 00:07:48,224 - INFO - Successfully selected traveler option: 01
+2026-05-24 00:07:49,191 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_000748.png
+2026-05-24 00:07:49,191 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:07:49,194 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-24 00:07:49,195 - INFO - Timeout fetched : 15
+2026-05-24 00:07:49,196 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-24 00:07:49,714 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260524_000749.png
+2026-05-24 00:07:53,851 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-24 00:07:53,851 - INFO - Timeout fetched : 15
+2026-05-24 00:07:53,851 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-24 00:07:56,723 - INFO - Selecting insurance plan column position index card: [2] via dynamic locators...
+2026-05-24 00:07:56,725 - INFO - Timeout fetched : 15
+2026-05-24 00:07:56,725 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][2]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-24 00:07:59,413 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_executes_pl_20260524_000759.png
+2026-05-24 00:07:59,414 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:07:59,483 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-24 00:07:59,484 - INFO - Timeout fetched : 15
+2026-05-24 00:07:59,484 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-24 00:07:59,733 - INFO - Populating name field container: Jane Smith
+2026-05-24 00:07:59,734 - INFO - Timeout fetched : 15
+2026-05-24 00:07:59,734 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-24 00:08:02,428 - INFO - Processing and passing raw date of birth data: 15081995
+2026-05-24 00:08:02,428 - INFO - Timeout fetched : 15
+2026-05-24 00:08:02,428 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-24 00:08:02,709 - INFO - Locating gender selector component for profile value: Female
+2026-05-24 00:08:02,710 - INFO - Timeout fetched : 15
+2026-05-24 00:08:02,710 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Female')]] | //label[contains(text(), 'Female')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Female')]")
+2026-05-24 00:08:02,817 - INFO - Successfully selected gender option: Female
+2026-05-24 00:08:02,817 - INFO - Processing communication node tracking configurations -> Ph: 
+2026-05-24 00:08:02,819 - INFO - Timeout fetched : 15
+2026-05-24 00:08:02,819 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-24 00:08:03,697 - INFO - Timeout fetched : 15
+2026-05-24 00:08:03,697 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-24 00:08:05,361 - INFO - Filing statement approval criteria profiles...
+2026-05-24 00:08:05,361 - INFO - Timeout fetched : 15
+2026-05-24 00:08:05,361 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-24 00:08:05,442 - INFO - Timeout fetched : 15
+2026-05-24 00:08:05,442 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-24 00:08:05,515 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-24 00:08:05,515 - INFO - Timeout fetched : 15
+2026-05-24 00:08:05,515 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-24 00:08:06,045 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_attempts_co_20260524_000805.png
+2026-05-24 00:08:06,045 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:08:06,056 - INFO - Timeout fetched : 15
+2026-05-24 00:08:06,057 - INFO - Waiting for element visibility: ('xpath', "//span[@data-test-id='CountryCodeInput-ErrorTxt']")
+2026-05-24 00:08:06,380 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_system_field_tra_20260524_000806.png
+2026-05-24 00:08:06,381 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:08:06,382 - INFO - ========== CLOSING SCENARIO: Validate traveler details form validation logic errors -- @1.2  ==========
+2026-05-24 00:08:10,473 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 00:08:10,499 - INFO - ========== STARTING SCENARIO: Validate traveler details form validation logic errors -- @1.3  ==========
+2026-05-24 00:08:26,236 - INFO - Implicit wait fetched : 10
+2026-05-24 00:08:26,240 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 00:08:40,190 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 00:08:40,212 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-24 00:08:49,993 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_opens_the_c_20260524_000849.png
+2026-05-24 00:08:49,993 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:08:49,997 - INFO - Timeout fetched : 15
+2026-05-24 00:08:49,997 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:09:10,590 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:09:10,884 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_dismisses_i_20260524_000910.png
+2026-05-24 00:09:10,884 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:09:10,887 - INFO - Navigating to Travel Insurance page...
+2026-05-24 00:09:10,887 - INFO - Timeout fetched : 15
+2026-05-24 00:09:10,888 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-24 00:09:12,192 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_navigates_i_20260524_000911.png
+2026-05-24 00:09:12,194 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:09:12,201 - INFO - Accessing CSV Data Layer: Row [4] via [data/insurance.csv]
+2026-05-24 00:09:12,210 - INFO - Loading test data from CSV: data/insurance.csv for row 4
+2026-05-24 00:09:12,213 - INFO - CSV Data successfully loaded: {'Row_Index': '4', 'Country': 'UAE', 'Travellers': '1', 'plan_index': '1', 'name': 'Alex Wilson', 'dob': '22111992', 'gender': 'Male', 'mobile': '12345', 'email': 'alex@test.com', 'expected_error': 'Please enter valid Mobile No.', 'Error_Type': 'MOBILE'}
+2026-05-24 00:09:13,044 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_loads_test_20260524_000912.png
+2026-05-24 00:09:13,045 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:09:13,067 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-24 00:09:13,094 - INFO - Timeout fetched : 15
+2026-05-24 00:09:13,095 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-24 00:09:15,147 - INFO - Timeout fetched : 15
+2026-05-24 00:09:15,148 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:09:15,395 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-24 00:09:15,609 - INFO - Default selection cleared.
+2026-05-24 00:09:16,110 - INFO - Injecting search phrase query: UAE
+2026-05-24 00:09:16,110 - INFO - Timeout fetched : 15
+2026-05-24 00:09:16,110 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:09:17,868 - INFO - Checking filtered list match row for: UAE
+2026-05-24 00:09:17,868 - INFO - Timeout fetched : 15
+2026-05-24 00:09:17,868 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-24 00:09:20,050 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260524_000919.png
+2026-05-24 00:09:20,064 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-24 00:09:20,065 - INFO - Timeout fetched : 15
+2026-05-24 00:09:20,065 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-24 00:09:21,210 - INFO - Timeout fetched : 15
+2026-05-24 00:09:21,211 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:09:31,314 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-24 00:09:31,834 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_000931.png
+2026-05-24 00:09:31,834 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:09:31,839 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-24 00:09:31,839 - INFO - Timeout fetched : 15
+2026-05-24 00:09:31,840 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-24 00:09:31,980 - INFO - Targeting formatted DOM text row option: 01
+2026-05-24 00:09:31,981 - INFO - Timeout fetched : 15
+2026-05-24 00:09:31,981 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-24 00:09:33,309 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260524_000932.png
+2026-05-24 00:09:33,392 - INFO - Successfully selected traveler option: 01
+2026-05-24 00:09:34,593 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_000933.png
+2026-05-24 00:09:34,594 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:09:34,598 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-24 00:09:34,598 - INFO - Timeout fetched : 15
+2026-05-24 00:09:34,599 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-24 00:09:35,131 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260524_000934.png
+2026-05-24 00:09:39,271 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-24 00:09:39,272 - INFO - Timeout fetched : 15
+2026-05-24 00:09:39,272 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-24 00:09:43,335 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-24 00:09:43,336 - INFO - Timeout fetched : 15
+2026-05-24 00:09:43,336 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-24 00:09:46,661 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_executes_pl_20260524_000946.png
+2026-05-24 00:09:46,662 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:09:46,697 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-24 00:09:46,697 - INFO - Timeout fetched : 15
+2026-05-24 00:09:46,697 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-24 00:09:46,807 - INFO - Populating name field container: Alex Wilson
+2026-05-24 00:09:46,808 - INFO - Timeout fetched : 15
+2026-05-24 00:09:46,809 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-24 00:09:50,214 - INFO - Processing and passing raw date of birth data: 22111992
+2026-05-24 00:09:50,214 - INFO - Timeout fetched : 15
+2026-05-24 00:09:50,214 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-24 00:09:51,047 - INFO - Locating gender selector component for profile value: Male
+2026-05-24 00:09:51,048 - INFO - Timeout fetched : 15
+2026-05-24 00:09:51,048 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-24 00:09:51,333 - INFO - Successfully selected gender option: Male
+2026-05-24 00:09:51,333 - INFO - Processing communication node tracking configurations -> Ph: 12345
+2026-05-24 00:09:51,333 - INFO - Timeout fetched : 15
+2026-05-24 00:09:51,334 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-24 00:09:53,860 - INFO - Timeout fetched : 15
+2026-05-24 00:09:53,860 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-24 00:09:55,448 - INFO - Filing statement approval criteria profiles...
+2026-05-24 00:09:55,448 - INFO - Timeout fetched : 15
+2026-05-24 00:09:55,448 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-24 00:09:55,529 - INFO - Timeout fetched : 15
+2026-05-24 00:09:55,529 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-24 00:09:55,600 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-24 00:09:55,600 - INFO - Timeout fetched : 15
+2026-05-24 00:09:55,600 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-24 00:09:56,063 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_attempts_co_20260524_000955.png
+2026-05-24 00:09:56,064 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:09:56,068 - INFO - Timeout fetched : 15
+2026-05-24 00:09:56,068 - INFO - Waiting for element visibility: ('xpath', "//span[@data-test-id='CountryCodeInput-ErrorTxt']")
+2026-05-24 00:09:56,432 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_system_field_tra_20260524_000956.png
+2026-05-24 00:09:56,432 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:09:56,433 - INFO - ========== CLOSING SCENARIO: Validate traveler details form validation logic errors -- @1.3  ==========
+2026-05-24 00:10:02,760 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 00:18:56,584 - INFO - ========== STARTING SCENARIO: Validate traveler details form validation logic errors -- @1.1  ==========
+2026-05-24 00:19:03,541 - INFO - Implicit wait fetched : 10
+2026-05-24 00:19:03,567 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 00:19:14,887 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 00:19:14,916 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-24 00:19:22,837 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_opens_the_c_20260524_001922.png
+2026-05-24 00:19:22,838 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:19:22,841 - INFO - Timeout fetched : 15
+2026-05-24 00:19:22,841 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:19:43,532 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:19:43,768 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_dismisses_i_20260524_001943.png
+2026-05-24 00:19:43,770 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:19:43,772 - INFO - Navigating to Travel Insurance page...
+2026-05-24 00:19:43,773 - INFO - Timeout fetched : 15
+2026-05-24 00:19:43,773 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-24 00:19:44,545 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_navigates_i_20260524_001944.png
+2026-05-24 00:19:44,546 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:19:44,548 - INFO - Accessing CSV Data Layer: Row [2] via [data/insurance.csv]
+2026-05-24 00:19:44,548 - INFO - Loading test data from CSV: data/insurance.csv for row 2
+2026-05-24 00:19:44,553 - INFO - CSV Data successfully loaded: {'Row_Index': '2', 'Country': 'UAE', 'Travellers': '1', 'plan_index': '1', 'name': 'John Doe', 'dob': '', 'gender': 'Male', 'mobile': '9876543210', 'email': 'john@test.com', 'expected_error': 'Please enter valid Date of Birth', 'Error_Type': 'DOB'}
+2026-05-24 00:19:44,822 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_loads_test_20260524_001944.png
+2026-05-24 00:19:44,822 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:19:44,826 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-24 00:19:44,826 - INFO - Timeout fetched : 15
+2026-05-24 00:19:44,826 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-24 00:19:47,759 - INFO - Timeout fetched : 15
+2026-05-24 00:19:47,760 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:19:47,849 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-24 00:19:47,885 - INFO - Default selection cleared.
+2026-05-24 00:19:48,486 - INFO - Injecting search phrase query: UAE
+2026-05-24 00:19:48,489 - INFO - Timeout fetched : 15
+2026-05-24 00:19:48,489 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:19:50,364 - INFO - Checking filtered list match row for: UAE
+2026-05-24 00:19:50,364 - INFO - Timeout fetched : 15
+2026-05-24 00:19:50,364 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-24 00:19:51,726 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260524_001951.png
+2026-05-24 00:19:51,747 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-24 00:19:51,747 - INFO - Timeout fetched : 15
+2026-05-24 00:19:51,747 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-24 00:19:52,430 - INFO - Timeout fetched : 15
+2026-05-24 00:19:52,430 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:20:02,544 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-24 00:20:03,515 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_002002.png
+2026-05-24 00:20:03,518 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:20:03,579 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-24 00:20:03,579 - INFO - Timeout fetched : 15
+2026-05-24 00:20:03,581 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-24 00:20:04,268 - INFO - Targeting formatted DOM text row option: 01
+2026-05-24 00:20:04,269 - INFO - Timeout fetched : 15
+2026-05-24 00:20:04,269 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-24 00:20:05,282 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260524_002004.png
+2026-05-24 00:20:05,412 - INFO - Successfully selected traveler option: 01
+2026-05-24 00:20:06,442 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_002005.png
+2026-05-24 00:20:06,443 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:20:06,445 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-24 00:20:06,446 - INFO - Timeout fetched : 15
+2026-05-24 00:20:06,446 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-24 00:20:06,844 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260524_002006.png
+2026-05-24 00:20:11,170 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-24 00:20:11,170 - INFO - Timeout fetched : 15
+2026-05-24 00:20:11,170 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-24 00:20:12,445 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-24 00:20:12,446 - INFO - Timeout fetched : 15
+2026-05-24 00:20:12,446 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-24 00:20:14,898 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_executes_pl_20260524_002014.png
+2026-05-24 00:20:14,899 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:20:14,903 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-24 00:20:14,904 - INFO - Timeout fetched : 15
+2026-05-24 00:20:14,904 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-24 00:20:14,966 - INFO - Populating name field container: John Doe
+2026-05-24 00:20:14,967 - INFO - Timeout fetched : 15
+2026-05-24 00:20:14,967 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-24 00:20:16,252 - INFO - Processing and passing raw date of birth data: 
+2026-05-24 00:20:16,252 - INFO - Locating gender selector component for profile value: Male
+2026-05-24 00:20:16,253 - INFO - Timeout fetched : 15
+2026-05-24 00:20:16,253 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-24 00:20:16,310 - INFO - Successfully selected gender option: Male
+2026-05-24 00:20:16,310 - INFO - Processing communication node tracking configurations -> Ph: 9876543210
+2026-05-24 00:20:16,311 - INFO - Timeout fetched : 15
+2026-05-24 00:20:16,311 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-24 00:20:17,568 - INFO - Timeout fetched : 15
+2026-05-24 00:20:17,568 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-24 00:20:20,272 - INFO - Filing statement approval criteria profiles...
+2026-05-24 00:20:20,291 - INFO - Timeout fetched : 15
+2026-05-24 00:20:20,291 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-24 00:20:20,337 - INFO - Timeout fetched : 15
+2026-05-24 00:20:20,337 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-24 00:20:20,377 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-24 00:20:20,377 - INFO - Timeout fetched : 15
+2026-05-24 00:20:20,377 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-24 00:20:20,780 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_attempts_co_20260524_002020.png
+2026-05-24 00:20:20,780 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:20:20,784 - INFO - Timeout fetched : 15
+2026-05-24 00:20:20,785 - INFO - Waiting for element visibility: ('xpath', "//span[contains(text(), 'Date of Birth') or contains(text(), 'birth')]")
+2026-05-24 00:20:21,314 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_system_field_tra_20260524_002021.png
+2026-05-24 00:20:21,314 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:20:21,379 - INFO - ========== CLOSING SCENARIO: Validate traveler details form validation logic errors -- @1.1  ==========
+2026-05-24 00:20:26,034 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 00:20:26,094 - INFO - ========== STARTING SCENARIO: Validate traveler details form validation logic errors -- @1.2  ==========
+2026-05-24 00:20:34,041 - INFO - Implicit wait fetched : 10
+2026-05-24 00:20:34,046 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 00:20:50,167 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 00:20:50,255 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-24 00:21:00,164 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_opens_the_c_20260524_002058.png
+2026-05-24 00:21:00,165 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:21:00,346 - INFO - Timeout fetched : 15
+2026-05-24 00:21:00,347 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:21:20,943 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:21:21,236 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_dismisses_i_20260524_002120.png
+2026-05-24 00:21:21,237 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:21:21,240 - INFO - Navigating to Travel Insurance page...
+2026-05-24 00:21:21,240 - INFO - Timeout fetched : 15
+2026-05-24 00:21:21,240 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-24 00:21:22,407 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_navigates_i_20260524_002121.png
+2026-05-24 00:21:22,409 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:21:22,427 - INFO - Accessing CSV Data Layer: Row [3] via [data/insurance.csv]
+2026-05-24 00:21:22,427 - INFO - Loading test data from CSV: data/insurance.csv for row 3
+2026-05-24 00:21:22,429 - INFO - CSV Data successfully loaded: {'Row_Index': '3', 'Country': 'UAE', 'Travellers': '1', 'plan_index': '2', 'name': 'Jane Smith', 'dob': '15081995', 'gender': 'Female', 'mobile': '', 'email': 'jane@test.com', 'expected_error': 'Please enter mobile number', 'Error_Type': 'MOBILE'}
+2026-05-24 00:21:23,511 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_loads_test_20260524_002122.png
+2026-05-24 00:21:23,514 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:21:23,563 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-24 00:21:23,564 - INFO - Timeout fetched : 15
+2026-05-24 00:21:23,564 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-24 00:21:24,751 - INFO - Timeout fetched : 15
+2026-05-24 00:21:24,752 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:21:24,837 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-24 00:21:24,910 - INFO - Default selection cleared.
+2026-05-24 00:21:25,412 - INFO - Injecting search phrase query: UAE
+2026-05-24 00:21:25,412 - INFO - Timeout fetched : 15
+2026-05-24 00:21:25,412 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:21:26,605 - INFO - Checking filtered list match row for: UAE
+2026-05-24 00:21:26,605 - INFO - Timeout fetched : 15
+2026-05-24 00:21:26,605 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-24 00:21:27,949 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260524_002127.png
+2026-05-24 00:21:27,951 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-24 00:21:27,951 - INFO - Timeout fetched : 15
+2026-05-24 00:21:27,951 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-24 00:21:28,705 - INFO - Timeout fetched : 15
+2026-05-24 00:21:28,706 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:21:38,748 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-24 00:21:38,962 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_002138.png
+2026-05-24 00:21:38,962 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:21:38,964 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-24 00:21:38,964 - INFO - Timeout fetched : 15
+2026-05-24 00:21:38,964 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-24 00:21:39,052 - INFO - Targeting formatted DOM text row option: 01
+2026-05-24 00:21:39,053 - INFO - Timeout fetched : 15
+2026-05-24 00:21:39,053 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-24 00:21:40,037 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260524_002139.png
+2026-05-24 00:21:40,083 - INFO - Successfully selected traveler option: 01
+2026-05-24 00:21:41,058 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_002140.png
+2026-05-24 00:21:41,059 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:21:41,062 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-24 00:21:41,063 - INFO - Timeout fetched : 15
+2026-05-24 00:21:41,063 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-24 00:21:41,775 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260524_002141.png
+2026-05-24 00:21:45,909 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-24 00:21:45,909 - INFO - Timeout fetched : 15
+2026-05-24 00:21:45,909 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-24 00:21:47,923 - INFO - Selecting insurance plan column position index card: [2] via dynamic locators...
+2026-05-24 00:21:47,923 - INFO - Timeout fetched : 15
+2026-05-24 00:21:47,923 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][2]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-24 00:21:50,852 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_executes_pl_20260524_002150.png
+2026-05-24 00:21:50,853 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:21:50,861 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-24 00:21:50,862 - INFO - Timeout fetched : 15
+2026-05-24 00:21:50,862 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-24 00:21:51,098 - INFO - Populating name field container: Jane Smith
+2026-05-24 00:21:51,098 - INFO - Timeout fetched : 15
+2026-05-24 00:21:51,100 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-24 00:21:53,403 - INFO - Processing and passing raw date of birth data: 15081995
+2026-05-24 00:21:53,403 - INFO - Timeout fetched : 15
+2026-05-24 00:21:53,403 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-24 00:21:53,615 - INFO - Locating gender selector component for profile value: Female
+2026-05-24 00:21:53,615 - INFO - Timeout fetched : 15
+2026-05-24 00:21:53,615 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Female')]] | //label[contains(text(), 'Female')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Female')]")
+2026-05-24 00:21:53,685 - INFO - Successfully selected gender option: Female
+2026-05-24 00:21:53,685 - INFO - Processing communication node tracking configurations -> Ph: 
+2026-05-24 00:21:53,685 - INFO - Timeout fetched : 15
+2026-05-24 00:21:53,685 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-24 00:21:54,379 - INFO - Timeout fetched : 15
+2026-05-24 00:21:54,379 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-24 00:21:55,868 - INFO - Filing statement approval criteria profiles...
+2026-05-24 00:21:55,868 - INFO - Timeout fetched : 15
+2026-05-24 00:21:55,868 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-24 00:21:55,920 - INFO - Timeout fetched : 15
+2026-05-24 00:21:55,920 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-24 00:21:55,960 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-24 00:21:55,960 - INFO - Timeout fetched : 15
+2026-05-24 00:21:55,961 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-24 00:21:56,266 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_attempts_co_20260524_002156.png
+2026-05-24 00:21:56,266 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:21:56,268 - INFO - Timeout fetched : 15
+2026-05-24 00:21:56,269 - INFO - Waiting for element visibility: ('xpath', "//span[@data-test-id='CountryCodeInput-ErrorTxt']")
+2026-05-24 00:21:56,842 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_system_field_tra_20260524_002156.png
+2026-05-24 00:21:56,843 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:21:56,844 - INFO - ========== CLOSING SCENARIO: Validate traveler details form validation logic errors -- @1.2  ==========
+2026-05-24 00:22:01,012 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 00:22:01,038 - INFO - ========== STARTING SCENARIO: Validate traveler details form validation logic errors -- @1.3  ==========
+2026-05-24 00:22:12,359 - INFO - Implicit wait fetched : 10
+2026-05-24 00:22:12,365 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 00:22:25,526 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 00:22:25,533 - INFO - Base URL fetched : https://www.makemytrip.com/
+2026-05-24 00:22:33,794 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_opens_the_c_20260524_002232.png
+2026-05-24 00:22:33,796 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:22:33,808 - INFO - Timeout fetched : 15
+2026-05-24 00:22:33,808 - INFO - Waiting for element visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:22:54,519 - ERROR - Timeout waiting for visibility: ('css selector', "input[data-cy='userName']")
+2026-05-24 00:22:54,828 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_dismisses_i_20260524_002254.png
+2026-05-24 00:22:54,829 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:22:54,832 - INFO - Navigating to Travel Insurance page...
+2026-05-24 00:22:54,832 - INFO - Timeout fetched : 15
+2026-05-24 00:22:54,833 - INFO - Waiting for element clickable: ('css selector', "li[data-cy='menu_TravelInsurance']")
+2026-05-24 00:22:56,006 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_navigates_i_20260524_002255.png
+2026-05-24 00:22:56,006 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:22:56,011 - INFO - Accessing CSV Data Layer: Row [4] via [data/insurance.csv]
+2026-05-24 00:22:56,011 - INFO - Loading test data from CSV: data/insurance.csv for row 4
+2026-05-24 00:22:56,014 - INFO - CSV Data successfully loaded: {'Row_Index': '4', 'Country': 'UAE', 'Travellers': '1', 'plan_index': '1', 'name': 'Alex Wilson', 'dob': '22111992', 'gender': 'Male', 'mobile': '12345', 'email': 'alex@test.com', 'expected_error': 'Please enter valid Mobile No.', 'Error_Type': 'MOBILE'}
+2026-05-24 00:22:57,022 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_loads_test_20260524_002256.png
+2026-05-24 00:22:57,024 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:22:57,033 - INFO - Opening Country/Region selection dropdown popup...
+2026-05-24 00:22:57,034 - INFO - Timeout fetched : 15
+2026-05-24 00:22:57,035 - INFO - Waiting for element presence: ('xpath', "//p[contains(normalize-space(text()), 'COUNTRY/REGION')]/ancestor::div[1] | //div[p[contains(normalize-space(text()), 'COUNTRY/REGION')]] | //div[contains(@class, 'khlxBq')]")
+2026-05-24 00:22:59,163 - INFO - Timeout fetched : 15
+2026-05-24 00:22:59,163 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:22:59,215 - INFO - Targeting and removing default 'Thailand' selection...
+2026-05-24 00:22:59,283 - INFO - Default selection cleared.
+2026-05-24 00:22:59,783 - INFO - Injecting search phrase query: UAE
+2026-05-24 00:22:59,783 - INFO - Timeout fetched : 15
+2026-05-24 00:22:59,783 - INFO - Waiting for element clickable: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:23:01,100 - INFO - Checking filtered list match row for: UAE
+2026-05-24 00:23:01,100 - INFO - Timeout fetched : 15
+2026-05-24 00:23:01,100 - INFO - Waiting for element visibility: ('xpath', "//ul[contains(@class, 'db')]//li[contains(., 'UAE')] | //span[normalize-space(text())='UAE']")
+2026-05-24 00:23:02,664 - INFO - Screenshot saved at: reports/screenshots/Country_Input_State_UAE_20260524_002302.png
+2026-05-24 00:23:02,676 - INFO - Committing choices via updated JavaScript 'APPLY' injection...
+2026-05-24 00:23:02,676 - INFO - Timeout fetched : 15
+2026-05-24 00:23:02,676 - INFO - Waiting for element presence: ('xpath', "//span[text()='Apply']/ancestor::button | //button[contains(., 'Apply')] | //span[text()='Apply']")
+2026-05-24 00:23:03,411 - INFO - Timeout fetched : 15
+2026-05-24 00:23:03,411 - INFO - Waiting for invisibility: ('xpath', "//input[@placeholder='Search Country/Region']")
+2026-05-24 00:23:13,544 - INFO - Apply button clicked successfully and dropdown closed.
+2026-05-24 00:23:13,917 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_002313.png
+2026-05-24 00:23:13,917 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:23:13,921 - INFO - Triggering traveler count selection pane for value: 1
+2026-05-24 00:23:13,922 - INFO - Timeout fetched : 15
+2026-05-24 00:23:13,922 - INFO - Waiting for element clickable: ('xpath', "//p[contains(text(), 'No. of Travellers')]/ancestor::div[1] | //div[p[contains(text(), 'No. of Travellers')]]")
+2026-05-24 00:23:14,020 - INFO - Targeting formatted DOM text row option: 01
+2026-05-24 00:23:14,021 - INFO - Timeout fetched : 15
+2026-05-24 00:23:14,021 - INFO - Waiting for element visibility: ('xpath', "//div[contains(@class, 'hLrkT') or contains(@class, 'clickT')]//div[text()='01'] | //div[text()='01' and contains(@style, 'cursor')] | //div[contains(text(), '01') and not(contains(@class, 'No'))]")
+2026-05-24 00:23:15,020 - INFO - Screenshot saved at: reports/screenshots/Travellers_Dropdown_Before_Click_01_20260524_002314.png
+2026-05-24 00:23:15,070 - INFO - Successfully selected traveler option: 01
+2026-05-24 00:23:16,045 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_configures_20260524_002315.png
+2026-05-24 00:23:16,045 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:23:16,047 - INFO - Clicking EXPLORE PLANS button to trigger matrix generation...
+2026-05-24 00:23:16,047 - INFO - Timeout fetched : 15
+2026-05-24 00:23:16,047 - INFO - Waiting for element presence: ('xpath', "//button[contains(translate(., 'explore plans', 'EXPLORE PLANS'), 'EXPLORE PLANS')] | //button[normalize-space()='EXPLORE PLANS']")
+2026-05-24 00:23:16,608 - INFO - Screenshot saved at: reports/screenshots/Landing_Page_Before_Explore_Click_20260524_002316.png
+2026-05-24 00:23:20,801 - INFO - Checking if Choose Your Plan layout has rendered...
+2026-05-24 00:23:20,801 - INFO - Timeout fetched : 15
+2026-05-24 00:23:20,801 - INFO - Waiting for element visibility: ('css selector', "div[data-test-id='Header-HeaderWrapper']")
+2026-05-24 00:23:23,285 - INFO - Selecting insurance plan column position index card: [1] via dynamic locators...
+2026-05-24 00:23:23,286 - INFO - Timeout fetched : 15
+2026-05-24 00:23:23,287 - INFO - Waiting for element clickable: ('xpath', "//div[@data-test-id='Card-CardWrapper'][1]//button[descendant-or-self::*[normalize-space(text())='BUY NOW']]")
+2026-05-24 00:23:28,303 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_executes_pl_20260524_002327.png
+2026-05-24 00:23:28,303 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:23:28,379 - INFO - Waiting explicitly for checkout form containers to mount...
+2026-05-24 00:23:28,379 - INFO - Timeout fetched : 15
+2026-05-24 00:23:28,380 - INFO - Waiting for element visibility: ('xpath', "//*[contains(@data-test-id, 'H5Tag')] | //h5[contains(., 'Traveller Details')] | //div[contains(text(), 'Traveller Details')]")
+2026-05-24 00:23:28,439 - INFO - Populating name field container: Alex Wilson
+2026-05-24 00:23:28,439 - INFO - Timeout fetched : 15
+2026-05-24 00:23:28,439 - INFO - Waiting for element visibility: ('xpath', "//input[@id='FULL NAME'] | //input[@placeholder='Full Name'] | //input[contains(@placeholder, 'Name')]")
+2026-05-24 00:23:30,408 - INFO - Processing and passing raw date of birth data: 22111992
+2026-05-24 00:23:30,409 - INFO - Timeout fetched : 15
+2026-05-24 00:23:30,409 - INFO - Waiting for element visibility: ('xpath', "//input[@id='DATE OF BIRTH'] | //input[@type='date']")
+2026-05-24 00:23:30,660 - INFO - Locating gender selector component for profile value: Male
+2026-05-24 00:23:30,660 - INFO - Timeout fetched : 15
+2026-05-24 00:23:30,660 - INFO - Waiting for element presence: ('xpath', "//div[contains(@data-test-id, 'GenderTypeItem')]//div[contains(@class, 'RadioButtonStyle') and .//label[contains(text(), 'Male')]] | //label[contains(text(), 'Male')]/preceding-sibling::input[@type='radio'] | //div[contains(@class, 'RadioButtonStyle') and contains(., 'Male')]")
+2026-05-24 00:23:30,750 - INFO - Successfully selected gender option: Male
+2026-05-24 00:23:30,750 - INFO - Processing communication node tracking configurations -> Ph: 12345
+2026-05-24 00:23:30,751 - INFO - Timeout fetched : 15
+2026-05-24 00:23:30,751 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Mobile No.'] | //input[@type='tel'] | //input[contains(@placeholder, 'Mobile')]")
+2026-05-24 00:23:31,957 - INFO - Timeout fetched : 15
+2026-05-24 00:23:31,957 - INFO - Waiting for element visibility: ('xpath', "//input[@id='Email ID'] | //input[@type='email'] | //input[contains(@placeholder, 'Email')]")
+2026-05-24 00:23:33,317 - INFO - Filing statement approval criteria profiles...
+2026-05-24 00:23:33,317 - INFO - Timeout fetched : 15
+2026-05-24 00:23:33,317 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[1] | //span[contains(., 'Indian residents')]")
+2026-05-24 00:23:33,375 - INFO - Timeout fetched : 15
+2026-05-24 00:23:33,375 - INFO - Waiting for element presence: ('xpath', "//input[@type='checkbox']/ancestor::label[2] | //span[contains(., 'good health')]")
+2026-05-24 00:23:33,432 - INFO - Executing final checkout submit sequence layout pass...
+2026-05-24 00:23:33,432 - INFO - Timeout fetched : 15
+2026-05-24 00:23:33,433 - INFO - Waiting for element clickable: ('xpath', "//button[contains(@class, 'LandingButtonStyle')] | //button[descendant::span[contains(text(), 'BUY FOR')]]")
+2026-05-24 00:23:33,874 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_user_attempts_co_20260524_002333.png
+2026-05-24 00:23:33,876 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:23:33,879 - INFO - Timeout fetched : 15
+2026-05-24 00:23:33,880 - INFO - Waiting for element visibility: ('xpath', "//span[@data-test-id='CountryCodeInput-ErrorTxt']")
+2026-05-24 00:23:34,518 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_system_field_tra_20260524_002334.png
+2026-05-24 00:23:34,518 - ERROR - ALLURE SCREENSHOT ATTACHMENT HOOK FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 00:23:34,520 - INFO - ========== CLOSING SCENARIO: Validate traveler details form validation logic errors -- @1.3  ==========
+2026-05-24 00:23:40,832 - INFO - BROWSER CLOSED SUCCESSFULLY
