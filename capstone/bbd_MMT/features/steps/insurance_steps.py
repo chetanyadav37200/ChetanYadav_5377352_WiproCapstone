@@ -221,9 +221,6 @@ def step_impl(context):
     attach_step_artifacts(context, "authentication_intercept")
 
 
-# ==================================================================================
-#  E2E COMPATIBILITY FLOWS
-# ==================================================================================
 
 @then('the user profile should clear forms safely with authentication panels triggered')
 def step_impl(context):

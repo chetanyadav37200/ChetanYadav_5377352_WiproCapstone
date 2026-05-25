@@ -3,7 +3,7 @@ Feature: Travel Insurance Form Validations and Layout Checkpoints
   Background: Navigate to Insurance Matrix Landing Screen
     Given the user opens the corporate travel portal application homepage
     And the user dismisses initial overlay login alerts if present
-    When the user navigates into the Travel Insurance matrix panel page
+    And the user navigates into the Travel Insurance matrix panel page
 
   # =========================================================================
   # POSITIVE PRESENTATION CHECKPOINTS
